@@ -1,0 +1,14 @@
+# Ignore les checkpoints de notebooks
+.ipynb_checkpoints/
+
+# Ignore les fichiers temporaires Python
+__pycache__/
+*.pyc
+
+# Ignore les environnements virtuels
+venv/
+.env/
+
+# Ignore les fichiers système
+.DS_Store
+Thumbs.db
