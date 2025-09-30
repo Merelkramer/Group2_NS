@@ -1,14 +1,17 @@
-# Ignore les checkpoints de notebooks
+# Ignore notebooks'checkpoints
 .ipynb_checkpoints/
 
-# Ignore les fichiers temporaires Python
+# Ignore temporary Python files
 __pycache__/
 *.pyc
 
-# Ignore les environnements virtuels
+# Ignore virtual environments
 venv/
 .env/
 
-# Ignore les fichiers système
+# Ignore the system files
 .DS_Store
 Thumbs.db
+
+# Ignore data_NS_filtered.csv
+data/data_NS_filtered.csv
