@@ -1,0 +1,1369 @@
+Dagnr,DIENSTREGELPUNT_VAN,DIENSTREGELPUNT_NAAR,KLANTHINDERINMINUTEN,KLANTHINDERNAAM,BEWEGINGNUMMER,MONITORINGSTEGELOMSCHRIJVING,TOELICHTING,AANTAL_OPGEHEVEN_NS_TREINEN
+1,Asb,Bkl,252,3. Hinder,7387,Onregelmatigheden in de uitvoering van BTD,AC: defect sp Sp-UN3 / Spoorweb-id: 986561,9
+23,Whzaz,Whzan,45,3. Hinder,43377,Onregelmatigheden in de uitvoering van BTD,Brd tnl blijft in onderhoud staan,0
+13,Apd,Sto,130,3. Hinder,-2,STS passage / Bijna Aanrijding,1774 meldt suicidaal persoon thv km 83.5 Apd - Sto.Ovw 86.2 in storing. Later melding  meerdere ovw in storing:. ,1
+3,At,Bet,127,3. Hinder,1162,STS passage / Bijna Aanrijding,BET-AT: hinder pers op sp / Spoorweb-id: 987264,0
+28,Asd,Ods,578,3. Hinder,3057,Onregelmatigheden in de uitvoering van BTD,Door onbekende reden was een automaat uitgevallen waardoor we alle controle over bepaalde wissels en seinen verloren. Dit veroorzaakte een mogelijke STS passage door afvallende seinen en wissels die niet in de eindstand kwamen maar wel veilige rijwegen overheen vrijkwamen. Dit is ongewenst systeem gedrag en kan ontsporing tot gevolg veroorzaken,18
+23,Kraga,Bgn,50,3. Hinder,-2,STS passage / Bijna Aanrijding,KRGE-BGN: ass hulpdst / Spoorweb-id: 995171Politie opzoek naar verdacht persoon,0
+12,Hln,Rm,1100,2. Veel hinder,3953,Aanrijding,"HLN-RM: aanr pers tr 3953 / Spoorweb-id: 990976.Aanrijding op ovw 86.8, 71090994 controle op werking",24
+17,Hgl,Odzg,60,3. Hinder,20371,Afwezigheid personeel,HGL: hinder log probleem Keolis / Spoorweb-id: 992834,0
+16,Gvm,Vst,55,3. Hinder,-2,STS passage / Bijna Aanrijding,"kinderen lang de baan , gemeld door 2152",0
+27,Ztm,Ypb,1553,2. Veel hinder,-2,Spoor of wissels,sectiestoringen beide sporen ztm-ypb,51
+27,Ed,Hdr,90,3. Hinder,3014,STS passage / Bijna Aanrijding,DB: ass hulpdst tr 3015 / Spoorweb-id: 997306,3
+6,Zl,Zlwo,51,3. Hinder,309044,Afwezigheid personeel,geen mcn en geen hc,0
+11,Hsghtz,Hsrtdv,599,3. Hinder,1028,Defect materieel,zie terugkoppeling RB : materieel,19
+3,Hm,Hmbh,55,3. Hinder,-2,STS passage / Bijna Aanrijding,mcn 3584 meld persoon op perron spoor 2 die er op de heen weg ook al zat en dit vond hij verdacht,0
+20,Hfd,Shl,60,3. Hinder,71649,Defect materieel,shutdown,3
+18,Kw,Mth,153,3. Hinder,-2,Spoor of wissels,spoorverzakking,0
+25,Asd,Sgbr,145,3. Hinder,5459,Defect materieel,ASD: def mat tr 5459 / Spoorweb-id: 996410,4
+25,Dtc,Gdr,401,3. Hinder,-2,Spoor of wissels,op verzoek aangepast,0
+23,Zvg,Rsdg,60,3. Hinder,42556,Vertraging veroorzaakt door andere IM / Terminal,GTI,0
+9,Ohze,Mz,346,3. Hinder,-2,STS passage / Bijna Aanrijding,OHZE-MZ: hinder pers op sp / Spoorweb-id: 989800persoon meegenomen door IC,9
+5,Nm,Wc,60,3. Hinder,7658,Afwezigheid personeel,HC,2
+12,Rm,Hrl,120,3. Hinder,203967,Herplanning (materieel niet of laat beschikbaar),"Opgeheven vlgs VSM, maar eerder in dienstgegeven, maar kan niet gestart wordenDiv treinen",2
+29,Dtcp,Dt,47,3. Hinder,3745,(problemen met) Reizigers,DT: hinder onwel reiz tr 3745 / Spoorweb-id: 998302,0
+14,Tbu,Tb,200,3. Hinder,6453,Defect materieel,"defect, weet niet wat",6
+17,Wt,Mz,611,3. Hinder,3919,STS passage / Bijna Aanrijding,MZ-WT: hinder Auto op sp Ovw-23.2 / Spoorweb-id: 992801,19
+19,Wc,Nm,60,3. Hinder,7623,Defect materieel,Reset nodig,2
+22,Rai,Dvaw,67,3. Hinder,923,Conflicten/aanpassingen Dienstregeling,Te druk met internationale treinen leeglopen en van- en naar WGM,0
+19,Amf,Amf,55,3. Hinder,685,(problemen met) Reizigers,Noodrem getrokken,0
+21,Hfdm,Rtd,255,3. Hinder,1012,Defect materieel,Trein 1012 defect op HSL-N.,8
+30,Rlb,Rtst,64,3. Hinder,50551,Onregelmatigheden in de uitvoering van BTD,Trein is aan het roestrijden op de HSL ivm een btd. Echter is dit een losse lok ( 4 assen) die het project heeft ingezet hierdoor moet deze trein verschillende keren zagen om aan de noodzakelijke 20 assen te komen voor het ontroest opleveren van de sporen.,0
+21,Btl,Ahg,60,3. Hinder,59601,Conflicten/aanpassingen Dienstregeling,"kopmaken, maar onder hetzelfde treinnummer",0
+12,Erpw,ONB,136,3. Hinder,48751,Spoor of wissels,MVT-ERPW: infra ATB Ovrg-balise / Spoorweb-id: 990719,0
+24,Ut,Ut,52,3. Hinder,6964,(problemen met) Reizigers,V&S bij trein ivm lastige reiziger,0
+27,Ass,Ass,44,3. Hinder,5844,Defect materieel,SGRA: def mat tr 5844 / Spoorweb-id: 997497,0
+15,Lw,Akm,210,3. Hinder,1860,Aanpassing DRGL op verzoek van de vervoerder,Opnieuw ingelegd,14
+3,Hfdo,Hfdm,422,3. Hinder,-2,Spoor of wissels,HFD: sectie sto Sec-2101T / Spoorweb-id: 987175,35
+26,Wd,Utg,60,3. Hinder,4034,Spoor of wissels,BKLA-HMLA: defect sp / Spoorweb-id: 996788,2
+14,Mmlh,Ck,132,3. Hinder,-2,Storing overwegen,assenteller was defect,0
+19,Btl,Ehv,90,3. Hinder,4451,Defect materieel,defecte deuren,4
+28,Hfd,Shl,42,3. Hinder,3338,Defect materieel,HFD: def mat tr 3338 / Spoorweb-id: 997907Deurproblemen,3
+30,Asd,Sgbr,126,3. Hinder,-2,Onregelmatigheden in de uitvoering van BTD,ASD: uitloop wzh / Spoorweb-id: 998532,0
+15,Vlgr,Utza,113,3. Hinder,420,Vertraging veroorzaakt door andere IM / Terminal,hind buurland Emmerich / Spoorweb-id: 992209,1
+27,Tg,Rv,210,3. Hinder,32265,Aanrijding,"TG-RV: aanr pers tr 32265 / Spoorweb-id: 997678Thv 59.9 stapt een pers in het spoor en gaat liggen, mcn hoorde iets onder de trein. mcn gaat op onderzoek uit en treft het slachtoffer nog levend aan.",0
+25,Hn,Hnk,120,3. Hinder,84337,Defect materieel,HN: def mat tr 84337 / Spoorweb-id: 996239,8
+7,Tb,Tbu,153,3. Hinder,-2,Spoor of wissels,TB: sectie sto Sec-109bt / Spoorweb-id: 989078,4
+28,Dvd,Asa,75,3. Hinder,2962,(problemen met) Reizigers,politieassistentie,2
+6,Akm,Bobr,330,3. Hinder,-2,Gebouwen/kunstwerken,AKM: Aanvaring brug / Spoorweb-id: 988504,14
+8,Gvc,Bkh,1161,2. Veel hinder,-2,Spoor of wissels,GVC: sectie sto Sec-61T en 63BT / Spoorweb-id: 989366,37
+4,Wdn,Rsn,40,3. Hinder,-2,Energievoorziening (bovenleiding),"Kortstondige stroomstoring in Wierden, daardoor TOBS op WR en RW spoor. Oorzaak: OBI had per ongeluk een omvormer bediend waardoor stroomvoorziening en sectiebezettingen optraden. P-sein 692 is afgevallen voor 7026 daardoor STS-passage. Er was geen sprake van gevaarzetting en machinist gaf aan dat hij verder kon dus hij is veilig gezet richting Deventer. Daarna zijn de MKS en wachtdienst geinformeerd.",0
+8,Ldm,Bsd,431,3. Hinder,-2,Beveiligingsinstallaties,sectie storing op ovw 58.0 plus rijrichting richting leerdam en ovw 58.0 in storing,0
+10,Ldm,Gdm,60,3. Hinder,7261,Beveiligingsinstallaties,LDM: sectie sto Ovw-58.0 / Spoorweb-id: 990134,0
+3,Almmo,Almm,94,3. Hinder,-2,STS passage / Bijna Aanrijding,ALMMO-ALM: ass hulpdst / Spoorweb-id: 987024,1
+21,Hgl,Odzg,240,3. Hinder,20375,Afwezigheid personeel,onderbezetting personeel,0
+28,Zl,Zl,60,3. Hinder,1867,(problemen met) Reizigers,medisch ongeval in trein,2
+23,Dn,Hrt,51,3. Hinder,104,Defect materieel,Machinist meldt dat de trein geen lucht krijgt. Staat stil thv 16.8. Hierdoor overweg 17.9 in storing.,0
+11,Gvc,Gv,180,3. Hinder,1159,Defect materieel,1146 def,6
+11,Ut,Gd,180,3. Hinder,2060,Spoor of wissels,GN-spoor verzakt,6
+4,Gdm,Ehv,632,3. Hinder,3555,Defect materieel,GDM: def mat tr 3555 / Spoorweb-id: 987690,17
+14,Vlgr,Vl,788,2. Veel hinder,44787,Vertraging veroorzaakt door andere IM / Terminal,hind buurl Duitsland (Kn) / Spoorweb-id: 991881Duitsland neemt geen treinen aan,0
+27,Ot,Btl,1920,2. Veel hinder,-2,Spoor of wissels,tobs,41
+10,Odb,Rsd,363,3. Hinder,2348,Spoor of wissels,Overhangende boom 20 cm van bovenleiding af,13
+7,Es,Esk,270,3. Hinder,1738,Spoor of wissels,ES: sectie sto Sec-1035T / Spoorweb-id: 988974,2
+26,Amr,Nhkbr,319,3. Hinder,3012,Defect materieel,AMR: def mat tr 3012 / Spoorweb-id: 996749,10
+29,Sm,Smz,60,3. Hinder,-2,Storing overwegen,RM-SM: ovw sto Ovw-48.7 / Spoorweb-id: 998364SMOVW/2 is defect. Vanuit publieksvoorlichting/MKS doorgekregen dat ovw 48.7 lang dicht ligt.,0
+1,Ut,Utln,65,3. Hinder,6735,Spoor of wissels,UT-HTN: sectie sto Sec-2834AT / Spoorweb-id: 986315,2
+12,Hwzb,Ass,323,3. Hinder,302335,Defect materieel,vaste rem van de 45711,10
+19,Ddv,Mp,99,3. Hinder,300681,STS passage / Bijna Aanrijding,DDV-MP: ass hulpdst / Spoorweb-id: 994083,0
+27,Asd,Asd,52,3. Hinder,2673,Herplanning personeel,machinisten 2673 1573 op elkaars trein gestapt,0
+24,Hdg,Lwc,48,3. Hinder,37355,STS passage / Bijna Aanrijding,Suicidaal persoon,0
+30,Hlm,Spbr,48,3. Hinder,-2,Onregelmatigheden in de uitvoering van BTD,HLM: uitloop wzh / Spoorweb-id: 998575,0
+25,Bkl,Aco,96,3. Hinder,4028,Defect materieel,BKLA: def mat tr 4028 / Spoorweb-id: 996267,4
+19,Utg,Asd,90,3. Hinder,7429,Defect materieel,UTG: def mat tr 7429 / Spoorweb-id: 993700,3
+20,Kfhan,Kfhn,45,3. Hinder,-2,Spoor of wissels,Na passeren sein 2396 (groen) krijgt mcn trip.,0
+6,Hmbv,Tgra,502,3. Hinder,4440,STS passage / Bijna Aanrijding,"EHV-HM: hinder pers op sp tr 4440 / Spoorweb-id: 988505persoon bij 47.8, 4440 stil bij 48.34 overwegen inde storing",9
+18,Bnk,Db,107,3. Hinder,3067,STS passage / Bijna Aanrijding,persoon op spoor,3
+18,Ddr,Ddrs,180,3. Hinder,-2,Energievoorziening (bovenleiding),"Stroomstoring, wissels en seinen onbedienbaar op Ddrs",0
+8,Spa,Dvgea,758,2. Veel hinder,-2,Beveiligingsinstallaties,Geheel gedoofd. ,24
+2,Ozbm,Hdl,195,3. Hinder,-2,Spoor of wissels,Knik in de baan,6
+16,Ws,Rsl,124,3. Hinder,-2,Spoor of wissels,Rijrichting-storing tussen WS en NSCH beide kanten op. Geen OVW op de melder. Rijden alleen mogelijk met EI-1.   ,0
+13,Gdm,Wnn,93,3. Hinder,-2,Spoor of wissels,EN spoor. Hobbels in de baan,0
+10,Asdzo,Asdz,90,3. Hinder,4369,STS passage / Bijna Aanrijding,"Persoon langs het spoor, daarna op last van politie staken trein verkeer ASDZ",0
+25,Dtcp,Dt,104,3. Hinder,1146,(problemen met) Reizigers,DT: reizigers gedrag tr 1146 / Spoorweb-id: 996429,3
+12,Apn,Bsk,46,3. Hinder,-2,Storing overwegen,-,1
+14,Aml,Wdn,45,3. Hinder,-2,STS passage / Bijna Aanrijding,Sein 94 te Alm voor tr17962 afgevallen zonder duidelijke reden.,0
+26,Nmh,Nm,240,3. Hinder,-2,Spoor of wissels,wissel 65 RL niet in de controle ,0
+10,Ldm,Mkbr,479,3. Hinder,-2,Invloed van weer op de infra,boom in de bovenleidding ,0
+13,Sptz,Sptn,126,3. Hinder,4829,STS passage / Bijna Aanrijding,"Suicudaal persoon op ovw 5.2, mcn 4829 alarmeerde. Bleef stil staan voor ovw 5.2. SPTN: ass hulpdst tr 4829 / Spoorweb-id: 991181",4
+20,Lls,Wp,67,3. Hinder,4356,Defect materieel,LLS: def mat rd rang / Spoorweb-id: 994422,3
+10,Ods,Dgrw,2668,1. Zeer veel hinder,-2,Spoor of wissels,"ASDM-DVD: def bvl / Spoorweb-id: 990196groepen 2576,2582,2581 spanningsloos en op weco buitendienst",80
+20,Zvg,Kfhn,60,3. Hinder,45786,Vertraging veroorzaakt door andere IM / Terminal,GTI,0
+17,Ehv,Rtd,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+9,Hlm,Asd,60,3. Hinder,703075,Aanpassing DRGL op verzoek van de vervoerder,,2
+15,Ah,Ww,60,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+14,Vlgr,Vl,60,3. Hinder,20088,Vertraging veroorzaakt door andere IM / Terminal,,0
+24,Ah,Nm,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+1,Vk,Mt,60,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+24,Sgbr,Asd,63,3. Hinder,963,"Overschrijden vertrektijd, rijweg ingesteld",,0
+28,Amr,Asd,60,3. Hinder,855,Aanpassing DRGL op verzoek van de vervoerder,,2
+14,Ana,Hdr,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+12,Vl,Vlgr,60,3. Hinder,20085,Aanpassing DRGL op verzoek van de vervoerder,,0
+22,Dn,Ehv,60,3. Hinder,4430,Aanpassing DRGL op verzoek van de vervoerder,,2
+21,Lg,Hrl,60,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+28,Gv,Gvc,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+16,Gerp,Gn,41,3. Hinder,-1,Aansluiting,,0
+23,Hrl,Lg,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,0
+18,Ypb,Ypb,60,3. Hinder,89983,Aanpassing DRGL op verzoek van de vervoerder,,3
+27,Vlgr,Rsdg,60,3. Hinder,-1,Import vertraging buitenland,,0
+11,Std,Mt,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+24,Ass,Gvc,60,3. Hinder,3353,Herplanning (materieel niet of laat beschikbaar),,2
+5,Ah,Wf,60,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+5,Gn,Lw,60,3. Hinder,-1,Afwezigheid personeel,,0
+12,Hrl,Hang,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,0
+4,Shl,Asdz,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,4
+2,Vlgr,Whz,90,3. Hinder,-1,Vertraging veroorzaakt door overnemen trein andere Vervoerder,,0
+29,Hgl,Odzg,60,3. Hinder,20373,Aanpassing DRGL op verzoek van de vervoerder,,0
+20,Hgl,Odzg,60,3. Hinder,20355,Aanpassing DRGL op verzoek van de vervoerder,,0
+27,Vlgr,Vl,240,3. Hinder,20064,Herplanning personeel,,0
+14,Ah,Zvg,60,3. Hinder,20053,Aanpassing DRGL op verzoek van de vervoerder,,0
+22,Hrl,Mt,60,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+28,Mrb,Hdb,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,0
+3,Bnz,Amf,90,3. Hinder,31462,Aanpassing DRGL op verzoek van de vervoerder,,0
+19,Asd,Alm,60,3. Hinder,2663,Herplanning (materieel niet of laat beschikbaar),,2
+15,Br,Vlgr,45,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+17,Ehv,Mt,60,3. Hinder,80211,Aanpassing DRGL op verzoek van de vervoerder,,2
+27,Rhn,Vndc,60,3. Hinder,7324,Defect materieel,,2
+20,Amf,Bnz,60,3. Hinder,31413,Aanpassing DRGL op verzoek van de vervoerder,,0
+3,Dvn,Ww,90,3. Hinder,-1,Defect materieel,,0
+20,Bnc,Bnz,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,0
+26,Amf,Amfs,60,3. Hinder,11769,Aanpassing DRGL op verzoek van de vervoerder,,2
+29,Bott,Ps,66,3. Hinder,-1,Defect materieel,,0
+30,Wm,Utg,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+18,Hgl,Odzg,60,3. Hinder,20381,Aanpassing DRGL op verzoek van de vervoerder,,0
+29,Dtc,Ah,60,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+26,Amf,Amfs,60,3. Hinder,11765,Aanpassing DRGL op verzoek van de vervoerder,,2
+11,Vlgr,Vl,52,3. Hinder,-1,Werkproces rijdend personeel,,0
+21,Zvt,Hlm,1500,2. Veel hinder,25476,Aanpassing DRGL op verzoek van de vervoerder,,50
+14,Es,Zl,330,3. Hinder,17970,Aanpassing DRGL op verzoek van de vervoerder,,3
+28,Ah,Ww,60,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+9,Amf,Avat,60,3. Hinder,5835,Aanpassing DRGL op verzoek van de vervoerder,,2
+26,Nm,Ah,120,3. Hinder,3152,Aanpassing DRGL op verzoek van de vervoerder,,4
+27,Almo,Lls,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+24,Erpw,Erp,50,3. Hinder,-1,Herplanning (materieel niet of laat beschikbaar),,0
+12,Hvsm,Hvs,49,3. Hinder,-1,Defect materieel,,0
+12,Kfhn,Dvgea,75,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+18,Zvt,Hlm,2610,1. Zeer veel hinder,25476,Aanpassing DRGL op verzoek van de vervoerder,,87
+18,Ana,Hdr,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+14,Ah,Nm,60,3. Hinder,3061,Aanpassing DRGL op verzoek van de vervoerder,,2
+11,Mvtww,Odzg,60,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+26,Dz,Gn,60,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+20,Ddr,Grbr,135,3. Hinder,-1,Defect materieel,,3
+9,Vlgr,Vl,90,3. Hinder,-1,Werkproces rijdend personeel,,0
+20,Wf,Ed,88,3. Hinder,-1,Vertraging trein-trein,,0
+8,Vl,Vlgr,60,3. Hinder,20081,Aanpassing DRGL op verzoek van de vervoerder,,0
+5,Lls,Alm,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+29,Vlgr,Ps,90,3. Hinder,-1,Vertraging veroorzaakt door overnemen trein andere Vervoerder,,0
+25,Zl,Co,60,3. Hinder,-1,Werkproces rijdend personeel,,0
+2,Hang,Hrl,120,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+25,Vl,Vlgr,60,3. Hinder,20071,Aanpassing DRGL op verzoek van de vervoerder,,0
+6,Vlgr,Vl,90,3. Hinder,20092,Aanpassing DRGL op verzoek van de vervoerder,,0
+11,Gd,Apn,60,3. Hinder,8616,Defect materieel,,2
+5,Hmla,Wd,225,3. Hinder,2840,Meetfout / Onduidelijk systeemgedrag,,0
+17,Hvl,Ama,556,3. Hinder,-1,Defect materieel,,7
+25,Gvc,Hnk,90,3. Hinder,3346,Aanpassing DRGL op verzoek van de vervoerder,,3
+15,Gvc,Asd,60,3. Hinder,2126,Defect materieel,,1
+6,Ddn,Hglg,232,3. Hinder,-1,Defect materieel,,0
+14,Tl,Gdm,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+15,Vlgr,Rsdg,45,3. Hinder,-1,Vertraging veroorzaakt door overnemen trein andere Vervoerder,,0
+28,Ed,Har,47,3. Hinder,220,Defect materieel,,0
+29,Vl,Gkgf,60,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+20,Zl,Co,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,0
+24,Vl,Vlgr,60,3. Hinder,20083,Import vertraging buitenland,,0
+27,Avat,Amfs,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+27,Asd,Nm,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+21,Gdm,Tl,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+24,Tbr,Tbu,251,3. Hinder,-1,Defect materieel,,7
+30,Mtr,Rm,60,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+28,Zlw,Mdk,60,3. Hinder,-1,Werkproces rijdend personeel,,0
+6,Vl,Vl,47,3. Hinder,-1,Gereedmaken trein/ geen wagenlijst,,0
+5,Ah,Nm,60,3. Hinder,3067,Aanpassing DRGL op verzoek van de vervoerder,,2
+11,Shl,Asdz,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+26,Nm,Vry,90,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+18,Vlgr,Vl,60,3. Hinder,20070,Aanpassing DRGL op verzoek van de vervoerder,,0
+7,Ah,Ahp,76,3. Hinder,-1,Vertraging trein-trein,,0
+4,Hgl,Es,120,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,0
+21,Amf,Amfs,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+4,Ps,Kfhn,75,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+26,Mt,Hrl,120,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+14,Zvt,Hlm,1500,2. Veel hinder,25476,Aanpassing DRGL op verzoek van de vervoerder,,50
+14,Rv,Rm,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,0
+22,Kfhn,Rsdg,255,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+11,Vsv,Atn,180,3. Hinder,-1,Defect materieel,,0
+16,Ah,Zvg,60,3. Hinder,20025,Aanpassing DRGL op verzoek van de vervoerder,,0
+24,Vl,Vlgr,60,3. Hinder,20089,Import vertraging buitenland,,0
+29,Gv,Ldd,90,3. Hinder,80232,Aanpassing DRGL op verzoek van de vervoerder,,12
+6,Vlgr,Vl,60,3. Hinder,20084,Import vertraging buitenland,,0
+12,Whz,Ps,45,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+26,Btl,Ht,60,3. Hinder,4462,Defect materieel,Mag niet verder dan Btl: opdracht MBM,2
+17,Vl,Ehv,60,3. Hinder,3520,Afwezigheid personeel,Uitval B@P Machinistenset / Spoorweb-id: 992771,2
+27,Rtst,Rtz,113,3. Hinder,1128,Defect materieel,defecte loc ,3
+29,Dbo,Db,47,3. Hinder,7380,Spoor of wissels,"In verband met knik rijden er op het AU spoor geen treinen, zodat er in de nacht een storingsploeg naartoe kan",0
+20,Hdb,Mrb,60,3. Hinder,31068,Conflicten/aanpassingen Dienstregeling,opgeheven ivm vertraging 13853,0
+29,Dt,Dtcp,71,3. Hinder,-2,Beveiligingsinstallaties,Trein 2237 door voor hem stoptonend sein 6236 En trein 3726 door voor hem stoptonend sein 6204.Daarna treinen laten schouwen en seinen functioneerde normaal.,0
+11,Erpw,Erp,77,3. Hinder,-2,Beveiligingsinstallaties,Balisefout km 34.2 PT,0
+17,Dv,Dvge,75,3. Hinder,-2,Spoor of wissels,DV: wl sto Wl-123 / Spoorweb-id: 992946,2
+13,Bkl,Bkla,102,3. Hinder,4031,Defect materieel,BKLA: def mat tr 4031 / Spoorweb-id: 991229,2
+27,Sgra,Sgbr,631,3. Hinder,-2,Spoor of wissels,SGRA: wl sto Wl-483 / Spoorweb-id: 997324,21
+12,Dv,Dv,423,3. Hinder,301742,Gebouwen/kunstwerken,Vrachtwagen heeft een viaduct aangereden thv Holten. Daardoor treinverkeer gestaakt tussen Rijssen en Deventer.,12
+15,Ashd,Asb,45,3. Hinder,3770,Spoor of wissels,LL geen controle,0
+20,Swk,Smvrt,52,3. Hinder,638,Defect materieel,vaste rem,0
+24,Tba,Ot,64,3. Hinder,-2,Aanwijzing SB ivm defect spoor,TB-BTL: defect sp Sp-AF / Spoorweb-id: 995715,2
+29,Hfdo,Hfd,60,3. Hinder,73364,Herplanning (materieel niet of laat beschikbaar),geen mat,5
+27,Asd,Asd,360,3. Hinder,70916,STS passage / Bijna Aanrijding,persoon over meerdere sporen rondom ASDM/Scpark,0
+26,Bd,Bda,120,3. Hinder,-2,Spoor of wissels,"BD: defect sp / Spoorweb-id: 996720Knik in de baan tussen wsl 1059B en 1057A, km 23.3 - 23.2Gemeld door mcn van 6613",3
+3,Kraga,Bgn,84,3. Hinder,2344,STS passage / Bijna Aanrijding,"MCN 2344 alarmeerde suicidaal persoon om en nabij KM 11.8 rechterzijde (VC-zijde). Reden met  Euopean Instruction 6 km 11.6 t/m 12.0. Vrouw met tijgerprint bovenkant en een spijkbroek. MCN 2344 had haar meegenomen in de cabine. Politie assistentie op station Bergen op Zoom, waarna de 2344 weer kon vertrekken",0
+25,Zd,Zdb,672,3. Hinder,-2,STS passage / Bijna Aanrijding,Treinen ontkoppeld i.o.m. SV en melding toegewezen aan AM.,20
+10,Tb,Tbu,212,3. Hinder,-2,Spoor of wissels,TB: sectie sto / Spoorweb-id: 990281,0
+26,Ed,Amf,60,3. Hinder,31340,Defect materieel,31340 defect,0
+26,Zv,Dvn,371,3. Hinder,-2,Spoor of wissels,op verzoek aangepast,0
+14,Wp,Vtbr,47,3. Hinder,2641,Defect materieel,WP: def mat tr 2641 / Spoorweb-id: 991765,0
+15,Cas,Utg,114,3. Hinder,3035,(problemen met) Reizigers,UTG-AMR: reizigers gedrag tr 3035 / Spoorweb-id: 992180,2
+19,Amr,Hlo,796,2. Veel hinder,-2,Energievoorziening (bovenleiding),AMR-UTG: def bvl Ovw-53.6 / Spoorweb-id: 993707,30
+20,Shl,Asd,41,3. Hinder,1057,Defect materieel,SHL: def mat tr 1057 / Spoorweb-id: 994535,1
+27,Cps,Rta,231,3. Hinder,-2,(problemen met) Reizigers,Vechtpartij in de trein. SW ID 997576,7
+6,Lwd,Arn,54,3. Hinder,2222,(problemen met) Reizigers,lastige reiziger ,0
+26,Aco,Bkl,198,3. Hinder,-2,Spoor of wissels,tobs uc8,0
+23,Hszha,Hstdk,41,3. Hinder,919,Defect materieel,deurstoring,0
+29,Hfdm,Hshfdo,97,3. Hinder,928,Beveiligingsinstallaties,leuhfout ,5
+29,Ledn,Ass,66,3. Hinder,4677,Energievoorziening (bovenleiding),Defecte Bovenleiding.,4
+27,Ck,Bgk,72,3. Hinder,-2,Invloed van derden op infra,CK: ass hulpdst / Spoorweb-id: 997491,0
+20,Hfd,Shl,40,3. Hinder,79563,Defect materieel,storing met ATB,0
+21,Utg,Cas,150,3. Hinder,80069,STS passage / Bijna Aanrijding,Op verzoek van BO EI6 ivm persoon langs spoor.,5
+17,Utma,Ut,86,3. Hinder,853,STS passage / Bijna Aanrijding,Persoon in spoor gemeld door 853 bij utrecht zuilen,0
+28,Asd,Ods,353,3. Hinder,-2,STS passage / Bijna Aanrijding,ASD: hinder pers op sp / Spoorweb-id: 998150,0
+24,Wd,Hmla,61,3. Hinder,6969,Defect materieel,6969 Stond defect op de vrije baan. Heeft eerst nbm gebeld en pas later de trdl.,0
+25,Hwd,Sgn,101,3. Hinder,-2,STS passage / Bijna Aanrijding,SGN-HWD: ass hulpdst tr 3062 / Spoorweb-id: 996629,2
+26,Vga,Ht,2270,2. Veel hinder,-2,Spoor of wissels,"Tr. 6623 reed af op sein 302 toen het sein af viel. Tobs in sectie VGA$302B2T, hierdoor wordt de rijweg vastgehouden en is overweg 18.8 in de storing. ",71
+29,Zp,Zpge,139,3. Hinder,-2,STS passage / Bijna Aanrijding,Suicidaal persoon empl Zp,2
+15,Gw,Pmk,384,3. Hinder,-2,Invloed van derden op infra,"LW-AKM: aanvaring brug Kw-Prinses Margrietkanaal / Spoorweb-id: 992275Verklaring brwt (Zl): Brug dicht gedaan. Naar het toilet gegaan.Toen ik terugkwam bleek er een boot met zijn mast tegen de brug te zijn aangevaren. Bij mijn wten heb ik de seinen goed bediend.Misschien dat de boot er nog snel door heen wilde? Voor zover ik weet heb ik alles volgens de regels gedaan. 14.25 Trdl Noord kgg, 14.25 MKS kgg. ",13
+4,Nwk,Nwki,2256,2. Veel hinder,2820,Aanrijding,MDO-NWKI: aanr mot/brom tr 2820 / Spoorweb-id: 987482,74
+18,Nwki,Nwk,98,3. Hinder,4023,Defect materieel,deurproblemen,2
+21,Amf,Bnz,60,3. Hinder,31433,Werkproces Treindienstleider,eerder niet gekoppeld,0
+1,Ost,Wh,60,3. Hinder,-2,STS passage / Bijna Aanrijding,Suicidaal persoon zl-ost. Op last van de politie tvk tijdelijk gestaakt,2
+21,Asd,Zvg,60,3. Hinder,421,Herplanning (materieel niet of laat beschikbaar),"Treinen op verzoek vervoerder opgeheven, bij vervoerder kan niet op weer geboekt worden.",2
+20,Bnz,Amf,120,3. Hinder,31410,Meetfout / Onduidelijk systeemgedrag,VOSorderverwerking,0
+25,Swk,Smvrt,77,3. Hinder,-2,Spoor of wissels,HGV-KG: sectie sto / Spoorweb-id: 996476,0
+24,Bott,Bot,71,3. Hinder,48766,Ongeplande buitendienststelling,Sectie storingen Botlek,0
+1,At,Bet,41,3. Hinder,49719,Invloed van derden op infra,"persoon slapen, 20 meter vanaf het perron tegen de tunnelwand",0
+17,Odzg,Hgl,90,3. Hinder,20386,Afwezigheid personeel,personeelsproblemen,0
+15,Asdmw,Dgrw,120,3. Hinder,2684,Spoor of wissels,sectiestoring,0
+23,Hgl,Amri,79,3. Hinder,7954,Spoor of wissels,"Achtergebleven TOBS tussen Hengelo en Almelo, HH-spoor",0
+4,Hfdo,Hfdm,180,3. Hinder,-2,Beveiligingsinstallaties,kabel breuk,20
+20,ONB,Ddv,190,3. Hinder,-2,STS passage / Bijna Aanrijding,MKS meldt mogelijk suicidaal persoon,2
+20,Bl,Asn,286,3. Hinder,8175,Aanrijding,BL-ASN: aanr obj tr 8175 / Spoorweb-id: 994560aanrijding ree,6
+20,Gs,Lwd,60,3. Hinder,6120,Spoor of wissels,Klapper in spoor VF.v.a. 13:06 EI5 100 km/h,2
+26,Akm,Brdl,210,3. Hinder,-2,Beveiligingsinstallaties,AKM-HR: sein sto tr 646 / Spoorweb-id: 996854,7
+19,Alm,Almm,273,3. Hinder,2630,STS passage / Bijna Aanrijding,suicidale vrouw,6
+27,Avat,Amfs,120,3. Hinder,5860,Defect materieel,AVAT: def mat tr 5857 / Spoorweb-id: 997608,4
+29,Bl,Asn,52,3. Hinder,567,STS passage / Bijna Aanrijding,MKS meldt europian instruction emplacement asn.mcn 567 meldt persoon staat voor zijn trein sein,0
+5,Ht,Ehv,120,3. Hinder,300857,Herplanning (materieel niet of laat beschikbaar),Geen mat,4
+3,Rtd,Wiltn,42,3. Hinder,-2,STS passage / Bijna Aanrijding,persoon in het spoor vanaf rtd de tunnel in,0
+20,Ddr,Gdm,60,3. Hinder,7279,Afwezigheid personeel,Zieke Mcn.,0
+27,Sdt,Sdtb,95,3. Hinder,7160,Defect materieel,SDT-DDRS: def mat tr 7160 / Spoorweb-id: 997659,0
+6,Rtd,Dhsa,118,3. Hinder,5020,Defect materieel,5020 defect,3
+14,Llzm,Ztmo,727,2. Veel hinder,-2,Aanrijding,ZTMO: aanr pers tr 11724 / Spoorweb-id: 991725,23
+24,Rsdg,Rsd,60,3. Hinder,2555,Defect materieel,Defect in belgi‰ ,2
+15,Vd,Zpgea,247,3. Hinder,-2,Spoor of wissels,aangepast,0
+13,Mas,Bkla,79,3. Hinder,2982,Aanrijding,BKLA: aanr obj tr 2982 / Spoorweb-id: 991645,1
+2,Hfdm,Hshfdo,71,3. Hinder,-2,Spoor of wissels,HFD: infra ovrg tr 950 / Spoorweb-id: 986828,1
+10,Rsd,Kraga,145,3. Hinder,2246,Spoor of wissels,Takken over het spoor,3
+18,Amfs,Avat,2247,2. Veel hinder,-2,Spoor of wissels,"Gescheurd puntstuk wissel 1021 Avat, mag RL en LL niet bereden worden. ",76
+22,Cl,Lek,93,3. Hinder,6072,(problemen met) Reizigers,lastige reiziger. 6772 links eromheen en dat duurde zo lang dat hij alles ophield.,0
+23,Wv,Zl,90,3. Hinder,658,Aanpassing DRGL op verzoek van de vervoerder,ivm schouwen bovenleiding tr 653,4
+27,Zzs,Wm,51,3. Hinder,3046,Spoor of wissels,WM-UTG: defect sp / Spoorweb-id: 997523,0
+23,Kfhz,Vlgr,300,3. Hinder,47761,Vertraging veroorzaakt door andere IM / Terminal,Geen goederenverkeer Emmerich. / Spoorweb-id: 995436,1
+5,Gv,Gvmw,42,3. Hinder,-2,STS passage / Bijna Aanrijding,persoon in t spoor,0
+11,Tb,Ehv,60,3. Hinder,9256,Defect materieel,"Treinnummer, proces en oorzaaktype aangepast en nogmaals aangeboden, trein 9256 defect op HSL-Z.",2
+13,Vl,Vlgr,547,3. Hinder,155,Vertraging veroorzaakt door andere IM / Terminal,drukte venlo,0
+14,Ddzd,Ddr,42,3. Hinder,-1,Defect materieel,,0
+1,Rhn,Vndc,240,3. Hinder,7370,Defect materieel,,8
+21,Bot,Kfhn,75,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+8,Hlm,Asd,60,3. Hinder,5440,Defect materieel,,2
+11,Ddr,Ddr,99,3. Hinder,-1,"Overschrijden vertrektijd, rijweg ingesteld",,3
+20,Mt,Mtr,60,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+4,Asdz,Shl,60,3. Hinder,3524,Herplanning (materieel niet of laat beschikbaar),,4
+14,Tnzz,Svg,60,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+1,Hang,Mt,240,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+13,Hlm,Zvt,2610,1. Zeer veel hinder,15439,Aanpassing DRGL op verzoek van de vervoerder,,87
+22,Hlm,Asd,60,3. Hinder,4860,Defect materieel,,2
+27,Ah,Ahg,60,3. Hinder,-1,Herplanning (materieel niet of laat beschikbaar),,0
+11,Bnz,Amf,60,3. Hinder,331302,Aanpassing DRGL op verzoek van de vervoerder,,0
+17,Ddm,Mdsa,212,3. Hinder,-1,Herplanning (materieel niet of laat beschikbaar),,0
+18,Vlgr,Vl,60,3. Hinder,20074,Aanpassing DRGL op verzoek van de vervoerder,,0
+19,Amr,Nm,210,3. Hinder,3037,Aanpassing DRGL op verzoek van de vervoerder,,7
+18,Vk,Mt,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,0
+10,Amf,Amf,97,3. Hinder,89951,Afwezigheid personeel,,0
+24,Hgl,Odzg,60,3. Hinder,20389,Aanpassing DRGL op verzoek van de vervoerder,,0
+24,Sto,Apd,84,3. Hinder,-1,Defect materieel,,0
+26,Ah,Nm,90,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,3
+14,Rdwa,Ass,60,3. Hinder,80357,"Overschrijden vertrektijd, rijweg ingesteld",,0
+4,Asd,Asd,62,3. Hinder,1028,Defect materieel,,0
+11,Amfs,Amf,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+9,Wp,Hfd,60,3. Hinder,4330,Herplanning (materieel niet of laat beschikbaar),,2
+23,Ddr,Gr,60,3. Hinder,7189,Afwezigheid personeel,,0
+25,Brppd,Brgnd,51,3. Hinder,-1,Defect materieel,,0
+14,Tbu,Btl,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+26,Rsd,Vs,60,3. Hinder,2266,Aanpassing DRGL op verzoek van de vervoerder,,2
+24,Mt,Rm,60,3. Hinder,-1,Defect materieel,,0
+7,Ah,Ahg,60,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+28,Ht,Ehv,60,3. Hinder,4415,Defect materieel,,2
+25,Nm,Vry,60,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+24,Avat,Amf,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+9,Zvt,Hlm,2610,1. Zeer veel hinder,15432,Aanpassing DRGL op verzoek van de vervoerder,,88
+18,Amf,Amfs,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+30,Hang,Hrl,60,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+18,Brdv,Rlb,195,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+15,Hang,Hrl,60,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+25,Vl,Vlgr,60,3. Hinder,20067,Import vertraging buitenland,,0
+22,Erp,Kfhn,315,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+5,Vlgr,Vl,60,3. Hinder,20086,Import vertraging buitenland,,0
+21,Lw,Gn,150,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+18,Brd,Ddr,60,3. Hinder,5165,Defect materieel,,2
+2,Mt,Vk,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,0
+18,Btl,Ehv,60,3. Hinder,4457,Aanpassing DRGL op verzoek van de vervoerder,,2
+11,Btl,Ot,174,3. Hinder,-1,Defect materieel,,4
+2,Vl,Vlgr,60,3. Hinder,20099,Import vertraging buitenland,,0
+24,Vl,Vlgr,60,3. Hinder,20085,Import vertraging buitenland,,0
+4,Btl,Brdv,45,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+15,Amfs,Amf,60,3. Hinder,11682,Aanpassing DRGL op verzoek van de vervoerder,,2
+16,Akm,Lw,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+21,Bot,Kfhn,75,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+12,Ddr,Grbr,45,3. Hinder,5040,Conflicten/aanpassingen Dienstregeling,,0
+26,Nvbro,Zha,227,3. Hinder,-1,Defect materieel,,2
+30,Mtr,Std,60,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+29,Rm,Std,60,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+26,Vlgr,Vl,90,3. Hinder,-1,Defect materieel,,0
+27,Tbu,Tbu,90,3. Hinder,6433,Defect materieel,,3
+1,Ut,Ed,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,3
+26,Odzg,Hgl,570,3. Hinder,20376,Aanpassing DRGL op verzoek van de vervoerder,,0
+22,Bot,Rscwa,120,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+20,Asd,Almo,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+25,Wc,Nm,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+24,Rtd,Hsbdg,165,3. Hinder,9224,Defect materieel,,6
+30,Rsd,Rsdg,174,3. Hinder,-1,Defect materieel,,4
+18,Rsd,Asd,90,3. Hinder,2355,Aanpassing DRGL op verzoek van de vervoerder,,3
+13,Tbu,Tbge,754,2. Veel hinder,-1,Defect materieel,,24
+26,Mt,Vk,60,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+5,Rsdg,Rsd,56,3. Hinder,-1,Defect materieel,,0
+29,Lls,Hfd,60,3. Hinder,4358,Defect materieel,,4
+13,Mp,Zl,60,3. Hinder,9090,Herplanning (materieel niet of laat beschikbaar),,2
+26,Bkg,Ekz,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+16,Hgl,Odzg,60,3. Hinder,20387,Aanpassing DRGL op verzoek van de vervoerder,,0
+27,Hgl,Hgl,40,3. Hinder,301665,Herplanning personeel,,0
+5,Rtd,Ut,60,3. Hinder,2879,Aanpassing DRGL op verzoek van de vervoerder,,2
+22,Bkg,Ekz,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+6,Ddzd,Ddr,278,3. Hinder,-1,Defect materieel,,4
+25,Vk,Mt,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,0
+24,Mvtwn,Mvtaho,60,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+30,Gvc,Ledn,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+21,Hrl,Lg,60,3. Hinder,-1,Defect materieel,,0
+18,Vk,Mt,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,0
+19,Dn,Ehv,60,3. Hinder,4476,Aanpassing DRGL op verzoek van de vervoerder,,2
+6,Hdg,Lw,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,0
+29,Vdm,Gn,60,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+13,Utvr,Gdm,75,3. Hinder,6779,(problemen met) Reizigers,,4
+21,Zv,Ah,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,0
+13,Btl,Brdv,45,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+26,Asdta,Sgra,494,3. Hinder,9231,Spoor of wissels,,21
+25,Zvt,Hlm,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+28,Bkh,Gvc,90,3. Hinder,83124,Aanpassing DRGL op verzoek van de vervoerder,,8
+26,Ahwa,Est,167,3. Hinder,6663,Defect materieel,deurproblemen Elst,4
+22,Amfga,Brn,106,3. Hinder,1524,Spoor of wissels,sect sto wsl 1143 storingsdienst rond 11 uur aanwezig. vooralsnog geen treinvrije periode nog.,2
+22,Dn,Hmbh,126,3. Hinder,4422,Defect materieel,trein 4422 defect in deurne. sluit geen enkele deur. ,7
+14,Zl,Zl,40,3. Hinder,8155,STS passage / Bijna Aanrijding,"suicidale meldingen en politie, op meerdere momenten verschillende km en richtingen.",0
+26,Tba,Tb,95,3. Hinder,6428,STS passage / Bijna Aanrijding,"mcn meldt iets geraakt te hebben, is op onderzoek uit.Mcn heeft niets aangetroffen, kan rijweg vervolgen",2
+23,Rtd,Wspl,170,3. Hinder,-2,Spoor of wissels,bezet spoor melding in wissel 267b,3
+19,Bnz,Amf,120,3. Hinder,31458,Meetfout / Onduidelijk systeemgedrag,VOSorderverwerking,0
+1,Asn,Onz,68,3. Hinder,765,(problemen met) Reizigers,"ASN: reizigers gedrag tr 765 / Spoorweb-id: 986544Lastige reiziger in de trein, bedreigde de hc. Hierop kwam politie bij de trein. Als gevolg hiervan keert de trein op de 778 op Assen.",2
+2,Rai,Dvaw,103,3. Hinder,4367,STS passage / Bijna Aanrijding,RAI-DVAW: hinder pers op sp tr 3169 / Spoorweb-id: 986861,0
+11,Zl,Zl,131,3. Hinder,8057,STS passage / Bijna Aanrijding,ZL-DDV: hinder pers op sp / Spoorweb-id: 990570,0
+12,Gn,Gerp,77,3. Hinder,-2,STS passage / Bijna Aanrijding,"suicidaal persoon, melding via meldkamer",0
+1,Hstdk,Hstom,74,3. Hinder,1134,Defect materieel,Zie toelichting RB CMT,1
+14,Bd,Bda,753,2. Veel hinder,915,Defect materieel,BD: brand/rook in mat tr 915 / Spoorweb-id: 991721,25
+24,Almb,Almp,141,3. Hinder,4628,Defect materieel,ALM-ALMO: def mat tr 4628 / Spoorweb-id: 995704,3
+12,Wp,Vtbr,233,3. Hinder,-2,Spoor of wissels,knipperende tobs,3
+7,Bsmz,Ndb,50,3. Hinder,5846,Werkproces Treindienstleider,staan open van vroege dienst,1
+19,Shl,Asra,247,3. Hinder,1041,Defect materieel,ASRA: def mat tr 1041 / Spoorweb-id: 993930,13
+6,Hdg,Lwc,130,3. Hinder,-2,Aanwijzing SB ivm defect spoor,mcn 37327 meldt spoorverzakking en voelt een kuil thv 36.0 spoor 2HDG: defect sp Sp-202 / Spoorweb-id: 988481na metingen viel alles binnen de norm,0
+17,Nmd,Wc,180,3. Hinder,-2,STS passage / Bijna Aanrijding,NM-WC: ass hulpdst / Spoorweb-id: 992851,5
+1,Hfdm,Hshfdo,1899,2. Veel hinder,-2,Spoor of wissels,HFD: sein sto / Spoorweb-id: 986310,60
+19,Bnz,Amf,60,3. Hinder,31462,Meetfout / Onduidelijk systeemgedrag,VOSorderverwerking,0
+9,Bloa,Uto,120,3. Hinder,-2,Spoor of wissels,BKP: ovw sto Ovw-4.5 / Spoorweb-id: 989695,4
+6,Laa,Gvc,137,3. Hinder,1868,Herplanning (materieel niet of laat beschikbaar),"Trein 766 te lang voor spoor 8, splitsen en terugkeren richting de tuin ging moeizaam. Hierdoor versperring sporen 8,9 en 10 te GVC",3
+12,Bll,Sptz,60,3. Hinder,4821,Defect materieel,Tredeplank defect.,2
+15,Hlm,Asd,68,3. Hinder,5466,(problemen met) Reizigers,HLM: reizigers gedrag tr 5466 / Spoorweb-id: 992408,2
+19,Ashd,Asb,262,3. Hinder,3784,Spoor of wissels,wissel uit de controle ,11
+26,Otb,Wf,125,3. Hinder,3158,Defect materieel,ED: def mat tr 3256 / Spoorweb-id: 997018,2
+11,At,Ehs,118,3. Hinder,851,STS passage / Bijna Aanrijding,"AT: hinder pers op sp / Spoorweb-id: 990511mcn 851 meldt in elkaar gedoken meisje bij de autobrug. 15:43 toestemming MKS staken EI 6, persoon meegenomen door OHD",2
+14,Kv,Ndb,76,3. Hinder,14979,STS passage / Bijna Aanrijding,"ree langs het spoor, EI 6",0
+15,Shl,Hfd,289,3. Hinder,-2,Invloed van derden op infra,SHL: brand/rook tunnel Tnl-Schiphol Spoortunnel / Spoorweb-id: 992431,0
+5,Wv,Swk,93,3. Hinder,9064,Defect materieel,SWK: aanr vogel tr 9064 / Spoorweb-id: 988231,2
+10,Wf,Ed,98,3. Hinder,3124,(problemen met) Reizigers,onwelwording,2
+4,Btl,Ot,1939,2. Veel hinder,-2,Spoor of wissels,Vermoedelijk sectiestoring BTL$535A-FTDaarmee ook meerdere overwegen in de storing. 1e keer is hij er uit gereden.Daarna opnieuw een sectiestoring BTL$535A-FT2e keer storing daarme overweg 37.4 in de storing,44
+10,Gv,Gvc,150,3. Hinder,1150,Herplanning (materieel niet of laat beschikbaar),Genoemde treinen zijn bijgestuurd ivm met vertraging een een gewijzigde drgl. Volgens de geldende VSM wordt de 110 serie alleen op Bd aangepast.,12
+10,Gvc,Gvc,47,3. Hinder,5117,Onregelmatigheden in de uitvoering van BTD,uitloop werkzaamheden,0
+20,Ahwa,Otb,40,3. Hinder,7522,Defect materieel,problemen te Oosterbeek met trein ,0
+5,Ht,Htda,12428,1. Zeer veel hinder,303944,Meetfout / Onduidelijk systeemgedrag,Post Ut/Amf niet te bereiken / Spoorweb-id: 988071,453
+6,Kfhan,Brdv,75,3. Hinder,-2,Spoor of wissels,BRDV-KFH: defect sp Sp-DE / Spoorweb-id: 988500OAW op basis IHS losse bevestigingsmiddelen rond km 40.4,0
+26,Ddr,Ddr,55,3. Hinder,5979,Afwezigheid personeel,"Mcn kwam van vertraagde 6600 af (+32min), maar moest nog  even  naar het toilet waardoor vertraging opliep van ca. +10 naar +27",0
+5,Rtd,Rtst,75,3. Hinder,70922,Herplanning (materieel niet of laat beschikbaar),Proces en oorzaaktype op verzoek vervoerder aangepast.,3
+26,Dtcp,Dt,540,3. Hinder,1154,Defect materieel,kapotte deur,21
+8,Ht,Shl,292,3. Hinder,3768,STS passage / Bijna Aanrijding,VGA-BTL: hinder pers op sp Ovw-53.1 / Spoorweb-id: 989469,8
+7,Ut,Nm,120,3. Hinder,3025,Spoor of wissels,MRG-HAR: defect sp Sp-AU / Spoorweb-id: 988892,4
+26,Vga,Tbi,145,3. Hinder,3669,Aanrijding,mcn heeft een ovw boom geraakt. ,2
+30,Rlb,Rtd,60,3. Hinder,2293,Werkproces rijdend personeel,HC wil niet rijden naar Rlb vanwege onveilig gevoel uit het verleden,2
+13,Hfdm,Hfdo,111,3. Hinder,73126,Herplanning (materieel niet of laat beschikbaar),HFDO: hinder log probleem tr 73126 / Spoorweb-id: 991259,7
+17,Rsl,Nsch,220,3. Hinder,-2,Beveiligingsinstallaties,rijrichtingstoring Ws-Nsch,0
+13,Ddr,Ddzd,80,3. Hinder,76656,Defect materieel,Stel defect op Dordrecht Zuid.,2
+14,Ot,Btl,42,3. Hinder,47775,Vertraging veroorzaakt door andere IM / Terminal,door drukte duitsland geen plek in venlo,0
+12,Ht,Hdl,392,3. Hinder,6058,STS passage / Bijna Aanrijding,Schapen langs de baan,13
+6,Wt,Amr,3157,1. Zeer veel hinder,3950,Aanrijding,EHV: aanr pers tr 3950 / Spoorweb-id: 988561,86
+26,Dn,Hmbh,100,3. Hinder,4426,Defect materieel,DN-HM: def mat tr 4426 / Spoorweb-id: 996760Machinist deed shutdown,2
+4,Shl,Hfd,62,3. Hinder,1046,Defect materieel,SHL: def mat tr 1046 / Spoorweb-id: 987673,1
+3,Hln,Wt,47,3. Hinder,3928,Aanrijding,"mcn 3928 heeft reebok aangereden tussen Haelen en Weert. stond bij km 72.3 stil. Reebok ligt bij km 72.6 in FE spoor. RvO: 71087041mcn wist niet wat toestand nevenspoor was dus trein 3921 stilgezet bij km 68.0 op nevenspoor.ovw 72.4 in storing, mcn stond nog deels op de ovw.",1
+29,Bp,Gk,279,3. Hinder,-2,Energievoorziening (bovenleiding),Grote stroomstoring Bp-Gn.,0
+27,Ass,Obpa,54,3. Hinder,4023,Defect materieel,ASS-SGRA: def mat tr 4023 / Spoorweb-id: 997327,1
+25,IJbz,Zp,251,3. Hinder,-2,Gebouwen/kunstwerken,ZP: brug sto / Spoorweb-id: 996540,5
+12,Asdm,Asdma,94,3. Hinder,-2,STS passage / Bijna Aanrijding,gemeld door mcn 1569,0
+25,Asd,Hlm,41,3. Hinder,5449,Defect materieel,ASD: def mat tr 5449 / Spoorweb-id: 996317,1
+18,Nvp,Ledn,45,3. Hinder,3363,STS passage / Bijna Aanrijding,suicidaal persoon te voorschoten,0
+18,Bmbr,Sdtb,150,3. Hinder,7251,(problemen met) Reizigers,Vervelende reiziger die de trein uitgezet moest worden.,0
+22,Ut,Ut,60,3. Hinder,3778,Werkproces Treindienstleider,niet verklaard door late dienst,0
+5,Utzl,Utma,6124,1. Zeer veel hinder,3549,Beveiligingsinstallaties,systeemstoring UT,178
+20,Htn,Utln,43,3. Hinder,6750,STS passage / Bijna Aanrijding,Blikjesraper,0
+20,Ahwa,Otb,1145,2. Veel hinder,7522,Energievoorziening (bovenleiding),zie logging 08:20 spoorweb 994194: bij trein 7522 spanning weggevallen. logging 08:24 : zie ook rvo 81063592.Spoorweb meldt meerdere keren bvl uitval,52
+27,Aml,Dv,60,3. Hinder,7076,Samenstellen treinen,geen mat,2
+18,Amf,Ama,696,2. Veel hinder,-2,Energievoorziening (bovenleiding),"Retrourverbinding kap defect, waardoor perronkap sp 4 en 5 onder spanning komt bij vertrekkende treinen. Geen treinbewegingen toegestaan",9
+27,Ztm,Ztmo,139,3. Hinder,6931,Defect materieel,remproblemen,4
+17,Kpn,Zl,60,3. Hinder,8522,Afwezigheid personeel,geen mcn,0
+20,Brna,Brn,57,3. Hinder,-2,Spoor of wissels,Sectiebezetting in WSL.OVW 36.4 en 35.8 op de melder,0
+19,Hlm,Zvt,2610,1. Zeer veel hinder,15439,Aanpassing DRGL op verzoek van de vervoerder,strand pendel,87
+6,Dtzo,Dtcp,384,3. Hinder,5020,Defect materieel,DT: def mat tr 5020 / Spoorweb-id: 988436,10
+27,Gs,Lwd,95,3. Hinder,-2,Aanrijding,"2250 meldt klap gevoeld,  conducteur is op onderzoek geweest , niks aangetroffen. Tegentrein 2375 had ook iets gehoord. Te Gs trein gecontroleerd , niks aangetroffen. Volgende trein 6152 heeft nog geschouwd, ook niks aangetroffen.",2
+27,Wl,Did,651,3. Hinder,-2,Spoor of wissels,op verzoek aangepast,0
+9,Hszha,Hsbda,122,3. Hinder,9121,STS passage / Bijna Aanrijding,jonge ree in het spoor,0
+9,ONB,ONB,480,3. Hinder,-2,Energievoorziening (bovenleiding),ZL: stroom sto tr 3872 / Spoorweb-id: 9898253872 gestrand voor sein 4446 Reizigers geevacueerd,0
+6,Sgbr,Asd,67,3. Hinder,2122,STS passage / Bijna Aanrijding,p-sein 609,0
+11,Ddr,Rtd,60,3. Hinder,5218,Defect materieel,,2
+26,Hn,Hn,60,3. Hinder,4838,Defect materieel,,2
+20,Whz,Whz,75,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+29,Hlm,Ass,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+24,Tl,Gdm,60,3. Hinder,6774,Aanpassing DRGL op verzoek van de vervoerder,,2
+9,Vlgr,Vl,176,3. Hinder,-1,Defect materieel,,0
+21,Rscwa,Ps,54,3. Hinder,-1,Defect materieel,,0
+22,Mvtahn,Mvtyn,75,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+18,Hsrtdt,Asd,210,3. Hinder,911,Defect materieel,,9
+16,Mtr,Mt,870,2. Veel hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+11,Vlgr,Vl,624,3. Hinder,-1,Vertraging veroorzaakt door overnemen trein andere Vervoerder,,0
+23,Gdm,Tl,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+11,Vlgr,Whz,60,3. Hinder,-1,Import vertraging buitenland,,0
+6,Shl,Ut,90,3. Hinder,3151,Aanpassing DRGL op verzoek van de vervoerder,,8
+16,Kfhn,Rsdg,210,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+10,Odzg,Kfhn,60,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+2,Smz,Rm,60,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+16,Zvt,Hlm,2610,1. Zeer veel hinder,25428,Aanpassing DRGL op verzoek van de vervoerder,,87
+24,Brech,Bropo,43,3. Hinder,41714,Spoor of wissels,,0
+3,Hrl,Hang,240,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+3,Bkh,Gvc,60,3. Hinder,83746,Aanpassing DRGL op verzoek van de vervoerder,,13
+28,Vl,Vl,102,3. Hinder,-1,Gereedmaken trein/ geen wagenlijst,,0
+28,Mt,Hrl,735,2. Veel hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+10,Wm,Utg,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+30,Brvalw,Brvalo,45,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+27,Mt,Mtr,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,0
+12,Alm,Asd,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+11,Hm,Dn,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+5,Std,Hrl,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+11,Kfhn,Lutdsm,150,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+19,Mtr,Rm,120,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+14,Rtd,Ddr,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+8,Zvt,Hlm,2625,1. Zeer veel hinder,25476,Aanpassing DRGL op verzoek van de vervoerder,,88
+24,Hlm,Zvt,60,3. Hinder,5495,Defect materieel,,2
+11,Brdv,Brdva,120,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,1
+30,Vl,Vlgr,60,3. Hinder,20079,Aanpassing DRGL op verzoek van de vervoerder,,0
+11,Vry,Rm,120,3. Hinder,-1,Defect materieel,,0
+26,Utzl,Mas,61,3. Hinder,7460,Defect materieel,,0
+6,Hsbdg,Hsbdgo,73,3. Hinder,9369,Defect materieel,,0
+11,Lwd,Gs,41,3. Hinder,-1,Defect materieel,,0
+10,Vk,Mt,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,0
+25,Asd,Hlm,60,3. Hinder,4895,Aanpassing DRGL op verzoek van de vervoerder,,2
+8,Vlgr,Vl,150,3. Hinder,20086,Aanpassing DRGL op verzoek van de vervoerder,,0
+26,Bkh,Gvc,150,3. Hinder,83905,Aanpassing DRGL op verzoek van de vervoerder,,14
+24,Zl,Gvc,60,3. Hinder,1860,Aanpassing DRGL op verzoek van de vervoerder,,2
+20,Ddri,Erp,120,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+17,Vlgr,Rsdg,75,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+24,Odzg,Hgl,60,3. Hinder,20366,Aanpassing DRGL op verzoek van de vervoerder,,0
+3,Hvs,Alm,60,3. Hinder,14978,Aanpassing DRGL op verzoek van de vervoerder,,2
+19,Amf,Amfs,60,3. Hinder,11643,Aanpassing DRGL op verzoek van de vervoerder,,2
+24,Gn,Ws,60,3. Hinder,-1,Afwezigheid personeel,,0
+30,Kfhan,Kfhn,60,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+20,Ut,Dgrw,60,3. Hinder,11405,Ongeplande buitendienststelling,,0
+4,Krd,Mt,60,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+15,Wk,Stv,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,0
+25,Ddr,Rtd,60,3. Hinder,2428,Aanpassing DRGL op verzoek van de vervoerder,,2
+8,Bkh,Gvc,420,3. Hinder,83142,Aanpassing DRGL op verzoek van de vervoerder,,28
+22,Alm,Asd,60,3. Hinder,2618,Aanpassing DRGL op verzoek van de vervoerder,,2
+26,Tba,Tbi,105,3. Hinder,-1,Defect materieel,,2
+18,Ledn,Gvc,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+21,Hrl,Lg,60,3. Hinder,-1,Defect materieel,,0
+25,Brvalw,Brvalo,120,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+30,Asdta,Sgra,65,3. Hinder,-1,Defect materieel,,0
+5,Amf,Amfs,60,3. Hinder,11765,Afwezigheid personeel,,2
+12,Rsdg,Rsd,60,3. Hinder,2565,Defect materieel,,2
+25,Lutdsm,Emn,90,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+27,Bkh,Gvc,180,3. Hinder,83740,Aanpassing DRGL op verzoek van de vervoerder,,11
+30,Hgl,Odzg,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,0
+21,Asd,Amf,120,3. Hinder,1533,Defect materieel,,4
+22,Ht,Nm,60,3. Hinder,3654,Aanpassing DRGL op verzoek van de vervoerder,,2
+14,Aml,Mrb,90,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+26,Hrl,Std,60,3. Hinder,3946,Aanpassing DRGL op verzoek van de vervoerder,,2
+13,Rtd,Ddr,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+20,Asd,Hlm,60,3. Hinder,89343,Aanpassing DRGL op verzoek van de vervoerder,,0
+24,Shl,Hfdo,120,3. Hinder,71648,Herplanning (materieel niet of laat beschikbaar),,8
+12,Hang,Hrl,420,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+26,Utvr,Ut,63,3. Hinder,303530,Conflicten/aanpassingen Dienstregeling,,0
+13,Rsd,Vs,60,3. Hinder,2356,Aanpassing DRGL op verzoek van de vervoerder,,2
+23,Ehv,Btl,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+20,Rm,Mbt,43,3. Hinder,-1,Defect materieel,,0
+29,Zp,Ah,60,3. Hinder,7654,Defect materieel,,2
+10,Zl,Hno,120,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,0
+29,Utg,Ass,60,3. Hinder,704083,Herplanning (materieel niet of laat beschikbaar),,2
+27,Ut,Tl,60,3. Hinder,6725,Aanpassing DRGL op verzoek van de vervoerder,,2
+4,Ht,Ht,168,3. Hinder,300857,Afwezigheid personeel,,5
+6,Gvm,Gvc,60,3. Hinder,2181,Aanpassing DRGL op verzoek van de vervoerder,,2
+14,Utg,Wm,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+22,Btl,Ddr,150,3. Hinder,6438,Aanpassing DRGL op verzoek van de vervoerder,,5
+26,Hsbda,Hszha,464,3. Hinder,1158,Defect materieel,defecte stra,16
+29,Rtd,Asdz,60,3. Hinder,947,Conflicten/aanpassingen Dienstregeling,Trein op verzoek VLC gekeerd in Rtd ivm werkzaamheden asd.,4
+18,Asdl,Asra,177,3. Hinder,4662,Defect materieel,ASDL-AEG: def mat tr 4662 / Spoorweb-id: 993571,4
+20,Hgl,Hglo,540,3. Hinder,20386,Afwezigheid personeel,HGL-ODZ: hinder log probleem / Spoorweb-id: 994302,0
+29,Bd,Gz,43,3. Hinder,1161,Defect materieel,BD: def mat tr 1161 / Spoorweb-id: 998392,0
+27,Rtd,Wiltn,64,3. Hinder,5263,Defect materieel,"technische problemen, trein uiteindelijk opgeheven en afgerangeerd",1
+27,Dtcp,Dt,55,3. Hinder,1154,Defect materieel,deurproblemen,1
+28,Lw,Grs,59,3. Hinder,-2,Beveiligingsinstallaties,"sectiestoring sectie LW$162BT sp60, tijdelijk functieherstel",0
+18,Hde,Ns,58,3. Hinder,626,STS passage / Bijna Aanrijding,persoon op het perron en opgehaald door de politie,0
+24,Aeg,Asdl,2135,2. Veel hinder,-2,Spoor of wissels,AEG-ASDL: def bvl / Spoorweb-id: 995718,72
+1,Rtd,Gvc,60,3. Hinder,1134,Defect materieel,Trein 1134 telefonisch door vervoerder opgeheven ivm defect aan het materieel.,3
+19,Wl,Did,170,3. Hinder,-2,Spoor of wissels,WL: sectie sto Sec-201T / Spoorweb-id: 993663,0
+19,Ktr,Tl,223,3. Hinder,31150,Aanrijding,TL-KTR: aanr pers tr 31150 / Spoorweb-id: 993920,0
+2,Hshfdo,Hshmdo,124,3. Hinder,-2,Spoor of wissels,wissel 2155 spontaan in storing,1
+26,Ps,Bott,101,3. Hinder,-2,Spoor of wissels,PS: sectie sto / Spoorweb-id: 997016,0
+4,Std,Srn,1196,2. Veel hinder,2974,Aanrijding,STD-SRN: aanr pers tr 2974 / Spoorweb-id: 987786,28
+2,ONB,Ddv,337,3. Hinder,-2,STS passage / Bijna Aanrijding,ZL-DDV: hinder pers op sp tr 567 / Spoorweb-id: 986890,11
+13,Ampo,Almmo,42,3. Hinder,2652,STS passage / Bijna Aanrijding,suicidaal pers,0
+19,Bgn,Rb,60,3. Hinder,-2,Spoor of wissels,BGN-RB: defect sp / Spoorweb-id: 993824THV km 26.3 meld MCN 2230 een knik in het spoor.,2
+25,Rlb,Hsbrdo,576,3. Hinder,-2,Spoor of wissels,Opgegeven treinen omgehangen naar oorzaak 8350953 en oorzaak nogmaals aangeboden.,11
+25,Ow,O,275,3. Hinder,-2,Spoor of wissels,OSS: wl sto Wl-7 A / Spoorweb-id: 996339,8
+28,Onz,Asn,120,3. Hinder,-2,Spoor of wissels,"ONZ-ASN: defect sp Sp-PF / Spoorweb-id: 997912LWB meldt: 14:08 staken EI6, baanligging is goed. mcn merken overgang nieuwe spoorstaaf - oude spoorstaaf. wordt meegenomen (slijpen) met regulier onderhoud",4
+6,Shl,Asra,4765,1. Zeer veel hinder,-2,Energievoorziening (bovenleiding),"SHL: def bvl / Spoorweb-id: 988403Bvl groep 2845 spontaan uitgevallenSp. 102, 111, RA versperd",250
+27,Kv,Ndb,174,3. Hinder,5817,Defect materieel,NDB: def mat tr 5817 / Spoorweb-id: 997314,3
+1,Zvt,Hlm,2610,1. Zeer veel hinder,15472,Aanpassing DRGL op verzoek van de vervoerder,NSR-TdK,87
+17,Dl,Omn,60,3. Hinder,-2,Beveiligingsinstallaties,Sectiestoring tgv kabels trekken. ,0
+5,Zha,Rlb,195,3. Hinder,1146,Aanpassing DRGL op verzoek van de vervoerder,hoort bij wsl stroring rtd-bd lw2355 sw dossier 988051,3
+5,Tb,Rtd,40,3. Hinder,1152,Herplanning (materieel niet of laat beschikbaar),IVM vollopen Ehv worden 1100 gekeerd op Tb. Op verzoek van Dvl Ehv,1
+8,Nh,Gln,192,3. Hinder,703958,Invloed van derden op infra,HRL-STD: smeulende biels Ovw-3.6 / Spoorweb-id: 989426Betrof overpad 4.0 volgens Trdl,2
+27,Asdl,Aeg,457,3. Hinder,-2,Spoor of wissels,AEG-ASDL: defect sp / Spoorweb-id: 997483,18
+5,Efd,Lr,189,3. Hinder,-2,Energievoorziening (bovenleiding),ZP: sectie sto Sec-2AKT / Spoorweb-id: 988031,0
+27,Shl,Asra,90,3. Hinder,1007,Meetfout / Onduidelijk systeemgedrag,Timestamp ASRA ri ASDL werkt niet,0
+20,Ohze,Hze,87,3. Hinder,6474,STS passage / Bijna Aanrijding,"mcn meldt persoon langs de baan, hc afgestapt en naar deze persoon toe",3
+10,Hmh,Hm,150,3. Hinder,4451,Defect materieel,DN: def mat tr 4460 / Spoorweb-id: 990150,5
+17,Nvp,Rvbr,1371,2. Veel hinder,-2,Spoor of wissels,defecte kraagbout ,48
+20,Apn,Apn,103,3. Hinder,-2,Conflicten/aanpassingen Dienstregeling,Onderzoek door brugonderhoud geeft aan dat er sprake is van een bedienfout van de brugwachter.,2
+26,Std,Gln,311,3. Hinder,-2,Spoor of wissels,TOBS sectie STD$213T,6
+13,Bda,Bdpb,40,3. Hinder,88854,STS passage / Bijna Aanrijding,BD-ZHA: hinder vtg op sp / Spoorweb-id: 991226Thv 7.5 - 7.4 hert langs het spoor,0
+19,Rhn,Vndc,480,3. Hinder,-2,Spoor of wissels,Storing te Rhenen,15
+2,Ledn,Vkbr,50,3. Hinder,2238,Invloed van derden op infra,persoon langs het baan,0
+12,Vl,Br,53,3. Hinder,-2,STS passage / Bijna Aanrijding,VL: ass hulpdst / Spoorweb-id: 990914,0
+27,Mmlh,Nmh,233,3. Hinder,-2,STS passage / Bijna Aanrijding,mcn 32246 meldt persoon langs de baantvk gestaakt op last van de AL,0
+2,Hil,Had,60,3. Hinder,2223,(problemen met) Reizigers,HLM-LIS: reizigers gedrag tr 2223 / Spoorweb-id: 986649,2
+27,Htnc,Htnc,60,3. Hinder,6062,(problemen met) Reizigers,lastige dame,0
+7,Utvr,Ut,95,3. Hinder,3768,STS passage / Bijna Aanrijding,UT-UTZA: hinder pers op sp / Spoorweb-id: 989193Su‹cidaal persoon tussen UTZA en Utrecht centraal. Liep vlakbij 3768,0
+27,Ed,Klp,73,3. Hinder,-2,Spoor of wissels,uitval bovenleidingspanning,0
+3,Dv,Dv,206,3. Hinder,3638,Spoor of wissels,"opnieuw tobs met rijrichting na treinbeweging, nu naar Dvovw 48.3 en 49.1 gestoord",6
+25,Hm,Hmh,325,3. Hinder,-2,Spoor of wissels,EHV-HM: sectie sto Sec-642B/CT / Spoorweb-id: 996598Hierbij ook overweg 40.3 in storing.,10
+24,Akm,Brdl,315,3. Hinder,666,STS passage / Bijna Aanrijding,AKM-HR: STS Passage geen gevaarz tr 666 / Spoorweb-id: 995955Mcn 666 belde met de melding van een STS passage. Het brugsein 744 viel af naar rood en de mcn zette een snelremming in en kwam na het sein tot stilstand.,9
+25,Almmo,Ampo,42,3. Hinder,4369,STS passage / Bijna Aanrijding,Melding van mcn 4369: vrouw met koffer in de ballast bij station Almere Poort. Machinist heeft vrouw aangesproken. European Instruction 6 met terugkoppeling. Niemand meer aangetroffen.,0
+16,Mpa,Swk,43,3. Hinder,1823,Defect materieel,MP-SWK: def mat tr 1823 / Spoorweb-id: 992519,0
+26,Zlw,Zha,133,3. Hinder,-2,Spoor of wissels,Spontane (vaste)  sectiestoring sectie 263BT & 262BT. 2e RVO nr. 71097551,4
+26,Apn,Ztwo,1638,2. Veel hinder,-2,Spoor of wissels,ZTWO-APN: sectie sto Sec-17-23 CT / Spoorweb-id: 996939,53
+24,Bmr,Vlb,576,3. Hinder,-2,Spoor of wissels,VLB-BMR: sectie sto / Spoorweb-id: 995920,0
+21,Ama,Amf,807,2. Veel hinder,11732,Defect materieel,11732 in wisselstraat 103-6b tot stilstand.En OCCR kwam ondanks advies van vakmensen met Waardeloos Prutplan. ,8
+16,Gnl,Hrn,40,3. Hinder,568,Defect materieel,ONN: def mat tr 568 / Spoorweb-id: 992651,0
+14,Zpta,Spa,100,3. Hinder,3679,Aanrijding,DV-ZP: aanr obj tr 3679 / Spoorweb-id: 992018keien op ovw 32.3,4
+3,Ht,Vga,90,3. Hinder,255,STS passage / Bijna Aanrijding,mcn 255 meldt boom (bijna) tegen bovenleiding,3
+3,Bkl,Bkla,116,3. Hinder,402,STS passage / Bijna Aanrijding,persoon langs de baan zonder hesje ,0
+27,Hgl,Odzg,300,3. Hinder,20389,Afwezigheid personeel,Geen personeel,0
+20,Gr,Bhdv,290,3. Hinder,7158,Defect materieel,Defect te Gr.,0
+14,Kfhz,Vlgr,195,3. Hinder,40119,Vertraging veroorzaakt door andere IM / Terminal,uitloop Wzh Em,
+15,Sknd,Mg,306,3. Hinder,-2,Spoor of wissels,aangepast,0
+10,Tbu,Tb,261,3. Hinder,-2,Spoor of wissels,TBU-TB: defect sp / Spoorweb-id: 990251,0
+21,Ass,Hwzb,42,3. Hinder,5457,STS passage / Bijna Aanrijding,Suicidale vrouw op HLMS. HW-HLM: hinder pers op sp / Spoorweb-id: 994750,1
+6,Tbu,Tbr,57,3. Hinder,46712,Spoor of wissels,lijmlas geeft een klap,0
+20,Rta,Rtngo,355,3. Hinder,2860,(problemen met) Reizigers,Vechtpartij in trein,10
+6,Mbga,Ampo,64,3. Hinder,4962,Defect materieel,MBGA-ALMMO: def mat tr 4962 / Spoorweb-id: 988712Deurproblemen,0
+14,Vama,Hgv,188,3. Hinder,564,STS passage / Bijna Aanrijding,Mcn meldt vrouw met blond haar in het spoor die 5 meter voor de trein uit het spoor stapt. HC gaat achter de persoon aan.,2
+16,Klp,Har,131,3. Hinder,3154,(problemen met) Reizigers,mishandeling HC door reizigers,5
+30,Srn,Std,1360,2. Veel hinder,2921,Aanrijding,SRN-STD: aanr pers tr 2921 / Spoorweb-id: 998597,31
+11,Hstom,Hstdk,135,3. Hinder,9256,Defect materieel,problemen met stroomafnemer,1
+9,Tbr,Tbu,134,3. Hinder,-2,STS passage / Bijna Aanrijding,Suicidaal persoon.,4
+18,Avat,Amf,60,3. Hinder,5822,Defect materieel,5822 op Avat moest een reset doen. 5821 gekeerd op Amf als de 5822.,2
+26,Ut,Gd,60,3. Hinder,2846,Beveiligingsinstallaties,WD: infra omg / Spoorweb-id: 996904 - EBS moest gereset worden.,2
+3,Rtngw,Rtngo,105,3. Hinder,2859,Defect materieel,geen tractie.,3
+13,Lek,Cl,300,3. Hinder,-2,Spoor of wissels,onregelmatigheid aan de baan,10
+12,Rvbr,Ssh,2614,1. Zeer veel hinder,-2,Spoor of wissels,HFD-LEDN: defect sp / Spoorweb-id: 990944,87
+14,Dv,Dv,474,3. Hinder,301681,Aanrijding,MCH 1681 heeft een persoon aangereden thv 9.0 op het AD spoor. Trein is tot stilstand gekomen thv 9.6 ,13
+1,Zlw,Zvb,75,3. Hinder,2228,Spoor of wissels,ZLW: defect sp / Spoorweb-id: 9863652 knikken gemeld door 2228. Thv 14.8 op het emplacement bij wissel 337B van 901 naar ZA (rvo 71086366) en net buiten het emplacement 1.0 op ZA spoor (rvo 71086367)Na quickscan storing thv 14.8 een SB80 ivm hoogte-afwijking. Ze willen graag buiten dienst voor herstel voor een uur. ,2
+4,Hil,Had,63,3. Hinder,2226,Storing overwegen,"Er stond een auto op de ovw 27.5, hiervoor alarmeerde de 2226. In eerste instantie niet duidelijk wat er precies an de hand was. HLM-LIS: ovw sto Ovw-27.5 / Spoorweb-id: 987539",0
+5,Wt,Ht,120,3. Hinder,852,Conflicten/aanpassingen Dienstregeling,"Ivm postuitval Ut, loop nu Ehv vol, op verzoek dvl Ehv treinen keren te Wt, daar weinig spoorcapaciteit",4
+18,Asd,Rtd,60,3. Hinder,1022,Werkproces Treindienstleider,"niet verklaarbaar, storing monitoring",1
+5,Rd,Eem,65,3. Hinder,37651,Spoor of wissels,sein storing,0
+11,Dtcp,Dt,57,3. Hinder,1146,Defect materieel,deursluiting,0
+21,Hgl,Odzg,150,3. Hinder,20389,Aanpassing DRGL op verzoek van de vervoerder,,0
+24,Odzg,Hgl,240,3. Hinder,20386,Aanpassing DRGL op verzoek van de vervoerder,,0
+25,Tl,Ut,60,3. Hinder,6774,Aanpassing DRGL op verzoek van de vervoerder,,2
+7,Amfs,Amf,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+27,Nm,Ah,60,3. Hinder,3142,Aanpassing DRGL op verzoek van de vervoerder,,2
+18,Beto,Lpe,47,3. Hinder,-1,Defect materieel,,0
+7,Whz,Kfhn,45,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+8,Hlm,Zvt,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+3,Bet,Beto,123,3. Hinder,-2,Ongeplande buitendienststelling,,4
+30,Rm,Mt,60,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+6,Dv,Zl,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+28,Vl,Vlgr,60,3. Hinder,20081,Afwezigheid personeel,,0
+30,Mvtw,Mvtnwa,45,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+24,Zp,Ww,60,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+30,Mt,Mtr,60,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+24,Amfs,Amf,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+12,Odzg,Hgl,60,3. Hinder,20366,Aanpassing DRGL op verzoek van de vervoerder,,0
+22,Vl,Vlgr,108,3. Hinder,-1,Gereedmaken trein/ geen wagenlijst,,0
+20,Ut,Utg,54,3. Hinder,7420,Defect materieel,,1
+27,Vl,Vl,60,3. Hinder,-1,Gereedmaken trein/ geen wagenlijst,,0
+28,Ztmo,Ztm,84,3. Hinder,6954,Defect materieel,,2
+5,Ddr,Rtd,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+27,Alm,Almo,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+11,Std,Hrl,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+19,Asd,Sgbr,148,3. Hinder,89981,Energievoorziening (bovenleiding),,1
+10,Amfs,Amf,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+27,Mrb,Hdb,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,0
+29,Asdz,Alm,60,3. Hinder,2476,Aanpassing DRGL op verzoek van de vervoerder,,4
+7,Odz,Hgl,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,0
+8,Hrl,Std,150,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+19,Rsdg,Rsd,80,3. Hinder,-1,Defect materieel,,2
+1,Mt,Hrl,90,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+22,Zvg,Rsdg,150,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+5,Amf,Hvs,150,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+28,Swk,Rtd,60,3. Hinder,646,Aanpassing DRGL op verzoek van de vervoerder,,2
+10,Wm,Utg,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+25,Vk,Mt,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,0
+26,Mt,Hrl,150,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+3,Hrl,Std,60,3. Hinder,3934,"Overschrijden vertrektijd, rijweg ingesteld",,2
+7,Vl,Vl,55,3. Hinder,-1,Gereedmaken trein/ geen wagenlijst,,0
+11,Utg,Asd,60,3. Hinder,7469,Aanpassing DRGL op verzoek van de vervoerder,,2
+25,Odzg,Hgl,60,3. Hinder,20380,Defect materieel,,0
+5,Asd,Asd,227,3. Hinder,9167,Werkproces rijdend personeel,,15
+11,Asdzo,Skbr,40,3. Hinder,-1,Vertraging trein-trein,,0
+5,Asd,Mt,60,3. Hinder,2981,Aanpassing DRGL op verzoek van de vervoerder,,2
+28,Hrl,Hang,60,3. Hinder,-1,Defect materieel,,0
+20,Ah,Shl,60,3. Hinder,3150,Aanpassing DRGL op verzoek van de vervoerder,,2
+19,Gv,Gvc,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+5,Ehv,Wt,90,3. Hinder,6451,Aanpassing DRGL op verzoek van de vervoerder,,1
+26,Ah,Nm,90,3. Hinder,6667,Aanpassing DRGL op verzoek van de vervoerder,,3
+18,Ehv,Btl,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+28,Wspl,Wd,120,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+11,Vlgr,Vl,60,3. Hinder,20090,Afwezigheid personeel,,0
+12,Dz,Apg,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,0
+23,Gz,Tbr,67,3. Hinder,6479,Defect materieel,,2
+29,Gn,Vdm,60,3. Hinder,-1,Defect materieel,,0
+24,Wad,Wad,57,3. Hinder,8758,Defect materieel,,0
+12,Wc,Nm,60,3. Hinder,7641,Defect materieel,,2
+11,Rv,Rm,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,0
+5,Hfd,Hfd,1024,2. Veel hinder,75728,Spoor of wissels,,17
+21,Lg,ONB,47,3. Hinder,-1,Defect materieel,,0
+24,Vl,Vlgr,60,3. Hinder,20093,Import vertraging buitenland,,0
+9,Asd,Amf,90,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,3
+5,Hfd,Hfdm,120,3. Hinder,1018,Defect materieel,,5
+13,Hrl,Hang,90,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+27,Hwd,Hn,60,3. Hinder,4875,Aanpassing DRGL op verzoek van de vervoerder,,2
+26,Ehv,Ehv,43,3. Hinder,6462,Defect materieel,,1
+4,Brgro,Brmet,43,3. Hinder,40233,Spoor of wissels,,0
+4,Btl,Brdv,45,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+17,Es,Zl,60,3. Hinder,7924,Defect materieel,,0
+17,Hgl,Es,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,0
+17,Hgl,Odzg,90,3. Hinder,20367,Afwezigheid personeel,,0
+25,Vl,Vlgr,180,3. Hinder,20083,Aanpassing DRGL op verzoek van de vervoerder,,0
+16,Bsk,Bsk,65,3. Hinder,8651,Defect materieel,,2
+25,Mt,Hrl,60,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+20,Asn,Gn,60,3. Hinder,6215,Aanpassing DRGL op verzoek van de vervoerder,,2
+20,Eghm,Han,42,3. Hinder,-1,Defect materieel,,0
+24,Wc,Nm,60,3. Hinder,7659,Aanpassing DRGL op verzoek van de vervoerder,,2
+24,Vlgr,Vl,90,3. Hinder,20094,Aanpassing DRGL op verzoek van de vervoerder,,0
+23,Asd,Utg,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+6,Wm,Utg,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+24,Hlm,Zvt,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+8,Vlgr,Vl,337,3. Hinder,-1,Defect materieel,,0
+20,Zvt,Hlm,2610,1. Zeer veel hinder,25476,Aanpassing DRGL op verzoek van de vervoerder,,87
+11,Vl,Vlgr,60,3. Hinder,20089,Afwezigheid personeel,,0
+27,Rtd,Ddr,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+26,Vlk,Krg,90,3. Hinder,-1,Defect materieel,,2
+10,Shl,Asdz,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,4
+24,Vl,Vlgr,60,3. Hinder,20071,Vertraging veroorzaakt door andere IM / Terminal,,0
+19,Rsdg,Rsd,60,3. Hinder,2557,Aanpassing DRGL op verzoek van de vervoerder,,2
+24,Hlm,Zvt,120,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,4
+5,Bot,Ps,45,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+17,Std,Hrl,60,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+25,Hn,Hnk,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,4
+10,Lg,ONB,95,3. Hinder,-1,Defect materieel,,0
+14,Nm,Wc,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+5,Kfhz,Sloe,120,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+6,Dvd,Dvaw,1920,2. Veel hinder,307457,Aanrijding,DVD-ASDM: aanr pers tr 7448 / Spoorweb-id: 988607,61
+15,Zlsh,Kpn,120,3. Hinder,-2,Invloed van derden op infra,ZL-KPN: hinder zwaan op sp tr 8527 / Spoorweb-id: 992186,0
+17,Aml,Amri,140,3. Hinder,41713,STS passage / Bijna Aanrijding,persoon op de overweg. KLPD heeft de persoon meegenomen.,2
+10,Kfhn,Kfhz,69,3. Hinder,-2,Energievoorziening (bovenleiding),KFH_270-289: stroom sto / Spoorweb-id: 989976,0
+22,Hd,Eml,106,3. Hinder,-2,Aanrijding,HD-PT: aanr obj tr 5674 / Spoorweb-id: 995130,0
+19,Hvs,Brn,113,3. Hinder,1661,Spoor of wissels,BRN: sectie sto Ovw-36.4 / Spoorweb-id: 993939,2
+24,Ztwo,Ztww,101,3. Hinder,8960,Spoor of wissels,sectie storing en overweg 26.8 in de storing ,3
+11,Htnc,Lek,253,3. Hinder,6785,Defect materieel,Probleem software.,11
+25,Dvaw,Rai,42,3. Hinder,4371,STS passage / Bijna Aanrijding,Suicidaal meisje,0
+25,Zl,Ddv,105,3. Hinder,523,Defect materieel,ZL: def mat tr 523 / Spoorweb-id: 996218,3
+16,Hlm,Asd,60,3. Hinder,5474,(problemen met) Reizigers,lastige reiziger,2
+13,Ut,Ut,85,3. Hinder,3177,STS passage / Bijna Aanrijding,UT-UTZA: hinder pers op sp / Spoorweb-id: 991582,0
+30,Asdm,Asdmw,623,3. Hinder,-2,Aanrijding,ASDM: aanr of aanv brug / Spoorweb-id: 998817,22
+26,Rsd,Bd,150,3. Hinder,3658,Ongeplande buitendienststelling,RSD: sectie sto Sec-85BT / Spoorweb-id: 996906,5
+13,Hgl,Odzg,60,3. Hinder,20399,Aanpassing DRGL op verzoek van de vervoerder,dagelijkse ritten komen te vervallen,0
+4,Rtst,Rlb,236,3. Hinder,-2,Spoor of wissels,scheur in het spoor km 209.1Op verzoek MKS E.I 5 max 40km per ur ,0
+9,Hsghtn,Hsghtz,181,3. Hinder,9916,Defect materieel,zie terugkoppeling RB : mat storing,2
+1,Rai,Dvaw,250,3. Hinder,-2,STS passage / Bijna Aanrijding,sucidaal persoon,1
+25,Dv,Dv,61,3. Hinder,3693,Conflicten/aanpassingen Dienstregeling,uitvoeren tad 1685,0
+19,Hsbrdo,Rlb,1347,2. Veel hinder,-2,Gebouwen/kunstwerken,overkapping brd in storing en itmc krijgt verhinderingen er niet af,31
+11,Zl,Hno,387,3. Hinder,7959,Spoor of wissels,ATB storing t.h.v. km 1.5 van 80 naar 40,0
+6,Nm,Wc,60,3. Hinder,7622,Defect materieel,7623,2
+23,Gdg,Odw,102,3. Hinder,6929,STS passage / Bijna Aanrijding,"vermoedelijk aanrijding object, object bleek een vogel ",0
+24,Akm,Brdl,475,3. Hinder,646,STS passage / Bijna Aanrijding,AKM-HR: def mat tr 646 / Spoorweb-id: 995826,21
+24,Dn,Hrt,196,3. Hinder,-2,Spoor of wissels,DN-HRT: sectie sto Sec-554D-74AT / Spoorweb-id: 995968,0
+25,Zvg,Zvo,399,3. Hinder,20008,Vertraging veroorzaakt door andere IM / Terminal,Spoor FZ versperd bij DB INFRAGO,0
+16,Etn,Bda,101,3. Hinder,806666,STS passage / Bijna Aanrijding,Bijna aanrijding hond,2
+19,Alm,Almm,57,3. Hinder,4621,STS passage / Bijna Aanrijding,suicidale vrouw wit shirt trainingsbroek,0
+6,Tb,Tbu,209,3. Hinder,-2,Spoor of wissels,TB: sectie sto Sec-109BT / Spoorweb-id: 988373,7
+26,Asd,Sgbr,480,3. Hinder,80283,Meetfout / Onduidelijk systeemgedrag,Monitoring heeft bij de DVL in de late dienst niet gefunctioneerd. Treinen die niet meer verklaard kunnen worden aan dit dossier gekoppeld. Marvall nr: 2112521,36
+24,Gs,Lwd,78,3. Hinder,-2,Spoor of wissels,GS-LWD: defect sp Sp-RQ en VF / Spoorweb-id: 995892Dubbelspoorige spoorverzakking gemeld 2265 en 61402265 meldde in eerste instantie mogelijk spoorstaafbreuk. trein op neven spoor laten schouwen 6140. die melde geen breuk te zien maar wel een verzakking en melde toen ook deze in zijn eigen spoor te voelen.na quickscan:verzakking is bekend bij de aannemer en staat al ingepland voor onderhoud maar valt binnen norm.,2
+13,Hil,Lis,71,3. Hinder,2312,STS passage / Bijna Aanrijding,"spoorloper, 2312 heeft persoon aangesproken en liep toen weg. HLM-LIS: ass hulpdst / Spoorweb-id: 991163",2
+23,Ohze,Hze,180,3. Hinder,-2,STS passage / Bijna Aanrijding,EHV-OHZE: ass hulpdst / Spoorweb-id: 995416Melding van MKS alarm: Suicidaal persoon bij km 7.2 tussen OHZE-EHV. Signalement onbekend.,6
+25,Whzan,Whzaz,155,3. Hinder,40050,Conflicten/aanpassingen Dienstregeling,WBI Pernis enkelspoor hoofdbaan,0
+17,Ns,Hd,40,3. Hinder,-2,STS passage / Bijna Aanrijding,persoon bij het spoor,0
+20,Bda,Bdpb,66,3. Hinder,1185,Storing overwegen,Ovw 3.4 3.8 en 13.8 in storing,0
+25,Rta,Rta,50,3. Hinder,4082,Defect materieel,reset,0
+26,Hstom,Hsbrdo,65,3. Hinder,-2,STS passage / Bijna Aanrijding,zwaan in het spoor 214.6,0
+20,Vndc,Vndc,60,3. Hinder,7332,Defect materieel,oorspronkelijk mat staat defect in  nu uit Vndc gestart ,2
+29,Ass,Hw,85,3. Hinder,5481,Defect materieel,technische storing,2
+6,Vlgr,Vl,224,3. Hinder,42765,Conflicten/aanpassingen Dienstregeling,drukte db,0
+17,Asd,Asd,56,3. Hinder,303060,Werkproces rijdend personeel,machinist melde dat HC een extra HC wou hebben.,0
+15,Asdmw,Asdm,45,3. Hinder,-2,Ongeplande buitendienststelling,BUTA tbv herstellen ATB,2
+4,Vl,Vl,60,3. Hinder,41759,Vertraging veroorzaakt door andere IM / Terminal,viersen vol,0
+7,Vga,Vg,69,3. Hinder,-2,STS passage / Bijna Aanrijding,verkeersborden in spoor. EI6,0
+24,Gvc,Gv,56,3. Hinder,-2,Energievoorziening (bovenleiding),Bovenleiding eenmalig kortstondig spanningsloos.,0
+25,Ow,Hto,57,3. Hinder,303679,STS passage / Bijna Aanrijding,"3678 allarmeert voor persoon midden op het spoor. Korte broek, wit shirt en mogelijk bebloed hoofd",2
+23,Ddr,Zlw,180,3. Hinder,6459,Spoor of wissels,WI 1111 niet in controle,6
+20,Ldl,Ut,270,3. Hinder,8843,Aanrijding,LEDN-ZTWW: aanr pers tr 8843 / Spoorweb-id: 994271,10
+23,Gz,Bd,397,3. Hinder,-2,Spoor of wissels,mcn 1150 meldde een slechte spoorligging thv km 6.4 en km 5.0 DI spoor. Na Quickscan een European Instruction 5 van 120 km/u,10
+7,Vl,Vlgr,927,2. Veel hinder,49701,Vertraging veroorzaakt door andere IM / Terminal,DRUKTE DUITSLAND,0
+9,Asd,Ods,40,3. Hinder,251,(problemen met) Reizigers,Trein 421 werd opgeheven en in overleg moest trein 251 de reizigers van trein 421 meenemen. Geen sprake van defect materieel maar overnemen reizigers.,0
+5,Zha,Nvbro,136,3. Hinder,914,Defect materieel,ZHA: def mat tr 914 / Spoorweb-id: 987979,5
+13,Hnk,Hn,150,3. Hinder,3353,Spoor of wissels,HN: defect sp Sp-EA / Spoorweb-id: 991301,7
+3,Shl,Hfd,1890,2. Veel hinder,1010,Spoor of wissels,sectiestoring HFD$2208t,75
+12,Ut,Ut,56,3. Hinder,1405,STS passage / Bijna Aanrijding,persoon op spoor,0
+9,Kfhn,Kfhan,180,3. Hinder,-2,Spoor of wissels,"KFH: wl sto Wl-2373 - Puntstuk gescheurd, wissel mag niet bereden worden / Spoorweb-id: 989569",0
+18,Hsrtdt,Rhsla,117,3. Hinder,911,Defect materieel,Defecte na RBC verlies,4
+28,Zvb,Mabr,540,3. Hinder,-2,Gebouwen/kunstwerken,ZVB-ODB: aanr of aanv brug Kw-Spoordragend Kunstwerk / Spoorweb-id: 997878Binnenvaartschip de Merwerde heeft een aanvaring gehad met de Markbrug. (Middenpeiler aan de ZVB se kant). Wel een flinke tik geweest. Volgens de schipper geen schade aan burg/schip.,18
+6,Vlgr,Rsdg,60,3. Hinder,47026,Vertraging veroorzaakt door andere IM / Terminal,VL-VLGR: hind buurland Duitsland / Spoorweb-id: 988423,0
+6,Almo,Lls,68,3. Hinder,1855,Werkproces rijdend personeel,"trein 404353 was niet afgerangeerd door mcn naar kopspoor, hierdoor geen vrij spoor meer voor tr 1855",2
+1,Rvbr,Ssh,82,3. Hinder,-2,Spoor of wissels,HFD-LEDN: sectie sto Sec-981 / Spoorweb-id: 986329,0
+7,Rtd,Ehv,90,3. Hinder,1141,Aanrijding,Aanrijding met stopbord,3
+7,Almmo,Almm,60,3. Hinder,4385,(problemen met) Reizigers,lastige reiziger,3
+25,Gnl,Hrn,200,3. Hinder,556,Defect materieel,GNL-ONN: def mat tr 556 / Spoorweb-id: 996467Trein staat gestrand spoor 1 Haren. Problemen met stroomomvormer.,6
+21,Bkla,Mas,40,3. Hinder,7423,Defect materieel,deur probleem,0
+15,Bobr,Gw,70,3. Hinder,1851,Beveiligingsinstallaties,Brugseinen 755 en 758 blijven rood.,1
+9,Lek,Cl,102,3. Hinder,3751,Spoor of wissels,knik in het spoor.,3
+23,Cl,Gdm,150,3. Hinder,-2,STS passage / Bijna Aanrijding,LEK-GDM: hinder pers op sp tr 2982 / Spoorweb-id: 995596,0
+26,Hgv,Kg,360,3. Hinder,-2,Storing overwegen,"Meerdere ovw tussen HGV en Meppel, beginnend met ovw 15.5",7
+29,Rtd,Gvc,45,3. Hinder,1136,Defect materieel,defect,1
+5,Htn,Ht,1183,2. Veel hinder,2977,Aanrijding,aanrijding perswoon,52
+13,Ledn,Vkbr,610,3. Hinder,-2,Energievoorziening (bovenleiding),LEDN: def bvl / Spoorweb-id: 991186Groepen 7111 7125 7119 7126 7131 7137 7144 spanningloos,16
+20,Amr,Hlo,589,3. Hinder,-2,Spoor of wissels,Wissel 81 uit de controle,19
+23,Hlm,Zvt,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+20,Wm,Utg,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+16,Ah,Ww,60,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+4,Wld,Ddzd,797,2. Veel hinder,-1,Defect materieel,,19
+1,Odzg,Hgl,300,3. Hinder,20386,Aanpassing DRGL op verzoek van de vervoerder,,0
+8,Vl,Vl,90,3. Hinder,-1,Gereedmaken trein/ geen wagenlijst,,0
+29,Rm,Mtr,120,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+20,Vlgr,Vl,326,3. Hinder,-1,Defect materieel,,0
+25,Vk,Mt,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,0
+1,Hrl,Hang,60,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+21,Lw,Hdg,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,0
+11,Hrl,Hang,180,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+4,Amf,Amfs,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+27,Eem,Rd,60,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+2,Asd,Ledn,75,3. Hinder,1417,Aanpassing DRGL op verzoek van de vervoerder,,1
+25,Rtn,Utg,90,3. Hinder,4064,Defect materieel,,4
+17,Utg,Wm,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+12,Alm,Asd,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+12,Whzan,Whzaz,45,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+10,Vk,Mt,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,0
+13,Vl,Vl,40,3. Hinder,-1,Aansluiting,,0
+20,Whzan,Whzaz,90,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+26,Std,Hrl,60,3. Hinder,3923,Aanpassing DRGL op verzoek van de vervoerder,,2
+14,Tbu,Tb,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+14,Vl,Vl,60,3. Hinder,-1,Gereedmaken trein/ geen wagenlijst,,0
+17,Aml,Hdb,60,3. Hinder,-1,Defect materieel,,0
+15,Ledn,Gvc,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+22,Ps,Bot,60,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+11,Rhn,Vndc,60,3. Hinder,7324,Defect materieel,,2
+7,Vlgr,Vl,60,3. Hinder,20076,Aanpassing DRGL op verzoek van de vervoerder,,0
+12,Vlgr,Vl,60,3. Hinder,20086,Aanpassing DRGL op verzoek van de vervoerder,,0
+11,Std,Hrl,120,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+25,Hdb,Mrb,60,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+12,Brn,Amf,120,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+4,Tbg,Ww,60,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+25,Hrl,Mt,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,0
+13,Hm,Dn,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+23,Brvalw,Brvalo,165,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+13,Vl,Br,311,3. Hinder,-1,Defect materieel,,2
+7,Tg,Vl,185,3. Hinder,-1,Incident gevaarlijke stoffen,,0
+5,Gnvon,Gn,60,3. Hinder,-1,Defect materieel,,0
+14,Lw,Sk,90,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+24,Vl,Vl,43,3. Hinder,-1,Gereedmaken trein/ geen wagenlijst,,0
+5,Odzg,Hgl,180,3. Hinder,20370,Aanpassing DRGL op verzoek van de vervoerder,,0
+5,Vl,Vlgr,60,3. Hinder,20097,Import vertraging buitenland,,0
+29,Gvc,Ledn,60,3. Hinder,4689,Aanpassing DRGL op verzoek van de vervoerder,,2
+27,Vk,Mt,60,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+22,Vlgr,Vl,60,3. Hinder,20070,Aanpassing DRGL op verzoek van de vervoerder,,0
+8,Mt,Hrl,90,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+17,Ps,Rscwa,60,3. Hinder,-1,Defect materieel,,0
+13,Hlm,Zvt,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+20,Zp,Apd,60,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+7,Rsdg,Rsd,60,3. Hinder,2563,Defect materieel,,2
+20,Stm,Bdm,57,3. Hinder,62312,Beveiligingsinstallaties,,0
+26,Rtd,Ddr,90,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,3
+6,Gwb,Bdg,141,3. Hinder,8881,Defect materieel,,4
+26,Wc,Nm,60,3. Hinder,7667,Aanpassing DRGL op verzoek van de vervoerder,,2
+27,Asd,Hvs,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+24,Sgbr,Asd,51,3. Hinder,1067,"Overschrijden vertrektijd, rijweg ingesteld",,0
+7,Ddr,Gr,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,0
+11,Vlgr,Mvt,60,3. Hinder,-1,Werkproces rijdend personeel,,0
+16,Asdzo,Asdz,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+13,Hlm,Asd,150,3. Hinder,2120,Aanpassing DRGL op verzoek van de vervoerder,,9
+6,Bp,Gn,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,0
+19,Hang,Hrl,120,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+21,Odzg,Hgl,210,3. Hinder,20386,Afwezigheid personeel,,0
+23,Hsvbw,Hsrtdt,60,3. Hinder,9224,Defect materieel,,0
+21,Hlm,Asd,60,3. Hinder,5442,Defect materieel,,3
+21,Ut,Tl,60,3. Hinder,6749,Aanpassing DRGL op verzoek van de vervoerder,,2
+2,Zp,Apd,60,3. Hinder,-1,Afwezigheid personeel,,0
+27,Zvt,Hlm,1530,2. Veel hinder,25476,Aanpassing DRGL op verzoek van de vervoerder,,51
+4,Vk,Mt,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,0
+3,Gs,Vs,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+8,Hrl,Std,60,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+25,Rtd,Ddr,60,3. Hinder,5063,Defect materieel,,2
+23,Kfhn,Kfhan,67,3. Hinder,-1,Incident gevaarlijke stoffen,,0
+28,Swk,Swk,60,3. Hinder,301839,Werkproces rijdend personeel,,2
+25,Hgl,Odzg,60,3. Hinder,20367,Aanpassing DRGL op verzoek van de vervoerder,,0
+22,At,At,47,3. Hinder,-1,Defect materieel,,0
+19,Bkh,Gvc,120,3. Hinder,83138,Aanpassing DRGL op verzoek van de vervoerder,,8
+19,Kfhn,Ps,195,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+9,Vlgr,Vl,150,3. Hinder,20088,Vertraging veroorzaakt door andere IM / Terminal,,0
+27,Avat,Amf,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+27,Lc,Go,60,3. Hinder,-1,Defect materieel,,0
+29,Gdm,Tl,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+7,Bsk,Wadn,199,3. Hinder,8641,Spoor of wissels,,7
+21,Ut,Db,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+6,Vlgr,Vl,60,3. Hinder,20088,Aanpassing DRGL op verzoek van de vervoerder,,0
+26,Hdg,Lw,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,0
+26,Gd,Apn,60,3. Hinder,8672,Aanpassing DRGL op verzoek van de vervoerder,,2
+4,Gvc,Bkh,150,3. Hinder,83743,Aanpassing DRGL op verzoek van de vervoerder,,6
+13,Kg,Hgv,66,3. Hinder,8147,(problemen met) Reizigers,onwel geworden persoon,2
+3,Ltn,Bnc,720,2. Veel hinder,-2,Spoor of wissels,achter gebleven rijrichting,0
+19,Bd,Rsd,60,3. Hinder,703653,Aanpassing DRGL op verzoek van de vervoerder,Geen materieel voor 703658 dus nog eenmalig gekeerd op Bd,2
+27,Obd,Hna,120,3. Hinder,-2,Aanrijding,HN-OBD: aanr pers tr 4871 / Spoorweb-id: 997702,3
+5,Dv,Apdo,41,3. Hinder,1664,STS passage / Bijna Aanrijding,Mks verzocht EI 6,0
+25,Nvp,Rvbr,276,3. Hinder,1820,(problemen met) Reizigers,HFD-LEDN: hinder onwel reiz tr 1820 / Spoorweb-id: 996209,7
+17,Ah,Tl,150,3. Hinder,84142,Spoor of wissels,TL: rijri sto / Spoorweb-id: 992787,0
+21,Apn,Ztwo,370,3. Hinder,8874,Spoor of wissels,LL GEEN CONTROLE,17
+24,Brvalo,Brdvno,53,3. Hinder,48717,Vertraging veroorzaakt door andere IM / Terminal,Emmerich vol,0
+27,Amf,Ama,182,3. Hinder,11749,Beveiligingsinstallaties,seinstoring,5
+21,Hstdk,Hszha,99,3. Hinder,-2,Vertraging veroorzaakt door andere IM / Terminal,Spoorloper in Belgie is andere inframanager.,0
+21,Hstom,Hstdk,180,3. Hinder,9212,Defect materieel,"onderzoek wees uit : mat probleem, zie opm RB",3
+28,Han,Hang,120,3. Hinder,46665,Vertraging veroorzaakt door andere IM / Terminal,"HRL-LG: hinder log probleem tr 46665 / Spoorweb-id: 998031Wegens bosbrand in Belgi‰ kan Duitsland de 46665 niet aannemen, deze was al onderweg van Std-Hrl en de beste optie was tussen Hrl-Lg op de vrije baan aan de kant.",0
+11,Hstdk,Hstom,101,3. Hinder,1176,Defect materieel,BD-RTD: def mat tr 1176 / Spoorweb-id: 990683,0
+19,Hil,Lis,437,3. Hinder,6365,Defect materieel,HLM-LIS: def mat tr 6365 / Spoorweb-id: 993915,12
+3,Es,Esk,557,3. Hinder,-2,Spoor of wissels,ES: sectie sto Sec-1015T en 1031T / Spoorweb-id: 987057,9
+24,Amr,Hlo,529,3. Hinder,-2,Spoor of wissels,AMR: wl sto Wl-77 B/81 A &b / Spoorweb-id: 995916,17
+12,Obpa,Ass,184,3. Hinder,2272,(problemen met) Reizigers,Lastige reiziger verwijderd,4
+16,Wp,Gpda,43,3. Hinder,4336,STS passage / Bijna Aanrijding,"grote vechtpartij op weesp, hulpdiensten aanrijdend.",0
+21,Bda,Bdpb,64,3. Hinder,-2,STS passage / Bijna Aanrijding,"suicidaal persoon, man in bosjes en hulpverleners aanwezig",0
+21,Lwc,Hdg,283,3. Hinder,-2,Energievoorziening (bovenleiding),LW-HDG: sys sto commu / Spoorweb-id: 994728,0
+25,Zd,Zd,60,3. Hinder,304042,Meetfout / Onduidelijk systeemgedrag,Treinen door systeem ingelegd maar niet gereden tijdens incident. Spoorweb ID 996385 DD 25-06-2024.,2
+17,Hszha,Hsbda,66,3. Hinder,9328,STS passage / Bijna Aanrijding,Hertje langs de baan. European Instruction 6,0
+28,Std,Luta,40,3. Hinder,32433,STS passage / Bijna Aanrijding,"Machinist krijgt van een collega doorgebeld dat er mogelijk een hond thv 19.7 op het schouwpad ligt. Na 2 keer schouwn blijkt er inderdaad een hond te liggen, mks gevraagd of hond weggehaald kan worden, vanaf 11:03 rijden we ook met x.95 ivm hulpverleners. 2940 heeft verzoek van treindienstleider om dit niet te doen genegeerd en is gestopt om hond uit het spoor te halen. Om 11:37 is er gestaakt met de EI6",0
+26,Shl,Hfd,312,3. Hinder,-2,Invloed van derden op infra,SHL: brand/rook tunnel tr 2475 / Spoorweb-id: 997166,0
+29,Rtd,Gvc,60,3. Hinder,5138,(problemen met) Reizigers,personeel aangevallen,2
+17,Bnva,Ama,107,3. Hinder,-2,STS passage / Bijna Aanrijding,MKS meldt suicidaal persoon tussen BNVA-AMA km 54.5 en 54.1,0
+20,Gvc,Ut,120,3. Hinder,2063,Herplanning (materieel niet of laat beschikbaar),Treinen niet gereden na opstart mogelijk moment.,4
+23,Hshfdo,Hshmdo,1252,2. Veel hinder,9224,Defect materieel,problemen pantograaf/snelschakelaar,38
+17,Rsa,Nml,219,3. Hinder,6625,Defect materieel,"Defect mat op Nijmegen Lent, mcn moet een shutdown uitvoeren",5
+10,Wt,Hln,171,3. Hinder,859,Defect materieel,859 tussen Wt en Hln ATB + meer technische problemen72.4 in storing. ,4
+16,Mes,Sgl,56,3. Hinder,32061,STS passage / Bijna Aanrijding,"in eerste instantie alarmoproep van mcn 32061 (bijna aanrijding persoon nabij ovw 29,9)vervolgens melding MKS, suic persoon op last van politie rijden met EI6 tussen 30,8 en 28,0",0
+2,Rb,Bgn,229,3. Hinder,-2,Spoor of wissels,BGN-RB: sectie sto Sec-840B-66B3T / Spoorweb-id: 986857,0
+4,Rtst,Rlb,667,3. Hinder,-2,ICT/Telecommunicatie,opnieuw aangeboden aan AM dd 11-06-2024.,9
+18,Mes,Sgl,46,3. Hinder,18953,STS passage / Bijna Aanrijding,Koe langs het spoor en hulpverleners,0
+17,Za,Vrk,65,3. Hinder,-2,Beveiligingsinstallaties,736 toont onterecht rood ,0
+6,Ddv,Mp,480,3. Hinder,-2,Spoor of wissels,81062643 / 71088497 . Spoorweb dossier 988496. Door gronngen al afgesloten.,15
+6,Tb,Tba,951,2. Veel hinder,-2,Spoor of wissels,TB: sectie sto Sec-150AT / Spoorweb-id: 988523,25
+25,Vl,Vlgr,120,3. Hinder,20091,Import vertraging buitenland,Komt niet uit Duitsland. Oorzaak: meerdere storingen op Duits grondgebied,0
+28,Rtd,Gvc,120,3. Hinder,5156,Spoor of wissels,TOBS in wisselsectie Empl Rtd,4
+27,Aml,Apd,120,3. Hinder,7082,Herplanning (materieel niet of laat beschikbaar),Geen mat,4
+25,Dn,Hrt,77,3. Hinder,-2,Spoor of wissels,HRT-DN: sectie sto Sec-55D-74AT / Spoorweb-id: 996493,2
+2,Ddr,Rsd,60,3. Hinder,5195,Werkproces Treindienstleider,geen planregels op gebied zwaluwe,2
+23,Gv,Vs,300,3. Hinder,2262,STS passage / Bijna Aanrijding,DTA: sectie sto tr 2265 / Spoorweb-id: 995464,10
+5,Rsn,Wdn,556,3. Hinder,1763,Spoor of wissels,sectiestoring plus rijrichtingstoring en meerdere overwegen gestoord,16
+10,Asd,Asd,159,3. Hinder,9240,STS passage / Bijna Aanrijding,op last van politie ivm suicidaal persoon ,2
+10,Ps,Bott,121,3. Hinder,41753,Gebouwen/kunstwerken,PS-BOT: tunnel sto Tnl-Botlektunnel / Spoorweb-id: 989994,0
+16,Hdg,Fwd,67,3. Hinder,-2,Spoor of wissels,FWD: sectie sto Sec-310H-KT / Spoorweb-id: 992594Sectiestoring na passage trein verdwenen. ,0
+26,Gd,Hgwbr,676,3. Hinder,-2,STS passage / Bijna Aanrijding,su‹cidaaltje,16
+25,Rb,Bgn,1549,2. Veel hinder,6147,Spoor of wissels,RB-BGN: defect sp Sp-RO / Spoorweb-id: 996292,50
+18,Hlm,Hlmkr,62,3. Hinder,-2,STS passage / Bijna Aanrijding,HLM: ass hulpdst / Spoorweb-id: 993517,1
+20,Dtc,Gdr,150,3. Hinder,-2,Onregelmatigheden in de uitvoering van BTD,DTC-TBG: uitloop wzh / Spoorweb-id: 994135,0
+16,Vsv,Tbg,66,3. Hinder,30958,STS passage / Bijna Aanrijding,VSV: bijna aanr tr 30958 / Spoorweb-id: 992645.MCN meldt persoon in het spoor en kan niet vertrekken omdat persoon niet voor reden vatbaar is. Hulptroepen onderweg.,0
+20,Bdpb,Bda,44,3. Hinder,-2,Storing overwegen,Treinopvolging,0
+17,Dv,Dvge,987,2. Veel hinder,1677,Spoor of wissels,Wissel 123 in een rijweg uit de controle/ in storing,31
+20,Dtc,Gdr,81,3. Hinder,-2,Invloed van derden op infra,explsieven te doetinchem,0
+10,Asdl,Asra,66,3. Hinder,-2,STS passage / Bijna Aanrijding,ASDL-ASRA: ass hulpdst / Spoorweb-id: 990218,0
+26,Asdm,Asdma,230,3. Hinder,-2,Spoor of wissels,Sectiestoring waardoor we met alle treinen over spoor 203 rijden,0
+22,Hlm,Zvt,60,3. Hinder,15467,Conflicten/aanpassingen Dienstregeling,vertraging eruit halen,2
+20,Wadn,Bsks,150,3. Hinder,8620,Energievoorziening (bovenleiding),def bvl en trein die niet meer op gang kwam,7
+9,Kfhan,Kfhn,252,3. Hinder,43351,Spoor of wissels,KFH: wl sto Wl-2397 A / Spoorweb-id: 989759,0
+17,Btl,Lpe,60,3. Hinder,6436,(problemen met) Reizigers,BTL: hinder onwel reiz tr 6436 / Spoorweb-id: 992889,4
+12,Wc,Mbrvo,57,3. Hinder,-2,STS passage / Bijna Aanrijding,Persoon langs baan gemeld door MKS,0
+19,Ngsfa,Dt,85,3. Hinder,3254,(problemen met) Reizigers,lastige reiziger. Ass politie.,1
+14,Kma,Nnvbr,299,3. Hinder,4061,Defect materieel,WM-UTG: def mat tr 4061 / Spoorweb-id: 991841,7
+17,Hlm,Zvt,2610,1. Zeer veel hinder,15439,Aanpassing DRGL op verzoek van de vervoerder,im zomerweer ,87
+15,Zlw,Hzl,95,3. Hinder,9256,Defect materieel,Zie toelichting RB CMT.,0
+5,Wp,Wp,49,3. Hinder,5718,STS passage / Bijna Aanrijding,"Eenden in spoor, door mcn verwijderd. ",0
+22,Vlgr,Vl,60,3. Hinder,20082,Vertraging veroorzaakt door andere IM / Terminal,persoon op het spoor boisheim,0
+4,Vl,Vlgr,667,3. Hinder,43479,Conflicten/aanpassingen Dienstregeling,"Emmerich sluiting, gebrek aan logistieke bijsturings capaciteit, oftewel te weinig sporen voor het aanbod goederentreinen",0
+13,Nm,Ah,60,3. Hinder,6652,Defect materieel,atb max 40,2
+18,Btl,Lpe,358,3. Hinder,6419,Conflicten/aanpassingen Dienstregeling,LPE: hinder log probleem / Spoorweb-id: 993296,5
+26,Amr,Amr,90,3. Hinder,73008,Afwezigheid personeel,MCN,3
+5,Bd,Zha,45,3. Hinder,88861,Herplanning (materieel niet of laat beschikbaar),hoort bij sw def mat 914,2
+18,Apn,Ztwo,40,3. Hinder,8834,STS passage / Bijna Aanrijding,poging suicide ,0
+27,Vkbr,Ledn,90,3. Hinder,2261,STS passage / Bijna Aanrijding,LEDN: ass hulpdst / Spoorweb-id: 997552,2
+12,Zvt,Hlm,2610,1. Zeer veel hinder,15424,Aanpassing DRGL op verzoek van de vervoerder,,87
+28,Almo,Asd,60,3. Hinder,4658,Herplanning (materieel niet of laat beschikbaar),,2
+27,Mt,Hrl,210,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+6,Shl,Amf,90,3. Hinder,11651,Aanpassing DRGL op verzoek van de vervoerder,,4
+12,Ah,Nm,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+4,Vlgr,Vl,59,3. Hinder,-1,Werkproces rijdend personeel,,0
+26,Hdb,Aml,60,3. Hinder,-1,Defect materieel,,0
+29,Zvt,Hlm,60,3. Hinder,25452,Aanpassing DRGL op verzoek van de vervoerder,,2
+24,Mt,Hrl,120,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+10,Vlgr,Vl,147,3. Hinder,-1,Werkproces rijdend personeel,,0
+10,Alm,Asd,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+4,Vlgr,Vl,60,3. Hinder,20074,Vertraging veroorzaakt door andere IM / Terminal,,0
+11,Mg,Sknd,120,3. Hinder,-1,STS passage / Bijna Aanrijding,,0
+25,Utg,Wm,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+17,Gn,Vdm,60,3. Hinder,-1,Defect materieel,,0
+3,Ah,Nm,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+27,Vlgr,Vl,180,3. Hinder,20080,Herplanning personeel,,0
+11,Asd,Wp,60,3. Hinder,5891,Aanpassing DRGL op verzoek van de vervoerder,,2
+5,Kfhn,Kfhn,45,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+13,Hlm,Asd,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+20,Lg,Krd,60,3. Hinder,-1,Defect materieel,,0
+22,Sdt,Gnd,108,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,0
+6,Tl,Ut,60,3. Hinder,6786,Aanpassing DRGL op verzoek van de vervoerder,,2
+1,Esta,Ktr,75,3. Hinder,59613,Werkproces Treindienstleider,,0
+10,Ah,Zp,90,3. Hinder,7675,Aanpassing DRGL op verzoek van de vervoerder,,4
+22,Hrl,Lg,120,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+16,Dr,Rh,120,3. Hinder,-1,Defect materieel,,4
+10,Ledn,Ut,60,3. Hinder,8867,Aanpassing DRGL op verzoek van de vervoerder,,5
+14,Dz,Gn,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,0
+15,Zvt,Hlm,2610,1. Zeer veel hinder,25476,Aanpassing DRGL op verzoek van de vervoerder,,87
+12,Hlm,Zvt,60,3. Hinder,5489,Aanpassing DRGL op verzoek van de vervoerder,,2
+27,Hfdo,Hfd,60,3. Hinder,74349,Aanpassing DRGL op verzoek van de vervoerder,,4
+11,Dv,Apd,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+21,Hrl,Lg,60,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+13,Hshfdo,Hshmdo,84,3. Hinder,9264,Defect materieel,,1
+13,Tb,Tbu,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+17,Spa,Dvgea,620,3. Hinder,-1,Defect materieel,,17
+27,Asd,Rtd,60,3. Hinder,4023,Herplanning (materieel niet of laat beschikbaar),,2
+7,Apd,Dv,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+4,Wgm,Wgm,60,3. Hinder,80740,Defect materieel,,2
+13,Rm,Smz,150,3. Hinder,-1,Defect materieel,,0
+7,Vl,Lutdsm,105,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+24,Ut,Utwa,60,3. Hinder,8816,Defect materieel,,4
+25,Hrl,Mt,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,0
+17,Rsd,Bd,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+25,Ddr,Gdm,60,3. Hinder,7261,Aanpassing DRGL op verzoek van de vervoerder,,0
+27,Rtd,Ddr,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+21,Rd,Gn,60,3. Hinder,-1,Defect materieel,,0
+5,Vlgr,Vl,60,3. Hinder,20082,Aanpassing DRGL op verzoek van de vervoerder,,0
+28,Rsn,Aml,60,3. Hinder,7075,Afwezigheid personeel,,2
+28,Zp,Ww,60,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+29,Hdg,Lw,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,0
+2,Dv,Apd,60,3. Hinder,7030,Aanpassing DRGL op verzoek van de vervoerder,,2
+23,Lw,Hdg,60,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+6,Vlgr,Vl,40,3. Hinder,-1,Gereedmaken trein/ geen wagenlijst,,0
+11,Tb,Tbu,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+13,Amf,Amfs,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+23,Btl,Ehv,60,3. Hinder,4445,Aanpassing DRGL op verzoek van de vervoerder,,2
+27,Alm,Asd,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+6,Odzg,Hgl,60,3. Hinder,20354,Aanpassing DRGL op verzoek van de vervoerder,,0
+14,Br,Mvtw,45,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+3,Almm,Alm,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+11,Asd,Ut,90,3. Hinder,77471,Aanpassing DRGL op verzoek van de vervoerder,,4
+5,Vlgr,Vl,60,3. Hinder,20078,Aanpassing DRGL op verzoek van de vervoerder,,0
+17,Vl,Vl,46,3. Hinder,3770,Gereedmaken trein/ geen wagenlijst,,0
+19,Asd,Alm,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+27,Zp,Ww,60,3. Hinder,-1,Afwezigheid personeel,,0
+20,Hdg,Bp,60,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+7,Ah,Wf,60,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+23,Br,Gkgf,66,3. Hinder,-1,Defect materieel,,0
+1,Mvtww,Mvtww,45,3. Hinder,-1,Werkproces rijdend personeel,,0
+7,Nm,Ah,60,3. Hinder,3176,Aanpassing DRGL op verzoek van de vervoerder,,2
+2,Apd,Zp,60,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+6,Wdvb,Sda,145,3. Hinder,-1,Defect materieel,,0
+28,Odzg,Rsdg,90,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,3
+4,Vlgr,Vl,180,3. Hinder,20080,Vertraging veroorzaakt door andere IM / Terminal,,0
+14,Std,Hrl,120,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+13,Vlgr,Vl,221,3. Hinder,-1,Werkproces rijdend personeel,,0
+17,Awhvg,Hrp,540,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,54
+23,Dvgea,Dv,45,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+10,Cl,Gdm,62,3. Hinder,-1,Defect materieel,,0
+6,Vlgr,Vl,60,3. Hinder,20060,Afwezigheid personeel,,0
+23,Lw,Lw,96,3. Hinder,-1,Defect materieel,,0
+30,Ddr,Gr,60,3. Hinder,7149,Defect materieel,,0
+5,Gvc,Ledn,90,3. Hinder,3330,Aanpassing DRGL op verzoek van de vervoerder,,5
+26,Mvt,Zvg,75,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+24,Amf,Avat,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+13,Hsbdgo,Hsbda,53,3. Hinder,9303,STS passage / Bijna Aanrijding,Hert langs de baan ,0
+24,Whz,Zvg,210,3. Hinder,43307,Vertraging veroorzaakt door andere IM / Terminal,CMBO,0
+5,Rm,Mbt,252,3. Hinder,3938,Spoor of wissels,RM-MBT: defect sp Sp-HA / Spoorweb-id: 988016Machinist 3938 meldt mogelijke spoorverzakking thv 43.1 - 43.2,8
+18,Rhn,Ut,90,3. Hinder,7340,Defect materieel,VNDC: def mat tr 7340 / Spoorweb-id: 993442,4
+30,Zvt,Hlm,2610,1. Zeer veel hinder,25476,Aanpassing DRGL op verzoek van de vervoerder,ivm weer,87
+28,Nnvbr,Wm,40,3. Hinder,707467,Defect materieel,ATB,1
+11,Hil,Lis,70,3. Hinder,2143,Storing overwegen,LEDN-LIS: def mat tr 6343 / Spoorweb-id: 990420,2
+27,Gd,Hgwbr,82,3. Hinder,634,Defect materieel,Met technische storing tot stilstand gekomen in wisselstraat gouda.,2
+22,Hrla,Hrl,75,3. Hinder,32012,Conflicten/aanpassingen Dienstregeling,komt niet vrij op sp 201,0
+18,Wsm,Bf,77,3. Hinder,-2,Spoor of wissels,WSM-BF: defect sp / Spoorweb-id: 993483,0
+9,Ndb,Bsmz,71,3. Hinder,14963,Defect materieel,CR-NDB: def mat tr 14963 / Spoorweb-id: 989803tractie problemen,2
+13,Bd,Bda,92,3. Hinder,-2,Energievoorziening (bovenleiding),"BD: sectie sto Sec-1022BT / Spoorweb-id: 9914403 KV uitval op emplacement Bd, hierdoor achtergebleven sectiestoring in sectie Bd$1022CTHierdoor alle ovw Bd - Zlw gestoord (ovw 2.8, 3.4, 3.8, 13.8)",0
+3,Nwki,Nwk,90,3. Hinder,-2,Spoor of wissels,"Gescheurd puntstuk met een Quickscan.MKS-BO meldde TRDL dat op last van de inspecteur Baan wissel 295A te NWKI niet harder dan 40 km/u bereden mocht worden. De TRDL heeft daarvoor de veiligheidsmaatregelen genomen en het treinverkeer kon blijven rijden. Met een prio 2 ging een storingsploeg ter plaatse. Deze constateerde een uur na de eerste melding van MKS-BO dat het niet wissel 295A, maar wissel 295B moest zijn. De TRDL heeft direct de veiligheidsmaatregelen aangepast. Dit betekent echter dat er een uur lang te hard over het defecte wissel is gereden door verkeerde informatie aan de TRDL.",3
+13,Hlm,Asd,60,3. Hinder,4848,Defect materieel,HLM: def mat tr 4848 / Spoorweb-id: 991465,2
+17,Ws,Sda,272,3. Hinder,-2,Spoor of wissels,WSM: wl sto S-150 / Spoorweb-id: 993080,0
+19,Zvb,Mabr,178,3. Hinder,48570,Gebouwen/kunstwerken,"ZVB-ODB: brug sto Ovw-9.2 / Spoorweb-id: 993711Scherm brugbediening niet te gebruiken. Geprobeerd in en uit te loggen. Kort te bedienen, vervolgens brug in storing. Bovenleiding wel spanningsloos. Weer in -en uitgelogd en brug snel gesloten. Scherm weer onbedienbaar maar brug beschikbaar voor treinverkeer, bovenleiding onder spanning.Silstaande treinen zorgen voor verschillende overwegstoringen",4
+24,Bott,Bot,55,3. Hinder,60620,Spoor of wissels,ivm sctiestoring op hoofdbaan rijd verkeer over emplacement m‚t geel knipper,0
+1,Rb,Bgn,80,3. Hinder,2261,(problemen met) Reizigers,BGN: reizigers gedrag tr 2261 / Spoorweb-id: 986419Trein 2261 moest erg lang wachten op OHD,2
+10,Hlm,Zvt,2610,1. Zeer veel hinder,-2,Aanpassing DRGL op verzoek van de vervoerder,Geen extra treinen,88
+28,Lek,Cl,60,3. Hinder,6717,Defect materieel,LEK-GDM: def mat tr 6717 / Spoorweb-id: 997798,2
+22,Odzg,Hgl,120,3. Hinder,20382,Afwezigheid personeel,tekort personeel,0
+5,Ot,Tba,194,3. Hinder,6438,STS passage / Bijna Aanrijding,man op scooter sprong er van af en voor de trein maar miste net. EI 6 werd uitgebreid en EI 8 voor de ovw,4
+27,Ddr,Ddzd,153,3. Hinder,6664,Defect materieel,deurproblemen,4
+19,Rsd,Etn,325,3. Hinder,-2,Beveiligingsinstallaties,"RSD: sectie sto Sec-73T / Spoorweb-id: 993836Achtergebleven sectiestoring. Verschillende keren bereden zonder resultaatTrein 703641 gestrand voor sein 70, voorbij het sein richting emplacement gepraat, rijrichting gekeerd en terug laten keren richting Breda.Monteur doet quickscan",10
+20,Vry,Vlb,60,3. Hinder,32348,Storing overwegen,sectiestoring,0
+27,Std,Gln,720,2. Veel hinder,-2,Spoor of wissels,STD: sectie sto Sec-213T / Spoorweb-id: 997517Knipperende sectiestoring in sectie 213T. Alleen nog EI1 mogelijk naar spoor LA,12
+10,Rm,Smz,66,3. Hinder,32237,Storing overwegen,"RM-SM: ovw sto Ovw-48.1 / Spoorweb-id: 990036mcn laten schouwen, snoeiwerkzaamheden langs spoor, aannnemer is onderweg. Relais is vervangen en storing verholpen. ",0
+14,Ass,Obpa,49,3. Hinder,4035,STS passage / Bijna Aanrijding,persoon niet meer aangetroffen,0
+25,Ana,Sgn,102,3. Hinder,3059,STS passage / Bijna Aanrijding,SGN-HWD: ass hulpdst / Spoorweb-id: 996462,2
+4,Vl,Vl,520,3. Hinder,44783,Conflicten/aanpassingen Dienstregeling,Drukte ivm Emmerich sluiting.Afroep Trdl Kaldenkirchen.,0
+11,Ashd,Asb,41,3. Hinder,3218,Spoor of wissels,wsl 3251 LL gestoord,0
+28,Smvrt,Swk,480,3. Hinder,-2,Gebouwen/kunstwerken,SWK-MP: brug sto / Spoorweb-id: 997845,17
+1,Bnc,Bnc,104,3. Hinder,31347,Defect materieel,Deurproblemen,0
+7,Mrg,Mrg,120,3. Hinder,77456,Gereedmaken trein/ geen wagenlijst,DB: def mat tr 7454 / Spoorweb-id: 989094,5
+19,Apg,Dzw,60,3. Hinder,-2,Spoor of wissels,APG: Spoorverzakking / Spoorweb-id: 993799,0
+26,Lwd,Sloe,84,3. Hinder,-2,Spoor of wissels,LWD: sectie sto Sec-1297B-CT / Spoorweb-id: 996997Sectiestoring achtergebleven na 62870 op SC spoor. Dichtgelopen ES-las tussen 1297AT en 1297BT. ,0
+20,Brgro,Brmet,423,3. Hinder,44595,Spoor of wissels,BRMET-BRGND: sectie sto / Spoorweb-id: 994226Spontane spoorbezetting in secties 4172AT en 4172BT,0
+17,Ehv,Ehs,411,3. Hinder,-2,STS passage / Bijna Aanrijding,Aanrijding met fiets 2982,7
+19,Kz,Zzs,78,3. Hinder,4054,(problemen met) Reizigers,WM-ZD: hinder onwel reiz tr 4054 / Spoorweb-id: 993958,2
+24,Whzan,Brdv,47,3. Hinder,91222,Spoor of wissels,Sectiestoring op MB,0
+7,Bda,Bdpb,361,3. Hinder,1172,Defect materieel,Trein 1172 gestrand ML spoor. Hierdoor meerdere ovw in storing,7
+12,Dr,Rh,205,3. Hinder,-2,STS passage / Bijna Aanrijding,Sts passage na  alarmoproep en herroepen sein ivm persoon langs de baan. Technische sts omdat het sein herroepen werd.,6
+13,Vdm,Zb,60,3. Hinder,37811,Onregelmatigheden in de uitvoering van BTD,Seinen te Wha komen niet uit de stand stop,0
+28,Dvc,Hon,964,2. Veel hinder,1767,Aanrijding,"Aanrijding persoon op overweg 11.7. Trein staat stil op spoor SR bij km 12.2Trein 7067 gestrand op km 6.8, gaat als 29292 terug naar DVTrein 7072 gestrand bij km 18.6 (HON) keert terug naar RSN als 29291",30
+22,Mz,Ohze,96,3. Hinder,16444,Spoor of wissels,Knik in het spoor gemeld,3
+7,Vl,Vlgr,991,2. Veel hinder,20011,Vertraging veroorzaakt door andere IM / Terminal,"VL-VLGR: hind buurl / Spoorweb-id: 989028storing in duitsland, geen treinverkeers",0
+8,Zpge,Zpgea,405,3. Hinder,-2,Energievoorziening (bovenleiding),ZP: stroomvoorziening storing / Spoorweb-id: 989309,16
+13,Ns,Hd,50,3. Hinder,686,Defect materieel,"mcn zag flits en voelde doffe dreun. Had wel bvl spanning maar geen spanning in de trein. Mcn gaf aan dat hij niets had waargenomen en kon uiteindelijk zijn rit vervolgen. Mcn 5688 en 587 hebben de beide sporen geschouwd en hebben niets aangetroffen. Trein 686 stond stil voor P828, 5688 voor P830. Geschouwd van km 57.8 (P783) tot 56.4 (P828) met EI6 X90 en EI 8 voor gestoorde ovw 57.1 (treinopvolging).",0
+25,Bropo,Brvalw,65,3. Hinder,43325,Spoor of wissels,sectie-storing wsl 4341 ,0
+7,Kg,Mp,158,3. Hinder,544,Defect materieel,trein defect ,5
+6,Mp,Ddv,487,3. Hinder,-2,Beveiligingsinstallaties,MP: sectie sto Sec-241BT / Spoorweb-id: 988496,14
+13,Wha,Kw,785,2. Veel hinder,-2,Beveiligingsinstallaties,"Seinen op WHA komen niet veilig richting ZB, later ook andersom niet. gestopt met rijden, monteurs erbij die het weer hebben kunnen maken",0
+6,Ztwo,Apn,438,3. Hinder,8825,Defect materieel,atb problemen,14
+30,Aeg,Asdl,75,3. Hinder,28528,Defect materieel,4026 defect,0
+13,Krg,Vlk,1183,2. Veel hinder,-2,Spoor of wissels,KRG-GS: sectie sto Sec-903A-13ET / Spoorweb-id: 991199TOBS en ovw 44.0 44.5 in storing,35
+17,Mbtwaz,Mbtwan,333,3. Hinder,88853,Defect materieel,Trein is stilgevallen. Oorzaak onbekend maar na reset kon de rijweg hervat worden ,12
+7,Hrt,Dn,943,2. Veel hinder,-2,Spoor of wissels,HRT-DN: sectie sto Sec-554D-74AT / Spoorweb-id: 988940,7
+8,Dn,Hrt,54,3. Hinder,153,Storing overwegen,Vanwege defect aan P-sein 562 en meerdere treinen op de vrije baan waardoor overweg 21.7 langere tijd dicht ligt.,0
+15,Gn,Gn,40,3. Hinder,786,Werkproces rijdend personeel,MCN komt met vertraging aan via leeg mat. Communiceert niet dat hij naar toilet moet. stapt aan de verkeerde kant van de trein in en moet daardoor nog later vertrekken. ,0
+14,Ddr,Rtd,60,3. Hinder,5064,Ongeplande buitendienststelling,wsl 977 n.i.c. RL,2
+28,Ps,Bott,177,3. Hinder,-2,STS passage / Bijna Aanrijding,melding van Exctincion rebelion op de sporen tussen Pernis en Botlek,0
+5,Lek,Htnc,335,3. Hinder,-2,Spoor of wissels,EI-5 met max. 20 km/h vanwege dwarsligger niet functioneel vast bij de bevestiging,11
+5,Kfhan,Brda,579,3. Hinder,51407,STS passage / Bijna Aanrijding,RTST: reizigers gedrag tr 5023 / Spoorweb-id: 987940,2
+8,Vga,Ht,72,3. Hinder,4457,STS passage / Bijna Aanrijding,Mogelijk suicidaal persoon op empl Ht met fiets op perron 707b/706b.,0
+22,Sbk,Sn,90,3. Hinder,3959,Spoor of wissels,MCN 3959 meldt knik in linkerspoorstaaf thv km 8.43972 meldt om 19:00 spoorverzakking bevindt zich tussen km 8.1 en 8.3,2
+24,Rvbr,Ssh,70,3. Hinder,3254,STS passage / Bijna Aanrijding,Brugsein 1979 afgevallen. Trein 3254 stoptonend gepasseerd.,2
+20,Wd,Hmla,406,3. Hinder,-2,Spoor of wissels,losse spoorbevestigingsmiddelen thv sn 1074 KL spoor,9
+5,Ut,Utma,61,3. Hinder,7387,Defect materieel,Kapot.,0
+17,Asdma,Asdm,100,3. Hinder,3077,Spoor of wissels,TOBS,0
+3,Hfdo,Hfdm,1315,2. Veel hinder,-2,Spoor of wissels,HFD: sectie sto Sec-2101T / Spoorweb-id: 987258,111
+9,Gv,Gv,44,3. Hinder,703750,STS passage / Bijna Aanrijding,persoon langs t spoor ,0
+8,Kfhaz,Wld,41,3. Hinder,347513,Meetfout / Onduidelijk systeemgedrag,"Trein was meerdere keren over hetzelfde drglpunt ingelegd, wachtte op aanpassing treinnummer",0
+2,Zvt,Hlm,2610,1. Zeer veel hinder,25476,Aanpassing DRGL op verzoek van de vervoerder,NSR-TdK,87
+21,Brna,Brn,186,3. Hinder,-2,Spoor of wissels,TOBS WSL 1143,6
+4,Lw,Grs,102,3. Hinder,37338,STS passage / Bijna Aanrijding,LW: hinder pers op sp / Spoorweb-id: 987579,0
+2,Mp,Mpa,660,3. Hinder,-2,Spoor of wissels,Treinen ontkoppeld volgens overleg EP en oorzaak toegewezen aan AM.,27
+12,Bnc,Bnz,120,3. Hinder,31405,Defect materieel,AMF-BNVA: def mat tr 31405 / Spoorweb-id: 990723,0
+13,Akm,Brdl,968,2. Veel hinder,641,Aanrijding,641 aanrijding persoon,30
+27,Rsdg,Rsd,120,3. Hinder,9259,Defect materieel,"RSDG-RSD: def mat tr 9259 / Spoorweb-id: 997685Mcn van trein 9259 meldt een etcs storing, na 2x resetten weer vertrek gereed. tr 9363 stond erachter.",2
+26,Rm,Mbt,1618,2. Veel hinder,-2,Spoor of wissels,MBT: sectie sto Sec-806DET / Spoorweb-id: 997019,34
+29,Hmta,Zd,60,3. Hinder,702916,(problemen met) Reizigers,ZD: reizigers gedrag tr 702916 / Spoorweb-id: 998229,2
+26,IJbz,IJbza,398,3. Hinder,-2,Gebouwen/kunstwerken,Brug komt niet in controle rvo 71096542,6
+3,Dv,Ost,70,3. Hinder,-2,Spoor of wissels,"Tobs achtergebleven na trein 3634Sectie DV$707C-9FT, rijrichting en ovw 49.1 gestoord.Terugkerende storing",2
+20,Vtn,Utt,623,3. Hinder,-2,Beveiligingsinstallaties,Treinen volgens opgave ontkoppeld en nogmaals aangeboden aan AM.,19
+17,Nml,Nm,157,3. Hinder,7632,Defect materieel,NM: def mat tr 7632 / Spoorweb-id: 992878,4
+26,Ut,Gvc,90,3. Hinder,2064,Aanpassing DRGL op verzoek van de vervoerder,,3
+25,Mvtw,Mvtaho,45,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+20,Vl,Vlgr,60,3. Hinder,20099,Herplanning personeel,,0
+27,Rv,Rm,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,0
+12,Alm,Asd,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+20,Amf,Amfs,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+24,Zd,Utg,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+17,Hrl,Std,60,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+12,Asd,Asd,41,3. Hinder,9340,"Overschrijden vertrektijd, rijweg ingesteld",,0
+26,Ut,Gdm,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,4
+30,Asdl,Hfd,104,3. Hinder,4026,Defect materieel,,3
+6,Vs,Rsd,90,3. Hinder,6127,Aanpassing DRGL op verzoek van de vervoerder,,2
+24,Wdn,Es,60,3. Hinder,7955,Aanpassing DRGL op verzoek van de vervoerder,,0
+5,Gv,Rsd,150,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,13
+17,Dv,Dvgea,60,3. Hinder,-1,Defect materieel,,3
+27,Hrl,Mt,90,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+4,Rv,Rm,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,0
+8,Ah,Ww,60,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+14,Swd,Gn,60,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+5,Gr,Gr,48,3. Hinder,7116,Defect materieel,,0
+24,Zl,Gvc,60,3. Hinder,770,Aanpassing DRGL op verzoek van de vervoerder,,2
+24,Ledn,Asd,90,3. Hinder,4655,Aanpassing DRGL op verzoek van de vervoerder,,3
+19,Zvo,Zvbtwa,43,3. Hinder,-1,Defect materieel,,0
+28,Hrl,Mt,150,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+11,Nm,Vl,90,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+17,Ana,Hdr,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+6,Odzg,Hgl,60,3. Hinder,20352,Aanpassing DRGL op verzoek van de vervoerder,,0
+22,Hde,Zl,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+24,Gdm,Ht,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+28,Brvalw,Brvalo,62,3. Hinder,-1,Defect materieel,,0
+14,Hrl,Hang,360,3. Hinder,-1,Afwezigheid personeel,,0
+12,Mt,Hrl,1230,2. Veel hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+2,Ledn,Vh,90,3. Hinder,1418,Conflicten/aanpassingen Dienstregeling,,3
+19,Hgl,Odzg,150,3. Hinder,20387,Aanpassing DRGL op verzoek van de vervoerder,,0
+24,Std,Hrl,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+29,Vl,Vlgr,60,3. Hinder,20067,Import vertraging buitenland,,0
+5,Ddr,Rtd,120,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,4
+18,Rtd,Zl,90,3. Hinder,661,Aanpassing DRGL op verzoek van de vervoerder,,3
+29,Rtd,Dhsa,311,3. Hinder,-2,Spoor of wissels,,6
+12,Hfdo,Hfd,60,3. Hinder,74349,Afwezigheid personeel,,4
+5,Hrl,Hang,60,3. Hinder,-1,(problemen met) Reizigers,,0
+9,Rtd,Gd,180,3. Hinder,21426,Aanpassing DRGL op verzoek van de vervoerder,,6
+6,Hr,Lw,150,3. Hinder,1839,Aanpassing DRGL op verzoek van de vervoerder,,5
+24,Vl,Vlgr,180,3. Hinder,20079,Vertraging veroorzaakt door andere IM / Terminal,,0
+23,Mt,Mtr,60,3. Hinder,-1,Defect materieel,,0
+6,Gv,Ehv,90,3. Hinder,1121,Aanpassing DRGL op verzoek van de vervoerder,,11
+4,Asd,Hlm,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+27,Kgs,Ana,338,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,13
+28,Ah,Nm,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+10,Htda,ONB,120,3. Hinder,-1,Defect materieel,,4
+13,Mvtw,Kfhz,173,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+25,Zp,Apd,90,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+4,Amf,Amfs,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+14,Zl,Kpn,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,0
+25,Mrb,Hdb,60,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+5,Asdmw,Asd,60,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+21,Lg,Hrl,180,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+23,Ah,Zvg,90,3. Hinder,20053,Import vertraging buitenland,,0
+10,Gkgwa,Gkgf,119,3. Hinder,-1,Defect materieel,,2
+15,Vlgr,Vl,60,3. Hinder,-1,Defect materieel,,0
+11,Bot,Bottha,83,3. Hinder,-1,Defect materieel,,0
+10,Amfs,Amf,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+12,Eem,Rd,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,0
+5,Gr,Ddr,210,3. Hinder,7188,Aanpassing DRGL op verzoek van de vervoerder,,0
+28,Hang,Hrl,90,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+12,Vl,Vlgr,60,3. Hinder,20097,Aanpassing DRGL op verzoek van de vervoerder,,0
+24,Nm,Ah,60,3. Hinder,3168,Aanpassing DRGL op verzoek van de vervoerder,,2
+28,Amf,Amfs,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+20,Vlgr,Vl,60,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+24,Rhn,Vndc,60,3. Hinder,7338,Defect materieel,,2
+23,Apn,Gd,60,3. Hinder,8653,Defect materieel,,2
+3,Alm,Asd,60,3. Hinder,2636,Aanpassing DRGL op verzoek van de vervoerder,,2
+30,Ddr,Gr,60,3. Hinder,7125,Defect materieel,,0
+13,Hdr,Ana,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+16,Vl,Vlgr,40,3. Hinder,-1,Samenstellen treinen,,0
+3,Tb,Tbu,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+24,Rsd,Rsd,40,3. Hinder,-1,Werkproces rijdend personeel,,0
+5,Vlgr,Vl,66,3. Hinder,-1,Werkproces rijdend personeel,,0
+16,Hgl,Odzg,180,3. Hinder,20383,Aanpassing DRGL op verzoek van de vervoerder,,0
+27,Vl,Vlgr,50,3. Hinder,-1,Vertraging veroorzaakt door andere IM / Terminal,,0
+5,Est,Est,49,3. Hinder,-1,Werkproces rijdend personeel,,0
+11,Zvt,Hlm,2610,1. Zeer veel hinder,15464,Aanpassing DRGL op verzoek van de vervoerder,,87
+12,Std,Rm,60,3. Hinder,3970,Afwezigheid personeel,,2
+5,Amf,Amfs,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+8,Ww,Zp,60,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+30,Zwd,Ddr,60,3. Hinder,-1,Conflicten/aanpassingen Dienstregeling,,6
+27,Amf,Amfs,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+27,Vga,Vg,180,3. Hinder,4461,Defect materieel,,5
+24,Vry,Nm,60,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+5,Gvc,Ut,60,3. Hinder,2077,Aanpassing DRGL op verzoek van de vervoerder,,2
+4,Dv,Apd,60,3. Hinder,7026,Werkproces rijdend personeel,,2
+2,Asdz,Hfd,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+22,Gvc,Ledn,90,3. Hinder,733,Aanpassing DRGL op verzoek van de vervoerder,,4
+25,Erp,Bottha,186,3. Hinder,51336,Spoor of wissels,ERP: sectie sto Sec-1123BT / Spoorweb-id: 996362,0
+19,Hgl,Hglo,48,3. Hinder,20375,STS passage / Bijna Aanrijding,HGL: STS Passage geen gevaarz tr 20375 / Spoorweb-id: 993887,0
+22,Pmo,Hna,180,3. Hinder,2976,Invloed van derden op infra,"Stenen aangereden op PM spoor thv 22.1, tevens 6 tal stenen op PA spoor (verwijderd door MCN)",5
+8,Pt,Hd,72,3. Hinder,5681,(problemen met) Reizigers,1 lastige reiziger,0
+19,Amf,Avat,90,3. Hinder,70050,Defect materieel,5848 defect op Avat. 5847 gekeerd op Amf.,4
+26,Hszha,Zha,405,3. Hinder,-2,Spoor of wissels,Wissel defect,5
+4,Gd,Gwbr,300,3. Hinder,-2,Beveiligingsinstallaties,brug wil niet sluiten,10
+16,Ahz,Ahwa,130,3. Hinder,7666,(problemen met) Reizigers,politie assistentie bij ahz,3
+24,Lek,Cl,263,3. Hinder,6059,Spoor of wissels,Mcn meldt harde klap gevoeld te hebben met als oorzaak een mogelijke spoorverzakking. ,9
+17,Ah,Ah,57,3. Hinder,3179,Afwezigheid personeel,"Machinist zat op trein die nog niet binnen was, werd pas laat doorgegeven aan trdl",0
+10,Rb,Bgn,83,3. Hinder,2367,Defect materieel,"Defect materieel, tak in stroomafnemer. Deze omgewisseld",2
+6,Ehv,Ehst,817,2. Veel hinder,6630,Afwezigheid personeel,Zoals besproken 17-06: de losse treinen kunnen niet los gemaakt worden van deze melding.,29
+23,Almb,Almo,73,3. Hinder,1835,Defect materieel,rem problemn,2
+29,Wf,Otb,159,3. Hinder,-2,STS passage / Bijna Aanrijding,WF-AH: hinder pers op sp / Spoorweb-id: 998327,4
+19,Amf,Hvs,60,3. Hinder,53011,Meetfout / Onduidelijk systeemgedrag,VOSorderverwerking,0
+23,Hfdm,Hshfdo,74,3. Hinder,9324,Spoor of wissels,Graag onderzoek door en terugkoppeling van RB CMT.,4
+25,Vl,Vlgr,43,3. Hinder,-2,Vertraging veroorzaakt door andere IM / Terminal,Overweg storing in Duitsland = andere IM,0
+5,Asn,Onz,120,3. Hinder,-2,Spoor of wissels,ASN-ONZ: defect sp Sp-OF / Spoorweb-id: 987970,4
+26,Vtn,Hmlva,270,3. Hinder,-2,Spoor of wissels,Knik in de baan tussen Vleuten en Harmelen Aansluiting. EI6 ter hoogte van km 10.8.,9
+14,Obpa,Sgra,73,3. Hinder,2921,STS passage / Bijna Aanrijding,persoon niet meer aangetroffen,0
+15,Bnc,Bnz,290,3. Hinder,31421,STS passage / Bijna Aanrijding,LTN: hinder pers op sp tr 31318 / Spoorweb-id: 992201dronken droppie langs de baan,0
+2,Hsbda,Hsbdgo,343,3. Hinder,9240,Import vertraging buitenland,ivm bovenleidingsproblemen in belgie,4
+6,Vl,Vlgr,496,3. Hinder,40033,Vertraging veroorzaakt door andere IM / Terminal,Duitsland,0
+26,Ldm,Bsd,125,3. Hinder,-2,Spoor of wissels,tobs,0
+17,Swk,Akm,164,3. Hinder,629,Defect materieel,SWK-MP: def mat tr 629 / Spoorweb-id: 992913,4
+5,Tb,Tbu,51,3. Hinder,-2,Spoor of wissels,TBU: defect sp Sp-921 / Spoorweb-id: 988081. Lijmlas EI 5 km. 19.9,0
+8,Dtcp,Dtzo,42,3. Hinder,1171,STS passage / Bijna Aanrijding,persoon langs de baan 67.0,0
+17,Grbr,Zwd,1227,2. Veel hinder,-2,Gebouwen/kunstwerken,KFHAZ: aanv brug / Spoorweb-id: 993167,37
+25,Vp,Ahpr,150,3. Hinder,7640,Defect materieel,mcn moest shutdown uitvoeren. ,5
+27,Bkl,Bkla,243,3. Hinder,-2,Spoor of wissels,sectiestoring,7
+23,Asd,Zvg,105,3. Hinder,221,Vertraging veroorzaakt door andere IM / Terminal,Probelmen met de bovenleiding in Duitsland.,3
+15,Zvb,Mabr,57,3. Hinder,9212,Defect materieel,"ZVB-ODB: def mat tr 9212 / Spoorweb-id: 992159ATB ingreep gehad, staat stil bij km 10.4ovw 10.6 gestoord",0
+28,Hg,Had,41,3. Hinder,6391,(problemen met) Reizigers,Lastige reiziger,0
+19,Sdm,Dtzo,398,3. Hinder,5242,Defect materieel,ATB problemen.,12
+24,Rsd,Odb,120,3. Hinder,5962,(problemen met) Reizigers,"ODB: ass hulpdst tr 5962 / Spoorweb-id: 995949Reiziger zonder vervoersbewijs wil de trein niet verlaten, politie bij de trein.Ovw 15.5 en 15.4 in storing",4
+26,Std,Std,55,3. Hinder,63561,Vertraging veroorzaakt door andere IM / Terminal,"STD: hinder log probleem / Spoorweb-id: 996861DSM stond vol, kon geen GO treinen ontvangen van STD",0
+18,Zh,Gka,109,3. Hinder,-2,Spoor of wissels,GKA-ZH: defect sp Sp-LD / Spoorweb-id: 993503,0
+23,Bd,Gz,286,3. Hinder,-2,Beveiligingsinstallaties,Rijrichtingstoring Sp AI na Wzh,4
+6,Kraga,Rsd,203,3. Hinder,2261,Aanrijding,"RSD-KRGE: aanr obj tr 2261 / Spoorweb-id: 988600Ovw-boom van ovw 1.0 hing over het spoor heen aan zijde RL, hierdoor is deze aangereden door trein 2261.Ovw-boom is beschadigd en hangt aan de zijde RL mogelijk binnen PVREr wordt gereden met E.I. 8 voor ovw 1.0",5
+17,Dv,Dv,59,3. Hinder,307086,Afwezigheid personeel,Personeel had geen dienstkaart en kon Bijsturing niet bereiken.,0
+27,Amri,Aml,621,3. Hinder,7066,Defect materieel,trein defect op spoor HH t.h.v. km 3.3,15
+6,Hmbh,Hm,252,3. Hinder,4426,Defect materieel,"DN-HM: def mat tr 4426 / Spoorweb-id: 988415mcn meldt onbekende storing, shut downtrein staat langs het perron",7
+3,Gs,Lwd,60,3. Hinder,6112,Spoor of wissels,GS-LWD: defect sp / Spoorweb-id: 987048. spoorverzakking thv 49.8. kilometrering aangepast later naar 51.0,2
+24,Ztwo,Ztww,281,3. Hinder,29060,Spoor of wissels,sectiestoring,12
+30,Rtd,Gvc,60,3. Hinder,5138,Defect materieel,deur,3
+12,Gz,Tbr,316,3. Hinder,1157,Spoor of wissels,1157 meldt spoorverzakking,8
+2,Mp,Mpa,1664,2. Veel hinder,-2,Spoor of wissels,wissels in Mp komen niet in de controle bij rijweginstelling,49
+6,Tb,Tbi,276,3. Hinder,6630,Defect materieel,TB-TBI: def mat tr 6630 / Spoorweb-id: 988465,8
+19,Wl,Did,270,3. Hinder,-2,Spoor of wissels,Bij rijweginstelling vanaf spoor 811 naar spoor DY foutieve atb melding. Trein kan vetrekken met slechts 10 km/h van Wehl naar Didam,0
+12,Hto,Rs,763,2. Veel hinder,3671,Aanrijding,persoon overleden. Aanrijding bij ovw 28.7,24
+17,Zl,Zl,657,3. Hinder,532,ICT/Telecommunicatie,Treinen i.o.m. met SV omgehangen en melding nogmaals toegewezen.,6
+25,Zvbtwa,Zvo,144,3. Hinder,40033,Vertraging veroorzaakt door andere IM / Terminal,ZVO-ZVG: hind buurl (D) / Spoorweb-id: 996306,0
+4,Hstom,Hsbrdo,111,3. Hinder,19654,Defect materieel,RTD-BD: def mat tr 19654 / Spoorweb-id: 987528,0
+21,Wha,Kw,474,3. Hinder,-2,Invloed van derden op infra,Ambulance naast het spoor bezig geweest met een slagtoffer. Staken treindienst WHA-KW.,0
+27,Hsbdgo,Hsbda,131,3. Hinder,29412,Spoor of wissels,wisselstoring,2
+20,Bnn,Bnc,335,3. Hinder,31343,Defect materieel,BNC-BNVA: def mat tr 31343 / Spoorweb-id: 994408,0
+26,Ht,ONB,290,3. Hinder,-2,Spoor of wissels,HDL-HT: defect sp Sp-BG / Spoorweb-id: 996895,8
+10,Hsbdg,Hsbdgo,1154,2. Veel hinder,-2,Invloed van weer op de infra,HSL zuid max 80km/u ivm wind.,19
+14,Wv,Swk,120,3. Hinder,-2,Aanrijding,trein 9090 - aanrijding persoon ,8
+4,Bda,Bdpb,2557,1. Zeer veel hinder,-2,Energievoorziening (bovenleiding),In overleg met EP aangeboden aan AM,59
+10,Asb,Ashd,615,3. Hinder,-2,Spoor of wissels,Treinen ontkoppeld en melding na accoord toegewezen aan AM.,21
+7,Es,Esk,52,3. Hinder,7030,Samenstellen treinen,problemen met splitsen ,0
+17,Mrn,Har,3279,1. Zeer veel hinder,3137,Spoor of wissels,Mogelijk gescheurd puntstuk,107
+28,Hsbda,Hsbdgo,147,3. Hinder,9352,Spoor of wissels,Wissel gestoord.,0
+15,Emnakz,Emnz,42,3. Hinder,8090,Spoor of wissels,TOBS in spoor EE thv Sectie EMN$452AB-FT. Daardoor overweg 73.8 gestoord. 8090 heeft de TOBS eruit gereden. 3875 heeft de overwegstoring eruitgereden.,0
+9,Tba,Tb,54,3. Hinder,40258,STS passage / Bijna Aanrijding,TB: hinder pers op sp tr 6452 / Spoorweb-id: 989731Verward meisje.,0
+9,Ut,Asd,82,3. Hinder,3070,(problemen met) Reizigers,UT: ass hulpdst tr 3070 / Spoorweb-id: 989864,2
+11,Sdt,Sdt,317,3. Hinder,307271,Gebouwen/kunstwerken,Melding MKS aanvaring BHBR.Treinverkeer gestaakt over brug.Blijkt aanvaring dukdalf,0
+2,Asn,Bl,83,3. Hinder,-2,STS passage / Bijna Aanrijding,Suicidaal persoon bij km ,0
+14,Vl,Vl,76,3. Hinder,40221,Vertraging veroorzaakt door andere IM / Terminal,afroep db,0
+11,At,Ehs,770,2. Veel hinder,-2,STS passage / Bijna Aanrijding,Melding na accoord AM-EP nogmaals toegewezen aan AM.,17
+1,Shl,Amf,90,3. Hinder,11623,Defect materieel,HFD: def mat tr 71623 / Spoorweb-id: 986301,5
+24,Bmr,Bmr,73,3. Hinder,32269,Werkproces Treindienstleider,european instruction 1 als gevolg van een sectiestroing op de maaslijn. ,0
+22,Asd,Asd,93,3. Hinder,9328,Werkproces rijdend personeel,Proces en oorzaaktype op verzoek vervoerder aangepast.,6
+21,Brppd,Kfhz,73,3. Hinder,-1,Defect materieel,,0
+4,Hrl,Std,60,3. Hinder,3970,Aanpassing DRGL op verzoek van de vervoerder,,2
+5,Hgl,Odzg,60,3. Hinder,20355,Aanpassing DRGL op verzoek van de vervoerder,,0
+5,Asd,Alm,60,3. Hinder,2675,Afwezigheid personeel,,2
+27,Alm,Asd,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+4,Amf,Amfs,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+17,Dvge,Dv,47,3. Hinder,-1,Defect materieel,,0
+27,Whz,Whzaz,49,3. Hinder,-1,STS passage / Bijna Aanrijding,,0
+14,Rv,Rm,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,0
+27,Ddr,Rsd,60,3. Hinder,80405,Aanpassing DRGL op verzoek van de vervoerder,,3
+20,Www,Ltv,113,3. Hinder,-1,Defect materieel,,0
+22,Zb,Vdm,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,0
+13,Apd,Sto,120,3. Hinder,-1,Vertraging trein-trein,,0
+2,Vl,Vlgr,60,3. Hinder,20097,Aanpassing DRGL op verzoek van de vervoerder,,0
+5,Almo,Alm,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+19,Hglo,Zp,473,3. Hinder,-1,Defect materieel,,1
+6,Lls,Hfd,60,3. Hinder,4352,Aanpassing DRGL op verzoek van de vervoerder,,2
+5,Asdz,Hfd,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+17,Whzan,Whzaz,315,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+5,Sdt,Ddr,150,3. Hinder,7116,Aanpassing DRGL op verzoek van de vervoerder,,0
+26,Tl,Ut,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+19,Gdg,Gd,185,3. Hinder,-1,Conflicten/aanpassingen Dienstregeling,,6
+5,Ddr,Zwd,150,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,5
+25,Vl,Rm,60,3. Hinder,-1,Defect materieel,,0
+24,Asd,Almo,60,3. Hinder,4681,Defect materieel,,2
+11,Hrl,Hang,240,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+3,Whzan,Whz,60,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+25,Bhdv,Ddr,215,3. Hinder,7112,Defect materieel,,0
+10,Rtd,Gvc,90,3. Hinder,5044,Conflicten/aanpassingen Dienstregeling,,3
+28,Ah,Nm,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+25,Odzg,Hgl,180,3. Hinder,20368,Aanpassing DRGL op verzoek van de vervoerder,,0
+20,Gv,Gvc,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+15,Hlm,Asd,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+21,Edng,Mt,60,3. Hinder,16981,Vertraging veroorzaakt door andere IM / Terminal,,2
+15,Amfs,Amf,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+1,Asd,Hlm,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+20,Rv,Rm,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,0
+24,Odz,Hgl,60,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+7,Nm,Ah,60,3. Hinder,3064,Aanpassing DRGL op verzoek van de vervoerder,,2
+21,Gn,Vdm,60,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+18,Vl,Vlgr,60,3. Hinder,20073,Aanpassing DRGL op verzoek van de vervoerder,,0
+26,Vl,Br,150,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+28,Zvt,Hlm,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+27,Nm,Ah,60,3. Hinder,3128,Aanpassing DRGL op verzoek van de vervoerder,,2
+14,Hrl,Std,150,3. Hinder,-1,Afwezigheid personeel,,0
+4,Ledn,Gvc,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+11,Amf,Amfs,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+2,Asd,Rtd,90,3. Hinder,1417,Aanpassing DRGL op verzoek van de vervoerder,,3
+5,Amf,Amfs,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+4,Ah,Ww,60,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+29,Mt,Hrl,660,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+28,Kfhn,Mvtww,45,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+13,Vk,Mt,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,0
+13,Hrl,Hang,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,0
+17,Tl,Vrk,194,3. Hinder,31119,Spoor of wissels,,0
+21,At,Lpe,60,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+10,Odzg,Hgl,60,3. Hinder,20358,Aanpassing DRGL op verzoek van de vervoerder,,0
+27,Bkh,Gvc,60,3. Hinder,83070,Aanpassing DRGL op verzoek van de vervoerder,,3
+15,Hrla,Hrl,60,3. Hinder,-1,Defect materieel,,0
+11,Bd,Gz,267,3. Hinder,-1,Defect materieel,,7
+30,Wt,Rm,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+24,Ddr,Rtd,90,3. Hinder,5260,Aanpassing DRGL op verzoek van de vervoerder,,3
+29,Gvc,Ass,60,3. Hinder,2126,Aanpassing DRGL op verzoek van de vervoerder,,3
+14,Vlgr,Kfhz,45,3. Hinder,-1,Vertraging veroorzaakt door overnemen trein andere Vervoerder,,0
+19,Amr,Hwd,60,3. Hinder,303026,Aanpassing DRGL op verzoek van de vervoerder,,2
+26,Nm,O,60,3. Hinder,6627,Defect materieel,,3
+14,Std,Hrl,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+27,Vl,Vlgr,60,3. Hinder,20067,Import vertraging buitenland,,0
+13,Hrl,Std,150,3. Hinder,-1,Aanpassing DRGL op verzoek van de vervoerder,,0
+13,Vl,Vlgr,120,3. Hinder,-1,Defect materieel,,0
+5,Std,Hrl,60,3. Hinder,-1,Aanpassing DRGL in verband met grote vertraging,,2
+17,Lg,Hrl,72,3. Hinder,-1,Afwezigheid personeel,,0

@@ -1,0 +1,41 @@
+Dagnr;DIENSTREGELPUNT_VAN;DIENSTREGELPUNT_NAAR;KLANTHINDERINMINUTEN;KLANTHINDERNAAM;BEWEGINGNUMMER;MONITORINGSTEGELOMSCHRIJVING;TOELICHTING;AANTAL_OPGEHEVEN_NS_TREINEN
+16;Gvm;Vst;55;3. Hinder;-2;STS passage / Bijna Aanrijding;kinderen lang de baan , gemeld door 2152;0.0
+20;Hfd;Shl;60;3. Hinder;71649;Defect materieel;shutdown;3.0
+29;Dtcp;Dt;47;3. Hinder;3745;(problemen met) Reizigers;DT: hinder onwel reiz tr 3745 / Spoorweb-id: 998302;0.0
+28;Hfd;Shl;42;3. Hinder;3338;Defect materieel;HFD: def mat tr 3338 / Spoorweb-id: 997907Deurproblemen;3.0
+11;Gvc;Gv;180;3. Hinder;1159;Defect materieel;1146 def;6.0
+25;Dtcp;Dt;104;3. Hinder;1146;(problemen met) Reizigers;DT: reizigers gedrag tr 1146 / Spoorweb-id: 996429;3.0
+28;Gv;Gvc;60;3. Hinder;-1;Aanpassing DRGL in verband met grote vertraging;;2.0
+29;Dt;Dtcp;71;3. Hinder;-2;Beveiligingsinstallaties;Trein 2237 door voor hem stoptonend sein 6236 En trein 3726 door voor hem stoptonend sein 6204.Daarna treinen laten schouwen en seinen functioneerde normaal.;0.0
+20;Hfd;Shl;40;3. Hinder;79563;Defect materieel;storing met ATB;0.0
+5;Gv;Gvmw;42;3. Hinder;-2;STS passage / Bijna Aanrijding;persoon in t spoor;0.0
+30;Gvc;Ledn;60;3. Hinder;-1;Aanpassing DRGL in verband met grote vertraging;;2.0
+6;Laa;Gvc;137;3. Hinder;1868;Herplanning (materieel niet of laat beschikbaar);Trein 766 te lang voor spoor 8, splitsen en terugkeren richting de tuin ging moeizaam. Hierdoor versperring sporen 8,9 en 10 te GVC;3.0
+15;Shl;Hfd;289;3. Hinder;-2;Invloed van derden op infra;SHL: brand/rook tunnel Tnl-Schiphol Spoortunnel / Spoorweb-id: 992431;0.0
+10;Gv;Gvc;150;3. Hinder;1150;Herplanning (materieel niet of laat beschikbaar);Genoemde treinen zijn bijgestuurd ivm met vertraging een een gewijzigde drgl. Volgens de geldende VSM wordt de 110 serie alleen op Bd aangepast.;12.0
+10;Gvc;Gvc;47;3. Hinder;5117;Onregelmatigheden in de uitvoering van BTD;uitloop werkzaamheden;0.0
+26;Dtcp;Dt;540;3. Hinder;1154;Defect materieel;kapotte deur;21.0
+4;Shl;Hfd;62;3. Hinder;1046;Defect materieel;SHL: def mat tr 1046 / Spoorweb-id: 987673;1.0
+18;Nvp;Ledn;45;3. Hinder;3363;STS passage / Bijna Aanrijding;suicidaal persoon te voorschoten;0.0
+18;Ledn;Gvc;60;3. Hinder;-1;Aanpassing DRGL in verband met grote vertraging;;2.0
+6;Gvm;Gvc;60;3. Hinder;2181;Aanpassing DRGL op verzoek van de vervoerder;;2.0
+27;Dtcp;Dt;55;3. Hinder;1154;Defect materieel;deurproblemen;1.0
+1;Rtd;Gvc;60;3. Hinder;1134;Defect materieel;Trein 1134 telefonisch door vervoerder opgeheven ivm defect aan het materieel.;3.0
+11;Dtcp;Dt;57;3. Hinder;1146;Defect materieel;deursluiting;0.0
+19;Gv;Gvc;60;3. Hinder;-1;Aanpassing DRGL in verband met grote vertraging;;2.0
+5;Hfd;Hfd;1024;2. Veel hinder;75728;Spoor of wissels;;17.0
+24;Gvc;Gv;56;3. Hinder;-2;Energievoorziening (bovenleiding);Bovenleiding eenmalig kortstondig spanningsloos.;0.0
+3;Shl;Hfd;1890;2. Veel hinder;1010;Spoor of wissels;sectiestoring HFD$2208t;75.0
+29;Rtd;Gvc;45;3. Hinder;1136;Defect materieel;defect;1.0
+15;Ledn;Gvc;60;3. Hinder;-1;Aanpassing DRGL in verband met grote vertraging;;2.0
+29;Gvc;Ledn;60;3. Hinder;4689;Aanpassing DRGL op verzoek van de vervoerder;;2.0
+26;Shl;Hfd;312;3. Hinder;-2;Invloed van derden op infra;SHL: brand/rook tunnel tr 2475 / Spoorweb-id: 997166;0.0
+29;Rtd;Gvc;60;3. Hinder;5138;(problemen met) Reizigers;personeel aangevallen;2.0
+28;Rtd;Gvc;120;3. Hinder;5156;Spoor of wissels;TOBS in wisselsectie Empl Rtd;4.0
+5;Gvc;Ledn;90;3. Hinder;3330;Aanpassing DRGL op verzoek van de vervoerder;;5.0
+9;Gv;Gv;44;3. Hinder;703750;STS passage / Bijna Aanrijding;persoon langs t spoor ;0.0
+22;Gvc;Ledn;90;3. Hinder;733;Aanpassing DRGL op verzoek van de vervoerder;;4.0
+30;Rtd;Gvc;60;3. Hinder;5138;Defect materieel;deur;3.0
+10;Rtd;Gvc;90;3. Hinder;5044;Conflicten/aanpassingen Dienstregeling;;3.0
+20;Gv;Gvc;60;3. Hinder;-1;Aanpassing DRGL in verband met grote vertraging;;2.0
+4;Ledn;Gvc;60;3. Hinder;-1;Aanpassing DRGL in verband met grote vertraging;;2.0

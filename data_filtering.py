@@ -15,8 +15,8 @@ from datetime import datetime, date, timedelta, time
 #%% Data importation
 
 # /!\ Change the paths here !
-input_path = r"C:\Users\Alejandro Fiatt\Desktop\TIL\2026\Q1\CIEM6302\Group2_NS\prog en realisatie ophalen 2.csv"
-output_path = r"C:\Users\Alejandro Fiatt\Desktop\TIL\2026\Q1\CIEM6302\Group2_NS\data_NS_filtered.csv"
+input_path = r"C:\Users\Alejandro Fiatt\Documents\GitHub\Group2_NS\prog en realisatie ophalen 2.csv"
+output_path = r"C:\Users\Alejandro Fiatt\Documents\GitHub\Group2_NS\data_NS_filtered.csv"
 
 
 df = pd.read_csv(input_path)
@@ -86,3 +86,4 @@ filtered.to_csv(
     quoting=3,  
     encoding="utf-8"
 )
+# %%
