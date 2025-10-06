@@ -15,6 +15,8 @@ from datetime import datetime, date, timedelta, time
 #%% Data importation
 
 # /!\ Change the paths here !
+input_path = r"C:\Users\Alejandro Fiatt\Documents\GitHub\Group2_NS\prog en realisatie ophalen 2.csv"
+output_path = r"C:\Users\Alejandro Fiatt\Documents\GitHub\Group2_NS\data_NS_filtered.csv"
 input_path = r"/Users/Laure/Desktop/TUDelft/Advanced Data Science/Data NS/prog en realisatie ophalen 2.csv"
 output_path = r"/Users/Laure/Desktop/TUDelft/Advanced Data Science/Data NS/data_NS_filtered.csv"
 
@@ -85,4 +87,6 @@ filtered.to_csv(
     sep=";",  
     quoting=3,  
     encoding="utf-8"
+)
+# %%
 )
