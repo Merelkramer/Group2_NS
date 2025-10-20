@@ -17,9 +17,9 @@ from datetime import datetime, date, timedelta, time
 # /!\ Change the paths here !
 ns_path = r"C:\Users\Alejandro Fiatt\Documents\GitHub\Group2_NS\prog en realisatie ophalen 2.csv"
 disrup_path = r"C:\Users\Alejandro Fiatt\Documents\GitHub\Group2_NS\Verstoringen.csv"
-weather_path = r"C:\Users\Alejandro Fiatt\Documents\GitHub\Group2_NS\Weather.csv"
-output_path1 = r"C:\Users\Alejandro Fiatt\Documents\GitHub\Group2_NS\complete_dataset_clean.csv"
-output_path2 = r"C:\Users\Alejandro Fiatt\Documents\GitHub\Group2_NS\complete_dataset_clean_delaysonly.csv"
+weather_path = r"C:\Users\Alejandro Fiatt\Documents\GitHub\Group2_NS\Weather-temp.csv"
+output_path1 = r"C:\Users\Alejandro Fiatt\Documents\GitHub\Group2_NS\complete_dataset_clean_vf.csv"
+output_path2 = r"C:\Users\Alejandro Fiatt\Documents\GitHub\Group2_NS\complete_dataset_clean_delaysonly_vf.csv"
 
 
 df = pd.read_csv(ns_path)
@@ -102,7 +102,7 @@ merged_disrup.rename(columns={"KLANTHINDERINMINUTEN": "Disruption (minutes)"}, i
 merged_disrup.rename(columns={"TOELICHTING": "Disruption description"}, inplace=True)
 
 #%% Merge weather data
-weather_cols = ['Day', 'HH', 'Rain', 'Gusts', 'Storms']
+weather_cols = ['Day', 'HH', 'Rain', 'Gusts', 'Storms', 'Temp', 'Sunshine']
 merged_weather = merged_disrup.merge(
     weather[weather_cols],
     left_on=['DAGNR', 'hour'],
@@ -121,8 +121,6 @@ if "delay" in merged_weather.columns:
     merged_weather["delay_missing"] = merged_weather["delay"].isna().astype("int8")
     merged_weather["delay"] = merged_weather["delay"].fillna(0)
 
-# (b) drop rows missing the target
-merged_weather = merged_weather.dropna(subset=["REALISATIE"]).copy()
 
 # (c) ensure TREINSERIEBASIS is string (not generic object / mixed)
 if "TREINSERIEBASIS" in merged_weather.columns:
@@ -152,8 +150,13 @@ if "Rain" in merged_weather.columns:
     merged_weather["Heavy_Rain_flag"] = (merged_weather["Rain"] == "Heavy Rain").astype("int8")
 if "Gusts" in merged_weather.columns:
     merged_weather["Gusts_flag"] = merged_weather["Gusts"].notna().astype("int8")  # 1 if Heavy Wind present
-if "Storms" in df.columns:
+if "Storms" in merged_weather.columns:
     merged_weather["Storms_flag"] = merged_weather["Storms"].notna().astype("int8")  # 1 if Thunderstorm present
+if "Temp" in merged_weather.columns:
+    merged_weather["Warm_flag"] = (merged_weather["Temp"] == "Warm").astype("int8")  # 1 if Warm present
+    merged_weather["Cold_flag"] = (merged_weather["Temp"] == "Cold").astype("int8")  # 1 if Cold present
+if "Sunshine" in merged_weather.columns:
+    merged_weather["Sunny_flag"] = merged_weather["Sunshine"].notna().astype("int8")  # 1 if Sunny present
 
 # (g) (optional) simple keyword flags from Disruption description
 if "Disruption description" in merged_weather.columns:
@@ -168,15 +171,36 @@ for col in ["Cancelled", "ExtraTrain"]:
     if col in merged_weather.columns:
         merged_weather[col] = merged_weather[col].astype("int8")
 
-# (i) map Week_Dag_nr -> Weekday/Weekend
-if "WEEK_DAG_NR" in merged_weather.columns:
-    merged_weather["WEEK_DAG_NR"] = merged_weather["WEEK_DAG_NR"].apply(lambda x: "Weekend" if x in [6, 7] else "Weekday")
+# (h2) New feature: Previous train canceled
+merged_weather = merged_weather.sort_values(
+    by=["TRAJECT", "DAGNR", "PLANTIJD_VERTREK"], ascending=[True, True, True]
+)
+
+# For each TRAJECT + DAGNR, check if the previous train was canceled
+merged_weather["Previous train canceled"] = (
+    merged_weather.groupby(["TRAJECT", "DAGNR"])["Cancelled"]
+    .shift(1)  # look at the previous train
+    .fillna(0)  # first train of the day has no previous
+    .astype("int8")
+)
+
+# For each TRAJECT + DAGNR, check if the previous train was delayed
+merged_weather["Previous train delayed"] = (
+    merged_weather.groupby(["TRAJECT", "DAGNR"])["delay"]
+    .shift(1)  # look at the previous train
+    .fillna(0)  # first train of the day has no previous
+    .astype("int8")
+)
+
+# (b) drop rows missing the target
+merged_weather = merged_weather.dropna(subset=["REALISATIE"]).copy()
+
 
 
 # (j) reset index after drops (tidy)
 merged_weather = merged_weather.reset_index(drop=True)
 
-merged_weather.drop(columns=['prognose_missing', "Disruption description", "disruption_missing", "delay_missing", "Rain", "Gusts", "Storms"], inplace=True)
+merged_weather.drop(columns=['prognose_missing', "Disruption description", "disruption_missing", "delay_missing", "Rain", "Gusts", "Storms", "Temp", "Sunshine"], inplace=True)
 
 delays_only = merged_weather[merged_weather["delay"] != 0]
 
