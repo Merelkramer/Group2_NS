@@ -7,6 +7,7 @@ complete_dataset.csv
 Verstoringen_filtered.csv
 Weather.csv
 Verstoringen.csv
+complete_dataset_clean_vf.csv
 
 Verstoringen.xlsx
 # Ignore notebooks'checkpoints
