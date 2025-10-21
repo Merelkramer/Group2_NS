@@ -18,68 +18,30 @@ from datetime import datetime, date, timedelta, time
 ns_path = r"C:\Users\Alejandro Fiatt\Documents\GitHub\Group2_NS\prog en realisatie ophalen 2.csv"
 disrup_path = r"C:\Users\Alejandro Fiatt\Documents\GitHub\Group2_NS\Verstoringen.csv"
 weather_path = r"C:\Users\Alejandro Fiatt\Documents\GitHub\Group2_NS\Weather-temp.csv"
-output_path1 = r"C:\Users\Alejandro Fiatt\Documents\GitHub\Group2_NS\complete_dataset_clean_vf.csv"
-output_path2 = r"C:\Users\Alejandro Fiatt\Documents\GitHub\Group2_NS\complete_dataset_clean_delaysonly_vf.csv"
+output_path1 = r"C:\Users\Alejandro Fiatt\Documents\GitHub\Group2_NS\complete_dataset_clean_vf-AllNL.csv"
+output_path2 = r"C:\Users\Alejandro Fiatt\Documents\GitHub\Group2_NS\complete_dataset_clean_delaysonly_vf-AllNL.csv"
 
 
 df = pd.read_csv(ns_path)
 disrup = pd.read_csv(disrup_path)
 weather = pd.read_csv(weather_path)
 
-# Station list
-stations = [
-    "Dvnk", "Dt", "Dtcp", "Gvc", "Gv", "Laa", "Gvm", "Gvmw", 
-    "Hfd", "Ledn", "Nvp", "Rsw", "Rtd", "Ssh", "Sdm", "Shl", "Vst"
-]
 
-df.loc[
-    (df["TRAJECT"].isin(["Shl_Rtd", "Rtd_Shl"])),
-    "train_type"
-] = "TGV"
-
-# We also assign the IC based on their trajectory (it doesn't cover exceptions ->>> data cleaning)
-mask = (df["TRAJECT"].isin(["Dt_Gv", "Gv_Dt", "Ledn_Shl", "Shl_Ledn", 
-                                             "Ledn_Gvc", "Gvc_Ledn","Rtd_Gv", "Gv_Rtd","Dt_Rtd", "Rtd_Dt",
-                                             "Dt_Sdm", "Sdm_Dt", "Ledn_Gv", "Gv_Ledn",
-                                              "Ledn_Laa", "Laa_Ledn"])    
-        & df["train_type"].isna()
-)
-bewegings_to_update = df.loc[mask, "BEWEGINGNUMMER"].unique()
-df.loc[
-    df["BEWEGINGNUMMER"].isin(bewegings_to_update),
-    "train_type"
-] = "IC"
-
-# We assume the rest of them are sprinters
-df.loc[
-    pd.isna(df["train_type"]) ,
-    "train_type"
-] = "Sprinter"
-
-#%% Filtering the database on the study area
-# Split TRAJECT into two parts
-df[["station1", "station2"]] = df["TRAJECT"].str.split("_", expand=True)
-
-# Filter rows where BOTH stations are in the list
-filtered = df[df["station1"].isin(stations) & df["station2"].isin(stations)]
-
-
-#%% Add new features
-filtered["Cancelled"] = (
-    filtered["PLANTIJD_VERTREK"].notna() & filtered["UITVOERTIJD_VERTREK"].isna()
+df["Cancelled"] = (
+    df["PLANTIJD_VERTREK"].notna() & df["UITVOERTIJD_VERTREK"].isna()
 )
 
-filtered["ExtraTrain"] = (
-    filtered["PLANTIJD_VERTREK"].isna() & filtered["UITVOERTIJD_VERTREK"].notna()
+df["ExtraTrain"] = (
+    df["PLANTIJD_VERTREK"].isna() & df["UITVOERTIJD_VERTREK"].notna()
 )
 
 #%% New feature : delay at departure
 
-filtered["delay"]= pd.to_timedelta(
-    filtered["UITVOERTIJD_VERTREK"]
+df["delay"]= pd.to_timedelta(
+    df["UITVOERTIJD_VERTREK"]
     .str.split('.')
     .str[0])- pd.to_timedelta(
-    filtered["PLANTIJD_VERTREK"]
+    df["PLANTIJD_VERTREK"]
     .str.split('.')
     .str[0])
    
@@ -103,17 +65,17 @@ def timedelta_to_time(td):
     seconds = total_seconds % 60
     return time(hour=hours, minute=minutes, second=seconds)
 
-filtered["delay"] = filtered["delay"].apply(timedelta_to_time)
+df["delay"] = df["delay"].apply(timedelta_to_time)
 
 
 # Convertir a tipo datetime
-filtered['UITVOERTIJD_VERTREK'] = pd.to_datetime(filtered['UITVOERTIJD_VERTREK'], errors='coerce')
+df['UITVOERTIJD_VERTREK'] = pd.to_datetime(df['UITVOERTIJD_VERTREK'], errors='coerce')
 
 # Extraer solo la hora (número entero)
-filtered['hour'] = filtered['UITVOERTIJD_VERTREK'].dt.hour
+df['hour'] = df['UITVOERTIJD_VERTREK'].dt.hour
 
 # Merge disruption data
-merged_disrup = filtered.merge(
+merged_disrup = df.merge(
     disrup[['Dagnr', "BEWEGINGNUMMER", "KLANTHINDERINMINUTEN", "TOELICHTING"]],
     left_on=['DAGNR', "BEWEGINGNUMMER"],
     right_on=['Dagnr', "BEWEGINGNUMMER"],
