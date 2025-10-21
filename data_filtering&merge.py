@@ -32,6 +32,29 @@ stations = [
     "Hfd", "Ledn", "Nvp", "Rsw", "Rtd", "Ssh", "Sdm", "Shl", "Vst"
 ]
 
+df.loc[
+    (df["TRAJECT"].isin(["Shl_Rtd", "Rtd_Shl"])),
+    "train_type"
+] = "TGV"
+
+# We also assign the IC based on their trajectory (it doesn't cover exceptions ->>> data cleaning)
+mask = (df["TRAJECT"].isin(["Dt_Gv", "Gv_Dt", "Ledn_Shl", "Shl_Ledn", 
+                                             "Ledn_Gvc", "Gvc_Ledn","Rtd_Gv", "Gv_Rtd","Dt_Rtd", "Rtd_Dt",
+                                             "Dt_Sdm", "Sdm_Dt", "Ledn_Gv", "Gv_Ledn",
+                                              "Ledn_Laa", "Laa_Ledn"])    
+        & df["train_type"].isna()
+)
+bewegings_to_update = df.loc[mask, "BEWEGINGNUMMER"].unique()
+df.loc[
+    df["BEWEGINGNUMMER"].isin(bewegings_to_update),
+    "train_type"
+] = "IC"
+
+# We assume the rest of them are sprinters
+df.loc[
+    pd.isna(df["train_type"]) ,
+    "train_type"
+] = "Sprinter"
 
 #%% Filtering the database on the study area
 # Split TRAJECT into two parts
@@ -121,6 +144,13 @@ if "delay" in merged_weather.columns:
     merged_weather["delay_missing"] = merged_weather["delay"].isna().astype("int8")
     merged_weather["delay"] = merged_weather["delay"].fillna(0)
 
+    # Categorize delay values into bins
+    bins = [0, 1, 5, 10, 30, float("inf")]
+    labels = ["No delay (0-1 min)", "Small (1-5 min)", "Medium (5-10 min)", "Large (10-30 min)", "Very Large (+30min)"]
+
+    merged_weather["delay_category"] = pd.cut(
+        merged_weather["delay"], bins=bins, labels=labels, right=False
+    )
 
 # (c) ensure TREINSERIEBASIS is string (not generic object / mixed)
 if "TREINSERIEBASIS" in merged_weather.columns:
@@ -140,6 +170,14 @@ if "PROGNOSE_REIZEN" in merged_weather.columns:
 if "Disruption (minutes)" in merged_weather.columns:
     merged_weather["disruption_missing"] = merged_weather["Disruption (minutes)"].isna().astype("int8")
     merged_weather["Disruption (minutes)"] = merged_weather["Disruption (minutes)"].fillna(0)
+
+        # Categorize delay values into bins
+    bins = [0, 0.1, 60, 120, float("inf")]
+    labels = ["No Disruption","Small (0-1 h)", "Medium (1-2 h)", "Large (+2 h)"]
+
+    merged_weather["disruption_category"] = pd.cut(
+        merged_weather["Disruption (minutes)"], bins=bins, labels=labels, right=False
+    )
 
 # (f) Weather columns -> one-hot/binary flags (no leakage; simple mapping)
 #   Rain: values -> {NaN, "Rain", "Heavy Rain"}
