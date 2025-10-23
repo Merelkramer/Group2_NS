@@ -9,6 +9,8 @@ Weather.csv
 Verstoringen.csv
 complete_dataset_clean_vf.csv
 
+map.html
+
 Verstoringen.xlsx
 # Ignore notebooks'checkpoints
 .ipynb_checkpoints/
