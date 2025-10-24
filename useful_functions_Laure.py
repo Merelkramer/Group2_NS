@@ -490,7 +490,7 @@ def select_following_trains(i,small_delays, number=20) :
 def plot_propagation_of_delays_unique(i, select_20_following_trains,small_delays) :    
     plt.figure(figsize=(4, 2))
     plt.bar(select_20_following_trains['ORDER_ON_INFRA'], select_20_following_trains['delay_seconds'])
-    plt.xlabel(f"Trains running after train {small_delays.loc[i, "BEWEGINGNUMMER"]} on the infrastructure between {small_delays.loc[i, "station1"]} and {small_delays.loc[i, "station2"]} " )
+    plt.xlabel(f"Trains running after train {small_delays.loc[i, 'BEWEGINGNUMMER']} on the infrastructure between {small_delays.loc[i, 'station1']} and {small_delays.loc[i, 'station2']}")
     plt.ylabel('Delay (seconds)')
     plt.title(f'Delays of trains running after train {small_delays.loc[i, "BEWEGINGNUMMER"]} on the infrastructure between {small_delays.loc[i, "station1"]} and {small_delays.loc[i, "station2"]} ')
     plt.show()
