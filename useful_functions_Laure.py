@@ -361,7 +361,14 @@ def apply_offset_perpendicular(gdf_segments, offset=200):
 
 
 
-def convert_delays(df) : 
+def convert_delays(df) :
+    """
+    It creates the columns delay and delay_seconds of the data
+    Args : 
+        df (DataFrame) : NS data
+    Retunrs : 
+        df (DataFrame) : NS data with delay in datetime format, and delay_seconds in total seconds
+    """
     df["delay"] = datetime(2025, 1,1)+pd.to_timedelta(df['delay'], unit='m')
     df["delay_seconds"] = (
         df["delay"].dt.hour * 3600
@@ -380,7 +387,7 @@ def make_intervals(t,interval=10, mode="minute"):
         t : time in datetime format
         interval (int) : interval for the rounding (exemple : 10-minutes intervals)
         mode (string) : it gives the unit of the interval. Either "minute" or "second"
-    Retunrs : 
+    Returns : 
         rounded time in date format
     """
     if t is pd.NaT or t is None:
@@ -400,26 +407,40 @@ def make_intervals(t,interval=10, mode="minute"):
 
 
 
-def group_in_temp_intervals(df,minute) : 
-    # Creation of multiple time intervals to group the trips
-    quality_of_previsions = df.loc[(df["Cancelled"]==False) & (df["ExtraTrain"]== False)].copy()
+def round_to_interval(df,minute) : 
+    """
+    It adds a new column "round_UITVOERTIJD_AANKOMST" in the data with the 10min-rounded UITVOERTIJD_AANKOMST 
+    Args : 
+        df (DataFrame) : 
+        minute (int) : lenght of intervals
+    Returns : 
+        group_in_intervals (DataFrame) : new dataframe with the column of 10 min groups
+    """
+    df_round_to_interval = df.loc[(df["Cancelled"]==False) & (df["ExtraTrain"]== False)].copy()
     
     # convert to datetime
-    quality_of_previsions["round_UITVOERTIJD_AANKOMST"] = quality_of_previsions["UITVOERTIJD_AANKOMST"].apply(
+    df_round_to_interval["round_UITVOERTIJD_AANKOMST"] = df_round_to_interval["UITVOERTIJD_AANKOMST"].apply(
         lambda td: (datetime.min + td).time() 
     )
     
-    quality_of_previsions["round_UITVOERTIJD_AANKOMST"] = quality_of_previsions["round_UITVOERTIJD_AANKOMST"].apply(lambda t : make_intervals(t,minute,"minute"))
+    # separate the data in 10 minutes groups using the function make_intervals
+    df_round_to_interval["round_UITVOERTIJD_AANKOMST"] = df_round_to_interval["round_UITVOERTIJD_AANKOMST"].apply(lambda t : make_intervals(t,minute,"minute"))
     
     # This column will serve only for the plot (matplotlib cannot put date format on an x-axis)
-    quality_of_previsions['minutes'] = quality_of_previsions['round_UITVOERTIJD_AANKOMST'].apply(
+    df_round_to_interval['minutes'] = df_round_to_interval['round_UITVOERTIJD_AANKOMST'].apply(
         lambda t: t.hour * 60 + t.minute
     )
-    return quality_of_previsions
+    return df_round_to_interval
 
 def plot_average_deviation_per_route(route_stats) : 
+    """
+    It plots the bar chart about average deviation per route
+    Args : 
+        route_stats (DataFrame) : data with the mean deviation grouped by traject
+    Returns : 
+    """
     plt.figure(figsize=(14,3))
-    plt.bar(route_stats["TRAJECT"], route_stats["AFWIJKING"], color="skyblue", edgecolor="black")
+    plt.bar(route_stats["TRAJECT"], route_stats["AFWIJKING"], color="skyblue")
     plt.xticks(rotation=45, ha="right")
     plt.ylabel("Avg Deviation")
     plt.title("Average Deviation per Route")
@@ -428,6 +449,12 @@ def plot_average_deviation_per_route(route_stats) :
     
     
 def plot_quality_of_previsions_through_the_day (quality_of_previsions) :  
+    """
+        It plots the line chart of evolution of crowding prevision through the day
+    Args : 
+        quality_of_previsions (DataFrame) : Contains the average PROGNOSE_REIZEN and REALISATIE per 10 min intervals
+    Returns : 
+    """
     plt.figure(figsize=(6, 3))
     plt.plot(quality_of_previsions['minutes'], quality_of_previsions['REALISATIE'], label='Realisation')
     plt.plot(quality_of_previsions['minutes'], quality_of_previsions['PROGNOSE_REIZEN'], label='Prevision')
@@ -441,6 +468,16 @@ def plot_quality_of_previsions_through_the_day (quality_of_previsions) :
 
 
 def get_1_delay_per_train(df) :
+    """
+        For a train that has multiple values of delays on it's journey, it keeps only one value that will be the 
+        official delay of the train. For example, a train has a 11min38 delay from Shl to Hfd, 11min43 delay from 
+        Hfd to Ledn, and a 11min35 delay from Ledn to Gvc. Then, the global delay of the tran should be the last 
+        one (to discuss), so 11 min 35
+    Args : 
+        df (DataFrame) : NS Data
+    Returns : 
+        df_delay_per_train (DataFrame) : Filtered data keeping only the lines with the selected delay for the train
+    """
     df_delay_per_train= df.loc[(df["Cancelled"]==False) & (df["ExtraTrain"]== False)].copy()
     
     df_delay_per_train = convert_delays(df_delay_per_train)
@@ -455,7 +492,14 @@ def get_1_delay_per_train(df) :
 
 
 
-def mean_delays_per_period(period, df) : 
+def mean_delays_per_period(period, df) :
+    """
+        It gives the average delay for trains running on the selected period
+    Args : 
+        df (DataFrame) : NS Data, with 1 value of delay selected per train with function get_1_delay_per_train
+    Returns : 
+        (datetime.time) : Mean delay of all trains running during this period
+    """
     df_selection = df.loc[df["DAGDEELTREIN"]==period]
     mean = df_selection["delay_seconds"].mean()
     return (datetime.min + timedelta(seconds=mean)).time()
@@ -487,10 +531,18 @@ def select_following_trains(i,small_delays, number=20) :
     return select
 
 
-def plot_propagation_of_delays_unique(i, select_20_following_trains,small_delays) :    
+def plot_propagation_of_delays_unique(i, select_20_following_trains,small_delays) : 
+    """
+        It plots the propagation of delays on the 20 next trains running after train of index i 
+    Args : 
+        i (int) : index of initally delayed train to consider
+        select_20_following_trains (DataFrame) : data of the 20 next trains running on the same infra as train i
+        small_delays (DataFrame) : NS data 
+    Returns : 
+    """
     plt.figure(figsize=(4, 2))
     plt.bar(select_20_following_trains['ORDER_ON_INFRA'], select_20_following_trains['delay_seconds'])
-    plt.xlabel(f"Trains running after train {small_delays.loc[i, 'BEWEGINGNUMMER']} on the infrastructure between {small_delays.loc[i, 'station1']} and {small_delays.loc[i, 'station2']}")
+    plt.xlabel(f"Trains running after train {small_delays.loc[i, "BEWEGINGNUMMER"]} on the infrastructure between {small_delays.loc[i, "station1"]} and {small_delays.loc[i, "station2"]} " )
     plt.ylabel('Delay (seconds)')
     plt.title(f'Delays of trains running after train {small_delays.loc[i, "BEWEGINGNUMMER"]} on the infrastructure between {small_delays.loc[i, "station1"]} and {small_delays.loc[i, "station2"]} ')
     plt.show()
@@ -498,13 +550,21 @@ def plot_propagation_of_delays_unique(i, select_20_following_trains,small_delays
 
 
 def identify_initial_delays(small_delays) : 
-
+    """
+        It identifies lines of data that should be considered as initial delays.
+        Rules for being an initial delay : 
+        - The last 3 trains on the same infra were delayed of 0 minutes
+        - The train is 3 times more delayed than any last 3 train
+    Args : 
+        small_delays (DataFrame) : NS data
+    Returns : 
+        small_delays (DataFrame) : Data with an extra colum "initial_delay", which is True if the line represents an
+        initial delay, False in the other case
+    """
     small_delays = small_delays.sort_values(
         by=['DAGNR', 'station1', 'station2', 'ORDER_ON_INFRA']
     ).reset_index()
 
-    # ---- Identify initial delays
-    
     small_delays["initial_delay"]= False
     for i, row in small_delays.iterrows() : 
         if row["delay_seconds"] >0 : 
@@ -523,21 +583,48 @@ def identify_initial_delays(small_delays) :
             if row["ORDER_ON_INFRA"] ==1 :  small_delays.loc[i,"initial_delay"]= True
     return small_delays
 
-def select_following_trains_bis(minute, small_delays,initially_delayed_trains):
+def select_following_trains_bis(minute, small_delays,initially_delayed_trains, max_number=20):
+    """
+        It selects, for each train that has been identified an a initial delay during the selected interval, the 
+        max_number next trains running after on the same infrastructure
+    Args : 
+        minute (int) : amount of time the selected trains are initially delayed
+        small_delays (DataFrame) : NS data
+        initially_delayed_trains (DataFrame) : trains that have been identified an a initial delay during 
+            the selected interval
+        max_number (int) : maximum number of following traisn to consider
+    Returns : 
+        merged (DataFrame) : for each train following an initially delayed train, there is a line with the 
+            corresponding initially delayed train, and the relative position of this train after 
+            the initially delayed train
+    """
+    
+    # Merge initially delayed trains with all trains on the same infrastructure and day
     merged = initially_delayed_trains.merge(
         small_delays,
         on=["station1", "station2", "DAGNR"],
         suffixes=("_base", "_other")
     )
 
+    # Compute the relative position (order) of the "other" train after the initially delayed train
     merged["order_of_apparition"] = (
         merged["ORDER_ON_INFRA_other"] - merged["ORDER_ON_INFRA_base"]
     )
 
-    merged = merged[(merged["order_of_apparition"] >= 0) & (merged["order_of_apparition"] <= 20)& (merged["delay_seconds_other"] >0)]
+    # Keep only trains that:
+    # - are after or at the same order as the initially delayed train (>=0)
+    # - are within the maximum number of following trains (<= max_number)
+    # - have a delay > 0
+    merged = merged[(merged["order_of_apparition"] >= 0) & 
+                    (merged["order_of_apparition"] <= max_number)& 
+                    (merged["delay_seconds_other"] >0)]
 
+    # Initialize a list to store rows that need to be deleted
     rows_to_delete = []
 
+    # Loop through the merged DataFrame to remove trains that:
+    # - are themselves initially delayed AND
+    # - appear after the first initially delayed train (order_of_apparition > 0)
     for i, row in merged.iterrows():
         if (row["initial_delay_other"] == True)& (row["order_of_apparition"]>0):
             to_delete = merged.loc[
@@ -548,9 +635,13 @@ def select_following_trains_bis(minute, small_delays,initially_delayed_trains):
             ]
             rows_to_delete.extend(to_delete.index)  
 
+    # Remove the identified rows to avoid counting trains that are themselves initially delayed
     merged = merged.drop(index=rows_to_delete).reset_index(drop=True)
 
-    
+    # Recalculate the order_of_apparition:
+    # - sort by day, station pair, and scheduled departure time of the following train
+    # - group by the initially delayed train (index_base) and station/day
+    # - count sequentially to get the updated order
     merged["order_of_apparition"] = (
         merged
         .sort_values(by=['DAGNR', 'station1', 'station2', 'UITVOERTIJD_VERTREK_dt_other'])
@@ -559,8 +650,18 @@ def select_following_trains_bis(minute, small_delays,initially_delayed_trains):
         )
     return merged
 
+
+
 def plot_propagation_of_delays (minute, df_agg) : 
-    # --- Plot ---
+    """
+        It plots the mean propagation of delays for trains running after trains that were initially delayed 
+        of approximately "minute"(arg) minutes.
+    Args : 
+        minute (int) : amount of time the selected trains are initially delayed
+        df_agg (DataFrame) : data with the average delays for the 1st, 2nd, 3rd... trains running after all
+        the initially delayed trains that were selected, and the size of the sample used for these calculations
+    Returns : 
+    """
     fig, ax1 = plt.subplots(figsize=(5, 3))
 
     # Left y-axis: average delay
@@ -593,30 +694,54 @@ def plot_propagation_of_delays (minute, df_agg) :
     fig.tight_layout()
     plt.show()
 
+
+
 def agg_propagation_of_delays(minute, small_delays, limit=8):
+    """
+    Aggregates the propagation of delays along a given infrastructure.For trains that have an initial delay 
+    within a selected interval, this function examines the following trains on the same route and day,
+    computes their relative order, and aggregates the mean delay and count per relative position.
+
+    Args:
+        minute (int): amount of time the selected trains are approximately initially delayed 
+        small_delays (DataFrame): NS train data including delay information
+        limit (int): minimum number of observations required to compute an avergae
+
+    Returns:
+        df_agg (DataFrame): aggregated statistics for each delta_order, including mean delay (seconds) and 
+        number of observations
+    """
     interval = [60 * minute - 60, 60 * minute + 60]
 
-    # Select the trains in the interval
+    # Select trains that have an initial delay within the interval
     base_trains = small_delays.loc[
         (small_delays["delay_seconds"] >= interval[0]) &
         (small_delays["delay_seconds"] < interval[1]) &
         (small_delays["initial_delay"] == True)
     ]
 
+    # Merge the initially delayed trains with all trains on the same infrastructure and day
     merged = base_trains.merge(
         small_delays,
         on=["station1", "station2", "DAGNR"],
         suffixes=("_base", "_other")
     )
 
+    # Compute the relative order of the "other" train after the initially delayed train
     merged["delta_order"] = (
         merged["ORDER_ON_INFRA_other"] - merged["ORDER_ON_INFRA_base"]
     )
 
-    merged = merged[(merged["delta_order"] >= 0) & (merged["delta_order"] <= 20)& (merged["delay_seconds_other"] >0)]
+   # Keep only trains that:
+    # - appear after or at the same position as the initially delayed train (>=0)
+    # - are within 20 following trains
+    # - have a delay > 0
+    merged = merged[(merged["delta_order"] >= 0) & 
+                    (merged["delta_order"] <= 20)& 
+                    (merged["delay_seconds_other"] >0)]
 
+    # Identify trains that are themselves initially delayed and appear after the base train
     rows_to_delete = []
-
     for i, row in merged.iterrows():
         if (row["initial_delay_other"] == True)& (row["delta_order"]>0):
             to_delete = merged.loc[
@@ -627,19 +752,22 @@ def agg_propagation_of_delays(minute, small_delays, limit=8):
             ]
             rows_to_delete.extend(to_delete.index)  
     
-    # Supprimer toutes les lignes à la fin
+    # Drop the identified rows to avoid counting trains that are themselves initially delayed
     merged = merged.drop(index=rows_to_delete).reset_index(drop=True)
 
-    
+    # Recalculate delta_order based on sorted departure times
+    # - sort by day, station pair, and departure time of the following train
+    # - group by initially delayed train (index_base) and station/day
+    # - count sequentially to assign updated delta_order
     merged["delta_order"] = (
         merged
         .sort_values(by=['DAGNR', 'station1', 'station2', 'UITVOERTIJD_VERTREK_dt_other'])
         .groupby(['index_base', 'DAGNR', 'station1', 'station2'])
         .cumcount() + 1     
         )
-    
-            
-    # Compute both the mean delay and the count
+               
+    # Aggregate the delay information by relative order (delta_order)
+    # Compute both mean delay and count of observations
     df_agg = (
         merged.groupby("delta_order")["delay_seconds_other"]
         .agg(["mean", "count"])
@@ -651,6 +779,7 @@ def agg_propagation_of_delays(minute, small_delays, limit=8):
         })
     )
 
+    # Keep only delta_order positions with sufficient observations
     df_agg = df_agg.loc[df_agg["n_obs"] >limit]
     return df_agg
 
@@ -658,12 +787,12 @@ def agg_propagation_of_delays(minute, small_delays, limit=8):
 
 def list_index_first_delays (minute, df_small_delays) : 
     """
-    It selects all the trains that are delayed BEFORE their terminus of a certain amount of minutes 
-    (between minute-30 and minute+30)
+        It selects all the trains that are delayed BEFORE their terminus of a certain amount of minutes 
+        (between minute-30 and minute+30)
     Args : 
         minute (int) : delay we want to consider
     Returns : 
-        lst_index (list) : indexes of all the trains delayed before their terminus
+        list_index (list) : indexes of all the trains delayed before their terminus
     """
     interval = [60 * minute - 30, 60 * minute + 30]
     list_index = df_small_delays.loc[
@@ -672,6 +801,8 @@ def list_index_first_delays (minute, df_small_delays) :
         (df_small_delays["IS_TERMINUS"] == False) &
         (~ pd.isna(df_small_delays["delay_seconds"]))].index.tolist()
     return list_index
+
+
 
 def evolution_journey(df_small_delays, index_first_delays) : 
     df_selected = df_small_delays.loc[index_first_delays]
@@ -733,7 +864,7 @@ def plot_propagation_of_deviation(df_arg,minute):
     bars = [bars1, bars2]
     labels = [b.get_label() for b in bars]
     ax1.legend(bars, labels, loc="upper left")   
-    plt.savefig("propagationdeviation.jpeg")
+    #plt.savefig("propagationdeviation.jpeg")
     
 
 def select_trains_leaving_during_delays(considered_delayed_trains, df_is_terminus,minute) : 
@@ -772,7 +903,7 @@ def plot_rain_deviation_wind(df_meteo_graph) :
     ax3 = ax1.twinx()  
     ax3.spines["right"].set_position(("outward", 60))
     bars3 = ax3.bar(x + width , df_meteo_graph["FH"], width, color='purple', label="Average wind speed")
-    ax3.set_ylabel("Average wind speed")
+    ax3.set_ylabel("Average wind speed (0.1 m/s)")
     
     bars = bars1 + bars2 + bars3 
     labels = [b.get_label() for b in bars]
@@ -781,7 +912,7 @@ def plot_rain_deviation_wind(df_meteo_graph) :
     plt.title("Comparison of rain, deviation and wind speed on each day of the month")
     plt.tight_layout()
     plt.show()
-    
+    #plt.savefig("deviationweather.jpeg")
     
     
     
@@ -803,7 +934,7 @@ def plot_rain_crowding_wind(df_meteo_graph) :
     ax3 = ax1.twinx()  
     ax3.spines["right"].set_position(("outward", 60))
     bars3 = ax3.bar(x + width , df_meteo_graph["FH"], width, color='purple', label="Average wind speed")
-    ax3.set_ylabel("Average wind speed")
+    ax3.set_ylabel("Average wind speed (0.1 m/s)")
     
     bars = bars1 + bars2 + bars3 
     labels = [b.get_label() for b in bars]
@@ -811,6 +942,7 @@ def plot_rain_crowding_wind(df_meteo_graph) :
     
     plt.title("Comparison of rain, crowding and wind speed on each day of the month")
     plt.tight_layout()
+    #plt.savefig("crowdingmeteo.jpeg")
     plt.show()
     
 
@@ -833,30 +965,32 @@ def plot_rain_deviation_wind_specific_day(df_june_10,day) :
     ax3 = ax1.twinx()  
     ax3.spines["right"].set_position(("outward", 60))
     bars3 = ax3.bar(x + width , df_june_10["FH"], width, color='purple', label="Average wind speed")
-    ax3.set_ylabel("Average wind speed")
+    ax3.set_ylabel("Average wind speed (0.1 m/s)")
     
     bars = bars1 + bars2 + bars3 
     labels = [b.get_label() for b in bars]
     ax1.legend([bars1, bars2, bars3], ["Rain (0.1 mm)", "Deviation", "Average wind speed (0.1 m/s)"], loc='upper right')
-    
+    ax1.set_xlabel("Hour")
     plt.title(f"Comparison of rain, deviation and wind speed on June {day}")
     plt.show()
     
 
 def plot_disruptions_patterns (df_disruptions_plot_1, df_disruptions_plot_2) : 
     df_disruptions_pivot = df_disruptions_plot_1.pivot(
-        index='Dagnr',
+        index=['Dagnr', 'Weekday'],
         columns='KLANTHINDERNAAM',
         values='count'
     ).fillna(0)
+
     
     # Bars for the number of disruptions
     ax = df_disruptions_pivot.plot(kind='bar', stacked=True, figsize=(10,6), color = ["lightblue", "pink","orange"])
+    ax.set_xticklabels([idx[1] for idx in df_disruptions_pivot.index], rotation=45, ha='right')
+    
     
     # Scatter for the time amount of disruptions
     ax2 = ax.twinx()
     ax2.plot(ax.get_xticks(), df_disruptions_plot_2['KLANTHINDERINMINUTEN'], color='brown', marker='o', label='Total disturbance minutes')
-    
     # Legend
     handles1, labels1 = ax.get_legend_handles_labels()
     handles2, labels2 = ax2.get_legend_handles_labels()
@@ -867,4 +1001,24 @@ def plot_disruptions_patterns (df_disruptions_plot_1, df_disruptions_plot_2) :
     ax2.set_ylabel("Total disturbance minutes")
     plt.title("Number of disruptions per day and per level of disturbance")
     plt.tight_layout()
+    plt.show()
+    #plt.savefig("crowdingmeteo.jpeg")
+    
+
+
+
+def plot_model_comparison (df_agg, col_x, title, label_x) : 
+    plt.figure(figsize=(8,5))
+    plt.plot(df_agg[col_x],df_agg['deviation_OPERATOR_PRED'],marker="x", color = "red", label = "Operator prediction")
+    plt.plot(df_agg[col_x],df_agg['deviation_LINEAR_PRED'],marker="o", color = "orange", label = "Linear Regression")
+    plt.plot(df_agg[col_x],df_agg['deviation_MLP_PRED'],marker="^", color = "purple", label = "MLP Model")
+    plt.plot(df_agg[col_x],df_agg['deviation_XGBOOST_PRED'],marker="s", color = "lightblue", label = "XGB Model")
+    plt.title(title)
+    plt.xlabel(label_x)
+    plt.ylabel("Absolute deviation |(Predicted - Measured)/Measured|")
+    plt.grid(True, linestyle='--', alpha=0.6)
+    plt.legend()
+    plt.ylim(0, 1.6)
+    plt.tight_layout()
+    #plt.savefig("modelcomparison.jpeg")
     plt.show()
