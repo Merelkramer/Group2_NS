@@ -228,9 +228,6 @@ if "Previous train delayed (min)" in merged_weather.columns:
         merged_weather["Previous train delayed (min)"], bins=bins, labels=labels, right=False
     )
 
-# (b) drop rows missing the target
-merged_weather = merged_weather.dropna(subset=["REALISATIE"]).copy()
-
 # (h2) New feature: Extra train
 merged_weather = merged_weather.sort_values(
     by=["TRAJECT", "DAGNR", "UITVOERTIJD_AANKOMST"], ascending=[True, True, True]
@@ -242,6 +239,10 @@ merged_weather["Extra train added before departure"] = (
     .fillna(0)  # first train of the day has no previous
     .astype("int8")
 )
+
+# (b) drop rows missing the target
+merged_weather = merged_weather.dropna(subset=["REALISATIE"]).copy()
+
 
 # (d) fill other categoricals we use
 for col in ["DAGDEELTREIN"]:
