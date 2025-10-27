@@ -804,7 +804,16 @@ def list_index_first_delays (minute, df_small_delays) :
 
 
 
-def evolution_journey(df_small_delays, index_first_delays) : 
+def evolution_journey(df_small_delays, index_first_delays) :
+    """
+        It selects the lines representing the rest of the journeys of trains which indexes are in index_first_delays.
+    Args : 
+        df_small_delays (DataFrame) : NS data
+        index_first_delays (list) : list of indexes of initially delayed trains
+    Returns : 
+        df_result (DataFrame) : Filtered data with only bthe lines representing the rest of the journeys of 
+        trains which indexes are in index_first_delays.
+    """
     df_selected = df_small_delays.loc[index_first_delays]
     final_indices = set(index_first_delays) 
     
@@ -823,10 +832,11 @@ def evolution_journey(df_small_delays, index_first_delays) :
 
 def plot_propagation_of_deviation(df_arg,minute):
     """
-    It plots, on one side, the deviation in prediction for the sections run by the same train after 
-    the apparition of the delay
+        It plots, on one side, the deviation in prediction for the sections run by the same train after 
+        the apparition of the delay
     Args : 
         df_arg (DataFrame) : df with all the sections run by a train after it is delayed 
+        minute (int) : amount of time trains are (approximately) initially delayed
     Returns : 
     """
     df_mean = (
@@ -868,9 +878,19 @@ def plot_propagation_of_deviation(df_arg,minute):
     
 
 def select_trains_leaving_during_delays(considered_delayed_trains, df_is_terminus,minute) : 
-        final_indices_replacement =set() 
+    """
+        For trains that are delayed before their terminus between station A and B, it selects all the trains leaving
+        from station B during the delay of the train
+    Args : 
+        considered_delayed_trains (list) : indexes of all the trains delayed before their terminus
+        df_is_terminus (DataFrame) : NS data (with a column saying whether a train is at his terminus)
+    Returns : 
+        trains_leaving_during_delays (DataFrame) : filtered data with only the trains that are leaving from 
+        a station where passengers are waiting for another delayed train
+    """
+    final_indices_replacement =set() 
         
-        for idx in considered_delayed_trains :
+    for idx in considered_delayed_trains :
             row = df_is_terminus.loc[idx]
             mask = (
                 (df_is_terminus['UITVOERTIJD_VERTREK'] > row['PLANTIJD_VERTREK']) &
@@ -881,11 +901,18 @@ def select_trains_leaving_during_delays(considered_delayed_trains, df_is_terminu
             )
             final_indices_replacement.update(df_is_terminus.index[mask])
         
-        trains_leaving_during_delays = df_is_terminus.loc[sorted(final_indices_replacement)]
-        return trains_leaving_during_delays
+    trains_leaving_during_delays = df_is_terminus.loc[sorted(final_indices_replacement)]
+    return trains_leaving_during_delays
     
     
 def plot_rain_deviation_wind(df_meteo_graph) : 
+    """
+        It plots a bar chart to compare, for each day, the quantity of rain, the wind speed and the deviation
+        of the prediction
+    Args : 
+        df_meteo_graph (DataFrame) : df with aggregated data on DAGNR
+    Returns :      
+    """
     x = np.arange(len(df_meteo_graph.index))         
     width = 0.25
     fig, ax1 = plt.subplots(figsize=(10,6))
@@ -917,6 +944,13 @@ def plot_rain_deviation_wind(df_meteo_graph) :
     
     
 def plot_rain_crowding_wind(df_meteo_graph) : 
+    """
+        It plots a bar chart to compare, for each day, the quantity of rain, the wind speed and the 
+        number of people boarding on trains
+    Args : 
+        df_meteo_graph (DataFrame) : df with aggregated data on DAGNR
+    Returns :      
+    """
     x = np.arange(len(df_meteo_graph.index))         
     width = 0.25
     fig, ax1 = plt.subplots(figsize=(10,6))
@@ -948,6 +982,13 @@ def plot_rain_crowding_wind(df_meteo_graph) :
 
 
 def plot_rain_deviation_wind_specific_day(df_june_10,day) : 
+    """
+        It plots a bar chart to compare, for each hour of a specific day, the quantity of rain, the wind speed 
+        and the deviation of the prediction
+    Args : 
+        df_june_10 (DataFrame) : df with aggregated data on Hours, for a specific day (default June 10)
+    Returns :      
+    """
     x = np.arange(len(df_june_10.index))         
     width = 0.25
     fig, ax1 = plt.subplots(figsize=(10,6))
@@ -975,50 +1016,99 @@ def plot_rain_deviation_wind_specific_day(df_june_10,day) :
     plt.show()
     
 
-def plot_disruptions_patterns (df_disruptions_plot_1, df_disruptions_plot_2) : 
-    df_disruptions_pivot = df_disruptions_plot_1.pivot(
-        index=['Dagnr', 'Weekday'],
-        columns='KLANTHINDERNAAM',
-        values='count'
-    ).fillna(0)
-
+def plot_disruptions_patterns (df_disruptions_plot_2,df_meteo_graph) : 
+    """
+        It plots a bar chart and a line chart superposed to compare the number of predictions on a day and the 
+        amount of time they lasted
+    Args : 
+        df_disruptions_plot_2 (DataFrame) : df with aggregated data about the number and the duration of disruptions
+        df_meteo_graph (DataFrame) : data with aggregation on days of the month
+    Returns :      
+    """
     
     # Bars for the number of disruptions
-    ax = df_disruptions_pivot.plot(kind='bar', stacked=True, figsize=(10,6), color = ["lightblue", "pink","orange"])
-    ax.set_xticklabels([idx[1] for idx in df_disruptions_pivot.index], rotation=45, ha='right')
+    ax = df_disruptions_plot_2["KLANTHINDERNAAM"].plot(kind='bar',figsize=(10,6), color = "lightblue", label= "Number of disruptions")
+    ax.set_xticklabels( df_disruptions_plot_2["Weekday"], rotation=45, ha='right')
     
     
     # Scatter for the time amount of disruptions
     ax2 = ax.twinx()
     ax2.plot(ax.get_xticks(), df_disruptions_plot_2['KLANTHINDERINMINUTEN'], color='brown', marker='o', label='Total disturbance minutes')
+    
+    # Scatter for the deviation
+    ax3 = ax.twinx()
+    ax3.plot (ax.get_xticks(), df_meteo_graph["AFWIJKING"], color="green", marker = "x", label = "Mean absolute deviation")
+    ax3.spines["right"].set_position(("outward", 60))
+    
     # Legend
     handles1, labels1 = ax.get_legend_handles_labels()
     handles2, labels2 = ax2.get_legend_handles_labels()
-    ax.legend(handles1 + handles2, labels1 + labels2,  loc='upper center')
+    handles3, labels3 = ax3.get_legend_handles_labels()
+    ax.legend(handles1 + handles2 + handles3, labels1 + labels2 +labels3,  loc='upper center')
     
     ax.set_xlabel("Dagnr (Day)")
-    ax.set_ylabel("Number of disruptions")
-    ax2.set_ylabel("Total disturbance minutes")
-    plt.title("Number of disruptions per day and per level of disturbance")
+    ax.set_ylabel("Number of disruptions", color ="blue")
+    ax2.set_ylabel("Total disturbance minutes",color ="brown")
+    ax3.set_ylabel("Mean absolute deviation", color ="green")
+    plt.title("Number and duration of disruptions, compared to mean absolute deviation")
     plt.tight_layout()
-    plt.show()
     #plt.savefig("crowdingmeteo.jpeg")
+    plt.show()
     
 
 
 
-def plot_model_comparison (df_agg, col_x, title, label_x) : 
+def plot_model_comparison (df_agg, col_x, title, label_x, marksize, line_width) : 
+    """
+        It plots a multi line-chart to compare the models' deviation on predictions
+    Args : 
+        df_agg (DataFrame) : df with aggregated data about the deviation of prediction
+        col_x (DataFrame) : column for the aggregation (day or hour)
+        title (str) : title of the graph
+        label_x : title of the x_axis
+        marksize (int) : size of the marker
+        line_width : width of the line of the plot
+    Returns :      
+    """
     plt.figure(figsize=(8,5))
-    plt.plot(df_agg[col_x],df_agg['deviation_OPERATOR_PRED'],marker="x", color = "red", label = "Operator prediction")
-    plt.plot(df_agg[col_x],df_agg['deviation_LINEAR_PRED'],marker="o", color = "orange", label = "Linear Regression")
-    plt.plot(df_agg[col_x],df_agg['deviation_MLP_PRED'],marker="^", color = "purple", label = "MLP Model")
-    plt.plot(df_agg[col_x],df_agg['deviation_XGBOOST_PRED'],marker="s", color = "lightblue", label = "XGB Model")
+    plt.plot(df_agg[col_x],df_agg['deviation_OPERATOR_PRED'],marker="x", color = "red", label = "Operator prediction",markersize = marksize,linewidth=line_width)
+    plt.plot(df_agg[col_x],df_agg['deviation_LINEAR_PRED'],marker="o", color = "orange", label = "Linear Regression",markersize = marksize,linewidth=line_width)
+    plt.plot(df_agg[col_x],df_agg['deviation_MLP_PRED'],marker="^", color = "purple", label = "MLP Model",markersize = marksize,linewidth=line_width)
+    plt.plot(df_agg[col_x],df_agg['deviation_XGBOOST_PRED'],marker="s", color = "lightblue", label = "XGB Model",markersize = marksize,linewidth=line_width)
+    plt.axhline(y=0, color="green", linestyle="--", linewidth=2, label="Realisation (0)")
     plt.title(title)
     plt.xlabel(label_x)
-    plt.ylabel("Absolute deviation |(Predicted - Measured)/Measured|")
+    plt.ylabel("Sum of absolute difference |Predicted - Realisation| for each service")
     plt.grid(True, linestyle='--', alpha=0.6)
     plt.legend()
-    plt.ylim(0, 1.6)
     plt.tight_layout()
+    #plt.savefig(f"modelcomparison-{title}.jpeg")
+    plt.show()
+    
+
+def plot_model_comparison_occupancy (df_agg, col_x, title, label_x, marksize, line_width) : 
+    """
+        It plots a multi line-chart to compare the models' predictions on total occupancy
+    Args : 
+        df_agg (DataFrame) : df with aggregated data about the deviation of prediction
+        col_x (DataFrame) : column for the aggregation (day or hour)
+        title (str) : title of the graph
+        label_x : title of the x_axis
+        marksize (int) : size of the marker
+        line_width : width of the line of the plot
+    Returns :      
+    """
+    plt.figure(figsize=(8,5))
+    plt.plot(df_agg[col_x],df_agg['LINEAR_PRED'],marker="o", color = "orange", label = "Linear Regression",markersize = marksize,linewidth=line_width)
+    plt.plot(df_agg[col_x],df_agg['MLP_PRED'],marker="^", color = "purple", label = "MLP Model",markersize = marksize,linewidth=line_width)
+    plt.plot(df_agg[col_x],df_agg['XGBOOST_PRED'],marker="s", color = "lightblue", label = "XGB Model",markersize = marksize,linewidth=line_width)
+    plt.plot(df_agg[col_x],df_agg['OPERATOR_PRED'],marker="x", color = "red", label = "Operator prediction",markersize = marksize,linewidth=line_width)
+    plt.plot(df_agg[col_x],df_agg['REALISATIE'],marker="*", color = "green", label = "Realisation",markersize = marksize,linewidth=line_width)
+    plt.title(title)
+    plt.xlabel(label_x)
+    plt.ylabel("Total occupancy")
+    plt.grid(True, linestyle='--', alpha=0.6)
+    plt.legend()
     #plt.savefig("modelcomparison.jpeg")
     plt.show()
+
