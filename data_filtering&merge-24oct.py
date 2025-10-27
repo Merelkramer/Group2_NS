@@ -18,8 +18,8 @@ from datetime import datetime, date, timedelta, time
 ns_path = r"C:\Users\Alejandro Fiatt\Documents\GitHub\Group2_NS\prog en realisatie ophalen 2.csv"
 disrup_path = r"C:\Users\Alejandro Fiatt\Documents\GitHub\Group2_NS\Verstoringen.csv"
 weather_path = r"C:\Users\Alejandro Fiatt\Documents\GitHub\Group2_NS\Weather-temp.csv"
-output_path1 = r"C:\Users\Alejandro Fiatt\Documents\GitHub\Group2_NS\complete_dataset_clean_24oct.csv"
-output_path2 = r"C:\Users\Alejandro Fiatt\Documents\GitHub\Group2_NS\complete_dataset_clean_delaysonly_24oct.csv"
+output_path1 = r"C:\Users\Alejandro Fiatt\Documents\GitHub\Group2_NS\complete_dataset_clean_24oct_SE.csv"
+output_path2 = r"C:\Users\Alejandro Fiatt\Documents\GitHub\Group2_NS\complete_dataset_clean_delaysonly_24oct_SE.csv"
 
 
 df = pd.read_csv(ns_path)
@@ -138,6 +138,10 @@ merged_weather.drop(columns=['Dagnr', "Day", "hour", "HH"], inplace=True)
 
 # Cleaning / feature prep
 
+special_event_days = [6, 7, 8, 9, 13, 14, 15, 16, 17, 27, 28, 29, 30]
+
+merged_weather["Special Events"] = merged_weather["DAGNR"].isin(special_event_days).astype("int8")
+
 # (a) delay: HH:MM:SS -> minutes
 if "delay" in merged_weather.columns:
     merged_weather["delay"] = pd.to_timedelta(merged_weather["delay"].astype(str), errors="coerce").dt.total_seconds() / 60
@@ -194,7 +198,7 @@ if "Sunshine" in merged_weather.columns:
 
 
 # (h) ensure boolean columns are numeric ints for XGBoost
-for col in ["Cancelled", "ExtraTrain"]:
+for col in ["Cancelled", "ExtraTrain","Special Events"]:
     if col in merged_weather.columns:
         merged_weather[col] = merged_weather[col].astype("int8")
 
