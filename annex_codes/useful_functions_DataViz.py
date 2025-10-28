@@ -406,32 +406,6 @@ def make_intervals(t,interval=10, mode="minute"):
 
 
 
-
-def round_to_interval(df,minute) : 
-    """
-    It adds a new column "round_UITVOERTIJD_AANKOMST" in the data with the 10min-rounded UITVOERTIJD_AANKOMST 
-    Args : 
-        df (DataFrame) : 
-        minute (int) : lenght of intervals
-    Returns : 
-        group_in_intervals (DataFrame) : new dataframe with the column of 10 min groups
-    """
-    df_round_to_interval = df.loc[(df["Cancelled"]==False) & (df["ExtraTrain"]== False)].copy()
-    
-    # convert to datetime
-    df_round_to_interval["round_UITVOERTIJD_AANKOMST"] = df_round_to_interval["UITVOERTIJD_AANKOMST"].apply(
-        lambda td: (datetime.min + td).time() 
-    )
-    
-    # separate the data in 10 minutes groups using the function make_intervals
-    df_round_to_interval["round_UITVOERTIJD_AANKOMST"] = df_round_to_interval["round_UITVOERTIJD_AANKOMST"].apply(lambda t : make_intervals(t,minute,"minute"))
-    
-    # This column will serve only for the plot (matplotlib cannot put date format on an x-axis)
-    df_round_to_interval['minutes'] = df_round_to_interval['round_UITVOERTIJD_AANKOMST'].apply(
-        lambda t: t.hour * 60 + t.minute
-    )
-    return df_round_to_interval
-
 def plot_average_deviation_per_route(route_stats) : 
     """
     It plots the bar chart about average deviation per route
@@ -447,24 +421,106 @@ def plot_average_deviation_per_route(route_stats) :
     plt.grid(axis="y")
     plt.show()
     
+
     
-def plot_quality_of_previsions_through_the_day (quality_of_previsions) :  
+def plot_day_pattern (weekday_sum, weekend_sum) : 
     """
-        It plots the line chart of evolution of crowding prevision through the day
+        It plots line charts of evolution of previsions and observed total occupancy through the day, 
+        both on weekdays and weekends
     Args : 
-        quality_of_previsions (DataFrame) : Contains the average PROGNOSE_REIZEN and REALISATIE per 10 min intervals
+        weekday_sum (DataFrame) : Aggregated data for weekdays
+        weekend_sum (DataFrame) : Aggregated data for weekends
     Returns : 
     """
-    plt.figure(figsize=(6, 3))
-    plt.plot(quality_of_previsions['minutes'], quality_of_previsions['REALISATIE'], label='Realisation')
-    plt.plot(quality_of_previsions['minutes'], quality_of_previsions['PROGNOSE_REIZEN'], label='Prevision')
-    plt.xticks(range(0, 24*60+1, 60), [f"{h}" for h in range(25)])  # ticks every hours
-    plt.xlabel("Hour")
-    plt.ylabel("Passengers number")
-    plt.title("Comparison between the average number of expected passengers and the average number measured")
+    plt.figure(figsize=(10,5))
+    plt.plot(weekend_sum.index, weekend_sum['REALISATIE'], label='Realisation (Weekend)', linestyle='-', marker='o')
+    plt.plot(weekend_sum.index, weekend_sum['PROGNOSE_REIZEN'], label='Prognose (Weekend)', linestyle='-', marker='x')
+    
+    plt.plot(weekday_sum.index, weekday_sum['REALISATIE'], label='Realisation (Weekday)', linestyle='--', marker='o')
+    plt.plot(weekday_sum.index, weekday_sum['PROGNOSE_REIZEN'], label='Prognose (Weekday)', linestyle='--', marker='x')
+    
+    plt.title('Passengers per hour of the day (average)')
+    plt.xlabel('Houre of the day')
+    plt.ylabel('Passengers')
     plt.legend()
+    plt.grid(True, linestyle='--', alpha=0.6)
+    plt.tight_layout()
     plt.show()
 
+
+def plot_week_pattern(dag_totaal, day_labels) : 
+    """
+        It plots two line charts of evolution of predicted and observed total occupancy through the week
+    Args : 
+        dag_totaal (DataFrame) : Aggregated data per day 
+        day_labels (list) : labels that should be plot on the x-axis
+    Returns : 
+    """
+    plt.figure(figsize=(12,6))
+    plt.plot(dag_totaal.index, dag_totaal["REALISATIE"], label="Realisatie", marker="o")
+    plt.plot(dag_totaal.index, dag_totaal["PROGNOSE_REIZEN"], label="Prognose", marker="o")
+    plt.title("Realisatie vs Prognose per day")
+    plt.xticks(dag_totaal.index, day_labels, rotation=45)
+    plt.ylabel("Sum trajects")
+    plt.legend()
+    plt.grid(True, linestyle="--", alpha=0.6)
+    plt.tight_layout()
+    plt.show()
+    
+    
+    
+def plot_week_deviation (dag_totaal,  dag_totaal_afwijking, day_labels) : 
+    """
+        It plots a bar chart of the total deviation summed on each day
+    Args : 
+        dag_totaal (DataFrame) : Aggregated data per day 
+        dag_totaal_afwijking (DataFrame) : aggregated values of deviation
+        day_labels (list) : labels that should be plot on the x-axis
+    Returns : 
+    """
+    plt.figure(figsize=(12,5))
+    plt.bar(dag_totaal.index, dag_totaal_afwijking, color="orange")
+    plt.title("Total deviation per day")
+    plt.xlabel("Daynumber")
+    plt.xticks(dag_totaal.index, day_labels, rotation=45)
+    plt.ylabel("Afwijking (%)")
+    plt.ylim(-2, 20)
+    plt.axhline(0, color='black', linewidth=1)
+    plt.grid(axis="y", linestyle="--", alpha=0.6)
+    plt.tight_layout()
+    plt.show()
+
+
+def plot_day_cancellation_deviation(combined, day_labels) : 
+    """
+        It plots a bar chart of the average deviation and a bar chart of the total cancellations on each day
+    Args : 
+        combined (DataFrame) : Aggregated data per day 
+        day_labels (list) : labels that should be plot on the x-axis
+    Returns : 
+    """
+    fig, ax1 = plt.subplots(figsize=(12, 5))
+    ax1.bar(combined.index, combined["CANCELLATIONS"], color="orange", label="Cancellations per day")
+    ax1.set_xlabel("Day")
+    ax1.set_ylabel("Number of cancellations")
+    ax1.tick_params(axis='y')
+    ax1.grid(axis="y", linestyle="--", alpha=0.6)
+    
+    ax1.set_xticks(combined.index)
+    ax1.set_xticklabels(day_labels, rotation=45)
+    
+    ax2 = ax1.twinx()
+    ax2.plot(combined.index, combined["AFWIJKING_%"], color="blue", marker="o", label="Deviation (%)")
+    ax2.set_ylabel("Deviation (%)")
+    ax2.tick_params(axis='y')
+    ax2.set_ylim(0, 100)
+    ax2.axhline(0, color='gray', linewidth=1, linestyle="--")
+    
+    fig.suptitle("Cancellations and Deviation per Day", fontsize=14)
+    fig.tight_layout()
+    fig.legend(loc="upper right", bbox_to_anchor=(1, 1), bbox_transform=ax1.transAxes)
+    
+    plt.show()
 
 
 def get_1_delay_per_train(df) :
