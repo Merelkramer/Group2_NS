@@ -24,7 +24,7 @@ Implementation of the machine learning models, including feature selection, mode
 
 Models Created:
 - Linear Regression Model
-- ML Model
+- MLP Model
 
 ### File: LinearRegression_Amelija_new.ipynb
 
