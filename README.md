@@ -1,4 +1,5 @@
 # Contents
+Below, you can find an overview of where to locate the information in this repository, organized by topic.
 
 ## Data Preparation
 
